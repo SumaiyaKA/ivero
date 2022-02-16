@@ -1,0 +1,268 @@
+[
+
+    {
+        "_id": "a001",
+        "product_name": "Wooden Waredrobe",
+        "product_dict": "\nView the Full Range\n\nAssembly: Built and fitted in your home by expert installers. Our Elmsmore sliding wardrobes are fitted with a PPT so there is no need for any additional clearance around the wardrobe dimensions stated.\n\nAdditional information: These luxurious and elegant wardrobes are fitted with solid oak doors, giving a traditional style and maintaining the highest quality. Select from a range of sizes, a choice of door fronts, and a variety of additional accessories to style with your own home. These high-quality, luxury wardrobes are built and fitted by expert installers for free.\n\nThis wardrobe includes two shelves and one rail per compartment, which totals 3 rails and 6 shelves overall. If you require extra internal accessories, please refer to the item numbers below:\n\n1m Rail: 441213\n0.5m Rail: 424644\n1m Shelves: 423615\n0.5m Shelved: 410620\n1m Drawers: 715410\n0.5m Drawers: 449422\nInternal Lights: 727631\nTie and Belt Rack: 738967\nMultibuy: Save 10% when buying 2 or more items each priced at £150 or above across selected Sofas, Chairs, Rugs, Beds, Mattresses and Furniture Collections. Multibuy is only applicable to the UK Mainland Area.\nCondition: * Saving applied will be apportioned across all qualifying items. To get the saving, you must order the qualifying items in the same order at the same time. If you later return one of the items, you will not be entitled to the discount. Offer applies to selected items at full price. Please refer to T&Cs for full details.",
+        "price": 430,
+        "dimensions":
+        {
+            "height": 221,
+            "width": 260,
+            "depth": 67
+        }
+    },
+
+    {
+        "_id": "a002",
+        "product_name": "Sofa",
+        "product_dict": "A smaller version of our classic sofa - perfect if you have a compact home.\nThis cover's ability to resist abrasion has been tested to handle 20,000 cycles. A cover that withstands 15,000 cycles or more is suitable for furniture that should withstand everyday use in the home.\nThe cover has a lightfastness level of 5 (the ability to resist colour fading) on a scale of 1 to 8. According to industry standards, a lightfastness level of 4 or higher is suitable for home use.",
+        "price": 259,
+        "measurements":
+        {
+            "width": 138,
+            "height": 67,
+            "depth": 87
+            
+        }
+    },
+
+    {
+        "_id": "a003",
+        "product_name": "Bookcase",
+        "product_dict": "Assembly is quick and easy, thanks to the wedge dowel that clicks into the pre-drilled holes.\nCreate a coordinated home by combining this bookcase with other furniture from the IDANÄS series.\nAdjustable shelves make it easy to customise the space according to your needs.\nAdjustable feet make it possible to compensate any irregularities in the floor.\nTo avoid tipping accidents, this furniture must be fixed to the wall with the enclosed wall fastener.",
+        "price": 179,
+        "measurements":
+        {
+            "depth": 39,
+            "height": 211,
+            "width": 81
+        }
+    },
+
+    {
+        "_id": "a004",
+        "product_name": "Bookshelf",
+        "product_dict": "Adjustable shelves; adapt space between shelves according to your needs.\nA simple unit can be enough storage for a limited space or the foundation for a larger storage solution if your needs change.\nSurface made from natural wood veneer.\nThis furniture must be fixed to the wall with the enclosed wall fastener.\nDifferent wall materials require different types of fixing devices. Use fixing devices suitable for the walls in your home, sold separately.\n2 shelves included.\nMay be completed with doors; available in different colours and designs.",
+        "price": 60,
+        "measurements":
+        {
+            "depth": 28,
+            "height": 106,
+            "width": 80
+        }
+    },
+
+    {
+        "_id": "a005",
+        "product_name": "Cat Tree",
+        "product_dict": "ALL-IN-ONE CAT HOUSE - Furnished with 3 well padded top beds, 2 cozy condos, 1 basket, 1 hammock, the multi-level cat tree tower give your cat a fun and compact place to play, exercise or a warm house for a good nap.\nSAFE AND STABLE - High quality particle boards make this cat tree an environment-friendly home furniture and the reinforced base board makes the whole cat tower stable. Comes with a wall mounting strap, double security for your cat.\nLUXURY TOP PERCH - Skin-friendly and fluffy plush cover allows your feline friends to play in comfort. The cat tower offers unlimited fun in a compact area for your multi-cat home and will be a great companion during your cat’s growth.\nDURABLE CAT SCRATCHING TREE - Sturdy posts coiled with natural sisal rope keep your cats’ claws groomed and off your furniture; a spare ball toy as a bonus is included; overall sized 60.5 x 50.5 x 170 cm.\nEASY ASSEMBLY - All the required accessories and tools are included and you can assemble this cat tree quickly and use it with a clear manual. Any questions before and after purchase, please be free to contact us.",
+        "price": 169,
+        "measurements":
+        {
+            "depth": 50.5,
+            "height": 170,
+            "width": 60.5
+        }
+    },
+
+
+    {
+        "_id": "a006",
+        "product_name": "Chair",
+        "product_dict": "This desk chair has adjustable tilt tension that allows you to adjust the resistance to suit your movements and weight.\nYour back gets support and extra relief from the built-in lumbar support.\nYou sit comfortably since the chair is adjustable in height.\nThe safety castors have a pressure-sensitive brake mechanism that keeps the chair in place when you stand up, and releases automatically when you sit down.\nThis product has been developed and tested for domestic use.\nMay be completed with KOLON floor protector.\nThe castors are designed for soft floors.",
+        "price": 119,
+        "measurements":
+        {
+            "depth": 70,
+            "height": 128,
+            "width": 70
+        }
+    },
+
+    {
+        "_id": "a007",
+        "product_name": "Chair",
+        "product_dict": "You sit comfortably thanks to the restful flexibility of the seat and back.\nDo not use a cleaning agent on the seat shell, because the seat shell may then be damaged. Use only water for cleaning.\nThis chair has been tested for home use and meets the requirements for durability and safety, set forth in the following standards: EN 12520 and EN 1022.\nPossible to separate for recycling or energy recovery if available in your community.",
+        "price": 129,
+        "measurements":
+        {
+            "depth": 56,
+            "height": 82,
+            "width": 55
+        }
+    },
+
+    {
+        "_id": "a008",
+        "product_name": "Couch",
+        "product_dict": "The fabric cover has a warm and welcoming look, while the tight fit gives the sofa a neat and stylish expression.\nSeat cushions filled with high-resilience foam and polyester fibre wadding provide great seating comfort.\nRemovable armrests make it easy to add on a chaise longue.\n10 year guarantee. Read about the terms in the guarantee brochure.\nThe cover has a lightfastness level of 5-6 (the ability to resist colour fading) on a scale of 1 to 8. According to industry standards, a lightfastness level of 4 or higher is suitable for home use.\nThis cover’s ability to resist abrasion has been tested to handle 50,000 cycles. 15,000 cycles or more is suitable for furniture used every day at home. Over 30,000 cycles means a good ability to resist abrasion.\nSleeves for the legs to match the cover are included.",
+        "price": 550,
+        "measurements":
+        {
+            "depth": 89,
+            "height": 78,
+            "width": 204
+        }
+    },
+
+    {
+        "_id": "a009",
+        "product_name": "Tea Table",
+        "product_dict": "The table comes pre-assembled, so you can start using it immediately.\nPerfect for your balcony or other small spaces as it can be folded up and put away.\nThe table is durable and easy to care for, as it is made of powder-coated steel.\nThe materials in this outdoor furniture require no maintenance.\nGreat value for money and guaranteed to outlast at least 10 years of everyday use. Read about the terms in the guarantee brochure.\nThis product has been tested for contract use.",
+        "price": 175,
+        "measurements":
+        {
+            "depth": 84,
+            "height": 71,
+            "width": 65
+        }
+    },
+
+    {
+        "_id": "a010",
+        "product_name": "Wooden Dresser",
+        "product_dict": "Integrated damper catches the running drawer and closes it slowly, silently and softly.\nYou can easily create your own personal design by mixing chests of different colours.\nAdjustable feet make it possible to compensate any irregularities in the floor.\nOf course your home should be a safe place for the entire family. That’s why a safety fitting is included so that you can attach the chest of drawers to the wall.\nThe concealed drawer runners ensure that drawers run smoothly even when heavily loaded.\nWARNING! TIPPING HAZARD – Unanchored furniture can tip over. This furniture shall be anchored to the wall with the enclosed safety fitting to prevent it from tipping over.\nDifferent wall materials require different types of fixing devices. The included screws are suitable for wooden materials and the wall plugs can be used for plaster, concrete or masonry. \nFollow the instructions for the wall type in your home.",
+        "price": 230,
+        "measurements":
+        {
+            "depth": 47,
+            "height": 76,
+            "width": 120
+        }
+    },
+
+
+    {
+        "_id": "a011",
+        "product_name": "Table Lamp",
+        "product_dict": "The textile shade provides a diffused and decorative light.\nLight bulb sold separately. IKEA recommends LED bulb E27 globe opal white.\nUse an opal light bulb if you have an ordinary lamp shade or lamp and want an even, diffused distribution of light.\nSupplied with pull switch.\nThis product bears the CE mark.\nMay be completed with other lamps in the same series.",
+        "price": 29,
+        "measurements":
+        {
+            "depth": 15,
+            "height": 55,
+            "width": 22
+        }
+    },
+
+    {
+        "_id": "a012",
+        "product_name": "Electronic Rack",
+        "product_dict": "If you need more storage, you can place another cabinet on top of the first one\nThe shelves can be mounted flat or angled so that you can adapt them to the size of the shoes you are storing.\nIdeal in smaller areas since the sliding doors save space.\nThis furniture must be fixed to the wall.\nDifferent wall materials require different types of fixing devices. Use fixing devices suitable for the walls in your home, sold separately.",
+        "price": 165,
+        "measurements":
+        {
+            "depth": 35,
+            "height": 102,
+            "width": 80
+        }
+    },
+
+    {
+        "_id": "a013",
+        "product_name": "Long Chair",
+        "product_dict": "To make the bench with backrest as comfortable as possible for you, we designed it with generous proportions for both the seat and the armrests so they provide good support.\nThe seat has a small edge at the back to keep a chair cushion in place.\nMade of high-quality, sustainably sourced eucalyptus.\nEucalyptus is a durable, hard wood type suitable for outdoor use since it is compact and has a naturally high oil content that helps protect against weather and wind, drying out and mould.\nThe grey-coloured surface in three layers makes the bench with backrest even more durable for outdoor use and also makes it blend into the outdoor surroundings.",
+        "price": 230,
+        "measurements":
+        {
+            "depth": 63,
+            "height": 84,
+            "width": 163
+        }
+    },
+
+    {
+        "_id": "a014",
+        "product_name": "Makeup Table",
+        "product_dict": "There is plenty of space for make-up and jewellery in the two small drawers and in the larger drawer hidden underneath the dressing table.\nYou don’t need to worry about stains, as the durable glass table top is easy to wipe clean.\nProvided with safety film - reduces damage if glass is broken.\nThis furniture must be fixed to the wall with the safety fitting provided to help prevent it from tipping over if a child climbs or hangs on it.\nDifferent wall materials require different types of fixing devices. Use fixing devices suitable for the walls in your home, sold separately.\nCombines with other furniture in the HEMNES series.",
+        "price": 170,
+        "measurements":
+        {
+            "depth": 50,
+            "height": 159,
+            "width": 100
+        }
+    },
+
+    {
+        "_id": "a015",
+        "product_name": "Modren Chair",
+        "product_dict": "The timeless design of VEDBO makes it easy to place in various room settings and match with other furniture.\nVEDBO armchair is ideal when you want to relax in your own space in an open environment, yet still want the opportunity to socialise with others when you like.\nThe high back panel gives you an embracing and private nook – even in an open-plan environment.\nVEDBO comes in 3 different earthy colours, adding beauty to any room.\n10 year guarantee. Read about the terms in the guarantee brochure.",
+        "price": 199,
+        "measurements":
+        {
+            "depth": 85,
+            "height": 108,
+            "width": 80
+        }
+    },
+
+
+    {
+        "_id": "a016",
+        "product_name": "Modren Wood Table",
+        "product_dict": "Easy to assemble as each leg has only one fitting.\nAsh is a strong hardwood material with a beautiful grain pattern. As it ages the colour deepens moderately towards a deep straw colour.\nThe table surface in ash veneer and legs in solid birch give a warm, natural feeling to your room.\nThis table has been tested against our strictest standards for stability, durability and safety to withstand everyday use in your home for years.",
+        "price": 289,
+        "measurements":
+        {
+            "depth": 140,
+            "height": 74,
+            "width": 78
+        }
+    },
+
+    {
+        "_id": "a017",
+        "product_name": "Chair with Sidetable",
+        "product_dict": "The timeless design of VEDBO makes it easy to place in various room settings and match with other furniture.\n10 year guarantee. Read about the terms in the guarantee brochure.\nVEDBO armchair is ideal when you want to relax in your own space in an open environment, yet still want the opportunity to socialise with others when you like.\nVEDBO comes in 3 different earthy colours, adding beauty to any room.",
+        "price": 249,
+        "measurements":
+        {
+            "depth": 65,
+            "height": 75,
+            "width": 73
+        }
+    },
+
+    {
+        "_id": "a018",
+        "product_name": "Table",
+        "product_dict": "Easy to assemble as each leg has only one fitting.\nAsh is a strong hardwood material with a beautiful grain pattern. As it ages the colour deepens moderately towards a deep straw colour.\nThe table surface in ash veneer and legs in solid birch give a warm, natural feeling to your room.\nThis table has been tested against our strictest standards for stability, durability and safety to withstand everyday use in your home for years.",
+        "price": 88,
+        "measurements":
+        {
+            "depth": 140,
+            "height": 74,
+            "width": 78
+        }
+    },
+
+    {
+        "_id": "a019",
+        "product_name": "Waredrobe",
+        "product_dict": "Of course your home should be a safe place for the entire family. Thats why a safety fitting is included so that you can attach the wardrobe to the wall.\nThe mirror door can be placed on the left side, right side or in the middle.\nYou save space with a mirror door, because you don't need a separate mirror.\nAdjustable shelves make it easy to customise the space according to your needs.",
+        "price": 140,
+        "measurements":
+        {
+            "depth": 50,
+            "height": 190,
+            "width": 117
+        }
+    },
+
+    {
+        "_id": "a020",
+        "product_name": "Drawer",
+        "product_dict": "Of course your home should be a safe place for the entire family.\nThats why a safety fitting is included so that you can attach the chest of drawers to the wall.\nSmooth running drawers with pull-out stop.\nIf you want to organise inside you can complement with SKUBB box, set of 6.",
+        "price": 89,
+        "measurements":
+        {
+            "depth": 48,
+            "height": 100,
+            "width": 80
+        }
+    }
+
+
+]
