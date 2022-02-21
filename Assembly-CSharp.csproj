@@ -39,6 +39,7 @@
      <Compile Include="Assets/Scripts/ButtonManager.cs" />
      <Compile Include="Assets/Scripts/DataHandler.cs" />
      <Compile Include="Assets/Scripts/InputManager.cs" />
+     <Compile Include="Assets/Scripts/UIManager.cs" />
      <Compile Include="Assets/Scripts/dbScript.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2019.4.35f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -217,11 +218,11 @@
     <Reference Include="UnityEditor">
         <HintPath>/Applications/Unity/Hub/Editor/2019.4.35f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.Data.Sqlite">
-        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Data">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Assets/Plugins/Mono.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/Applications/Unity/Hub/Editor/2019.4.35f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -586,38 +587,20 @@
     <Reference Include="Boo.Lang">
         <HintPath>/Applications/Unity/Hub/Editor/2019.4.35f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Management">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    <Reference Include="Unity.XR.ARKit">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
@@ -628,11 +611,26 @@
     <Reference Include="Unity.XR.ARFoundation.Editor">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.ARFoundation">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
@@ -640,20 +638,23 @@
     <Reference Include="UnityEngine.SpatialTracking">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Management">
-        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.ARKit">
-        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARKit.Editor">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.XR.ARKit.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
