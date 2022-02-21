@@ -9,9 +9,11 @@ public class InputManager : MonoBehaviour
     
     [SerializeField] private Camera arCamera;
     [SerializeField] private ARRaycastManager _raycastManager;
+    [SerializeField] private GameObject crosshair; 
     private List<ARRaycastHit> _hits = new List<ARRaycastHit>();
-
     private Touch touch;
+    private Pose pose; 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,19 +23,14 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        CrosshairCalculation();
         touch = Input.GetTouch(0);
 
         if(Input.touchCount < 0 || touch.phase != TouchPhase.Began) return;
 
         if(IsPointerOverUI(touch)) return;
 
-        Ray ray = arCamera.ScreenPointToRay(touch.position);
-        if(_raycastManager.Raycast(ray,_hits))
-        {
-            Pose pose = _hits[0].pose;
-            Instantiate(DataHandler.Instance.furniture, pose.position, pose.rotation);
-        }
-        
+        Instantiate(DataHandler.Instance.furniture, pose.position, pose.rotation);
         
     }
 
@@ -45,6 +42,22 @@ public class InputManager : MonoBehaviour
         EventSystem.current.RaycastAll(eventdata, results);
 
         return results.Count > 0;
+
+    }
+
+    // Calculates where to put the crosshair:
+    void CrosshairCalculation()
+    {
+        Vector3 origin = arCamera.ViewportToScreenPoint(new Vector3(0.5f, 0.5f, 0));
+
+        Ray ray = arCamera.ScreenPointToRay(origin);
+        if(_raycastManager.Raycast(ray,_hits))
+        {
+            pose = _hits[0].pose;
+            crosshair.transform.position = pose.position;
+            crosshair.transform.eulerAngles = new Vector3(90, 0, 0);
+            
+        }
 
     }
 }
