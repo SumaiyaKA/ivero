@@ -43,6 +43,7 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="ButtonManager" preserve="nothing"/>
 		<type fullname="InputManager" preserve="nothing"/>
+		<type fullname="UIContentFitter" preserve="nothing"/>
 		<type fullname="UIManager" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="DOTween">
@@ -67,7 +68,6 @@
 		<type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Button" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
-		<type fullname="UnityEngine.UI.ContentSizeFitter" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>

@@ -42,25 +42,31 @@ extern void InputManager_IsPointerOverUI_mD63C2429F8BD99C898A5F0760D6D3196D8127C
 extern void InputManager_CrosshairCalculation_mAC43D5BD9BE9F4D31A8B986242103BB246CF2BD7 (void);
 // 0x0000000B System.Void InputManager::.ctor()
 extern void InputManager__ctor_m92E656DB5CA317F9006F3CD8CE443B7D15EE2A47 (void);
-// 0x0000000C UIManager UIManager::get_Instance()
+// 0x0000000C System.Void UIContentFitter::Start()
+extern void UIContentFitter_Start_mA9344D95BA4D5B6A6FD927BC1FC44E31085D7245 (void);
+// 0x0000000D System.Void UIContentFitter::Update()
+extern void UIContentFitter_Update_m66EA026E431E7978A223F8DCEBCFDCE7A1DEAE5D (void);
+// 0x0000000E System.Void UIContentFitter::.ctor()
+extern void UIContentFitter__ctor_m306079268F2551C80122588E1D6B8AD1FDDCD842 (void);
+// 0x0000000F UIManager UIManager::get_Instance()
 extern void UIManager_get_Instance_mF35995E42E3F6A065E6AA83D15551B71F2867041 (void);
-// 0x0000000D System.Void UIManager::Start()
+// 0x00000010 System.Void UIManager::Start()
 extern void UIManager_Start_mA404E1D4B4AA55F22307F16D7D7842CE7580DD0B (void);
-// 0x0000000E System.Void UIManager::Update()
+// 0x00000011 System.Void UIManager::Update()
 extern void UIManager_Update_mF2BE17F5A2488C24BD7640843202BB54E5E8AD3C (void);
-// 0x0000000F System.Boolean UIManager::OnEntered(UnityEngine.GameObject)
+// 0x00000012 System.Boolean UIManager::OnEntered(UnityEngine.GameObject)
 extern void UIManager_OnEntered_m3DF9AE2EE416E3BA3CC6C9BB24AD3513F6967111 (void);
-// 0x00000010 System.Void UIManager::.ctor()
+// 0x00000013 System.Void UIManager::.ctor()
 extern void UIManager__ctor_m5E5065654115BEE5B00F84AC64469D5D642351A3 (void);
-// 0x00000011 System.Void dbScript::Start()
+// 0x00000014 System.Void dbScript::Start()
 extern void dbScript_Start_mE48BC57E4B6EFC39FC32C09B0E95698AFB94514F (void);
-// 0x00000012 System.Void dbScript::Update()
+// 0x00000015 System.Void dbScript::Update()
 extern void dbScript_Update_mE7F8247AB8F4A3CFDCD74C28432F0728550D7E7D (void);
-// 0x00000013 System.Void dbScript::CreateDB()
+// 0x00000016 System.Void dbScript::CreateDB()
 extern void dbScript_CreateDB_mD42025CE79BB727956D0C0BDF6C7707ECA50573A (void);
-// 0x00000014 System.Void dbScript::.ctor()
+// 0x00000017 System.Void dbScript::.ctor()
 extern void dbScript__ctor_mD52EED314FF4DC2660A37429C98C436C2EBC8A43 (void);
-static Il2CppMethodPointer s_methodPointers[20] = 
+static Il2CppMethodPointer s_methodPointers[23] = 
 {
 	ButtonManager_Start_mD2AC593C875290FECA8ABABD812F179587BD48BA,
 	ButtonManager_Update_mC6EB7DA6FC255BE0DF3F203614C74CA067C43D8B,
@@ -73,6 +79,9 @@ static Il2CppMethodPointer s_methodPointers[20] =
 	InputManager_IsPointerOverUI_mD63C2429F8BD99C898A5F0760D6D3196D8127C94,
 	InputManager_CrosshairCalculation_mAC43D5BD9BE9F4D31A8B986242103BB246CF2BD7,
 	InputManager__ctor_m92E656DB5CA317F9006F3CD8CE443B7D15EE2A47,
+	UIContentFitter_Start_mA9344D95BA4D5B6A6FD927BC1FC44E31085D7245,
+	UIContentFitter_Update_m66EA026E431E7978A223F8DCEBCFDCE7A1DEAE5D,
+	UIContentFitter__ctor_m306079268F2551C80122588E1D6B8AD1FDDCD842,
 	UIManager_get_Instance_mF35995E42E3F6A065E6AA83D15551B71F2867041,
 	UIManager_Start_mA404E1D4B4AA55F22307F16D7D7842CE7580DD0B,
 	UIManager_Update_mF2BE17F5A2488C24BD7640843202BB54E5E8AD3C,
@@ -83,7 +92,7 @@ static Il2CppMethodPointer s_methodPointers[20] =
 	dbScript_CreateDB_mD42025CE79BB727956D0C0BDF6C7707ECA50573A,
 	dbScript__ctor_mD52EED314FF4DC2660A37429C98C436C2EBC8A43,
 };
-static const int32_t s_InvokerIndices[20] = 
+static const int32_t s_InvokerIndices[23] = 
 {
 	23,
 	23,
@@ -94,6 +103,9 @@ static const int32_t s_InvokerIndices[20] =
 	23,
 	23,
 	2655,
+	23,
+	23,
+	23,
 	23,
 	23,
 	4,
@@ -110,7 +122,7 @@ extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	20,
+	23,
 	s_methodPointers,
 	0,
 	NULL,
