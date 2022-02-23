@@ -39,6 +39,8 @@
      <Compile Include="Assets/Scripts/ButtonManager.cs" />
      <Compile Include="Assets/Scripts/DataHandler.cs" />
      <Compile Include="Assets/Scripts/InputManager.cs" />
+     <Compile Include="Assets/Scripts/Item.cs" />
+     <Compile Include="Assets/Scripts/UIContentFitter.cs" />
      <Compile Include="Assets/Scripts/UIManager.cs" />
      <Compile Include="Assets/Scripts/dbScript.cs" />
     <Reference Include="UnityEngine">
@@ -223,6 +225,9 @@
     </Reference>
     <Reference Include="Mono.Data.Sqlite">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/Applications/Unity/Hub/Editor/2019.4.35f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -658,6 +663,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{a9bbb3e5-9069-8a03-e6f5-889d02e5bfd6}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
