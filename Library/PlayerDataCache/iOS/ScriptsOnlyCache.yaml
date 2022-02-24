@@ -2,11 +2,26 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ButtonManager
+    - DataHandler
     - InputManager
+    - Item
     - UIContentFitter
     - UIManager
     DOTween.dll:
     - DG.Tweening.Core.DOTweenSettings
+    Unity.Addressables.Editor.dll:
+    - UnityEditor.AddressableAssets.AddressableAssetSettingsDefaultObject
+    - UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptFastMode
+    - UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptPackedMode
+    - UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptPackedPlayMode
+    - UnityEditor.AddressableAssets.Build.DataBuilders.BuildScriptVirtualMode
+    - UnityEditor.AddressableAssets.GUI.AddressableAssetsWindow
+    - UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+    - UnityEditor.AddressableAssets.Settings.AddressableAssetGroupTemplate
+    - UnityEditor.AddressableAssets.Settings.AddressableAssetSettings
+    - UnityEditor.AddressableAssets.Settings.GroupSchemas.BundledAssetGroupSchema
+    - UnityEditor.AddressableAssets.Settings.GroupSchemas.ContentUpdateGroupSchema
+    - UnityEditor.AddressableAssets.Settings.GroupSchemas.PlayerDataGroupSchema
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARFoundation.dll:
@@ -99,6 +114,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13326}
     - Class: 114
       Script: {instanceID: 13344}
+    - Class: 114
+      Script: {instanceID: 13510}
     - Class: 114
       Script: {instanceID: 13590}
     - Class: 114
@@ -292,7 +309,7 @@ ScriptsOnlyBuild:
     className: ARPlaneManager
   - hash:
       serializedVersion: 2
-      Hash: aa645c8609ec544df7a3851e9b0faec0
+      Hash: 629be1658bc3a4d91e3911f774dc427d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ButtonManager
@@ -568,7 +585,7 @@ ScriptsOnlyBuild:
     className: ARTrackedImage
   - hash:
       serializedVersion: 2
-      Hash: aa645c8609ec544df7a3851e9b0faec0
+      Hash: 1e3e9e3db52fcb9d53efc1beda6ae21d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DataHandler
@@ -800,6 +817,36 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIContentFitter
+  - hash:
+      serializedVersion: 2
+      Hash: abac5121de605e823446fa14b478d7fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Item
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.ResourceManager.dll
+    namespaceName: UnityEngine.ResourceManagement.Diagnostics
+    className: DiagnosticEventCollector
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.ResourceManager.dll
+    namespaceName: UnityEngine.ResourceManagement.Util
+    className: DelayedActionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.ResourceManager.dll
+    namespaceName: 
+    className: MonoBehaviourCallbackHooks
+  - hash:
+      serializedVersion: 2
+      Hash: 54a5082489fad547766d3d4d7635df12
+    assemblyName: Unity.ScriptableBuildPipeline.dll
+    namespaceName: UnityEngine.Build.Pipeline
+    className: CompatibilityAssetBundleManifest
   platform: 9
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

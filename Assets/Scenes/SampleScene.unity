@@ -733,11 +733,11 @@ RectTransform:
   m_Father: {fileID: 2113989934}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0001816117}
-  m_SizeDelta: {x: 730, y: 350}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2650, y: 350}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1467105972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1214,7 +1214,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 186106410}
   m_HandleRect: {fileID: 186106409}
   m_Direction: 0
-  m_Value: 0.00000016721955
+  m_Value: 0.5
   m_Size: 0.72452825
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1288,8 +1288,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonPrefab: {fileID: 4203138076233060272, guid: 648ad32bd92e24bb1b4162d72a6253ad,
     type: 3}
-  buttonContainer: {fileID: 0}
-  items: []
+  buttonContainer: {fileID: 1467105970}
+  _items: []
+  label: Furniture
 --- !u!4 &2096876684
 Transform:
   m_ObjectHideFlags: 0
@@ -1342,7 +1343,7 @@ RectTransform:
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2113989935
 MonoBehaviour:
   m_ObjectHideFlags: 0

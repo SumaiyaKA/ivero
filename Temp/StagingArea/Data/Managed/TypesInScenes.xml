@@ -42,7 +42,9 @@
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="ButtonManager" preserve="nothing"/>
+		<type fullname="DataHandler" preserve="nothing"/>
 		<type fullname="InputManager" preserve="nothing"/>
+		<type fullname="Item" preserve="nothing"/>
 		<type fullname="UIContentFitter" preserve="nothing"/>
 		<type fullname="UIManager" preserve="nothing"/>
 	</assembly>

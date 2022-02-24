@@ -29477,7 +29477,7 @@ IL_0018:
 	{
 		SynchronizationContext_t06AEFE2C7CFCFC242D0A5729A74464AF18CF84E7 * L_7 = __this->get__syncContext_0();
 		NullCheck(L_7);
-		SynchronizationContext_t06AEFE2C7CFCFC242D0A5729A74464AF18CF84E7 * L_8 = VirtFuncInvoker0< SynchronizationContext_t06AEFE2C7CFCFC242D0A5729A74464AF18CF84E7 * >::Invoke(6 /* System.Threading.SynchronizationContext System.Threading.SynchronizationContext::CreateCopy() */, L_7);
+		SynchronizationContext_t06AEFE2C7CFCFC242D0A5729A74464AF18CF84E7 * L_8 = VirtFuncInvoker0< SynchronizationContext_t06AEFE2C7CFCFC242D0A5729A74464AF18CF84E7 * >::Invoke(8 /* System.Threading.SynchronizationContext System.Threading.SynchronizationContext::CreateCopy() */, L_7);
 		G_B5_0 = L_8;
 		G_B5_1 = G_B3_0;
 		goto IL_003c;
@@ -29702,7 +29702,7 @@ IL_0016:
 	{
 		SynchronizationContext_t06AEFE2C7CFCFC242D0A5729A74464AF18CF84E7 * L_6 = Reader_get_SynchronizationContext_m399CC51942AA34194E2F022DB3DCC8F2FE88F979((Reader_t5766DE258B6B590281150D8DB517B651F9F4F33B *)(&V_0), /*hidden argument*/NULL);
 		NullCheck(L_6);
-		SynchronizationContext_t06AEFE2C7CFCFC242D0A5729A74464AF18CF84E7 * L_7 = VirtFuncInvoker0< SynchronizationContext_t06AEFE2C7CFCFC242D0A5729A74464AF18CF84E7 * >::Invoke(6 /* System.Threading.SynchronizationContext System.Threading.SynchronizationContext::CreateCopy() */, L_6);
+		SynchronizationContext_t06AEFE2C7CFCFC242D0A5729A74464AF18CF84E7 * L_7 = VirtFuncInvoker0< SynchronizationContext_t06AEFE2C7CFCFC242D0A5729A74464AF18CF84E7 * >::Invoke(8 /* System.Threading.SynchronizationContext System.Threading.SynchronizationContext::CreateCopy() */, L_6);
 		G_B7_0 = L_7;
 		goto IL_0040;
 	}
@@ -37798,6 +37798,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SynchronizationContext_Post_m32C3C2D8969
 		WaitCallback__ctor_m375A357FD7C64F4182FD88B8276D88FE5BE75B31(L_1, L_0, (intptr_t)((intptr_t)SendOrPostCallback_Invoke_m10442BF6A452A4408C3DDD1885D6809C4549C2AC_RuntimeMethod_var), /*hidden argument*/NULL);
 		RuntimeObject * L_2 = ___state1;
 		ThreadPool_QueueUserWorkItem_mF344DA7B44CDBE8C7163C1539D429F27E8553185(L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Threading.SynchronizationContext::OperationStarted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SynchronizationContext_OperationStarted_mAEC4DCCACD4568328232366F43920FAC4EC7DC15 (SynchronizationContext_t06AEFE2C7CFCFC242D0A5729A74464AF18CF84E7 * __this, const RuntimeMethod* method)
+{
+	{
+		return;
+	}
+}
+// System.Void System.Threading.SynchronizationContext::OperationCompleted()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SynchronizationContext_OperationCompleted_m02FCBFF32B2DAD3405DBE8F2FD7120FB3F19A601 (SynchronizationContext_t06AEFE2C7CFCFC242D0A5729A74464AF18CF84E7 * __this, const RuntimeMethod* method)
+{
+	{
 		return;
 	}
 }

@@ -20997,7 +20997,7 @@ CATCH_0013:
 		V_0 = ((ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 *)__exception_local);
 		Type_t * L_1 = Object_GetType_m2E0B62414ECCAA3094B703790CE88CBB2F83EA60(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_1);
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_1);
 		ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 * L_3 = V_0;
 		TypeInitializationException_t5223A07113C97D6DC875A82C68D4C132737ADEAE * L_4 = (TypeInitializationException_t5223A07113C97D6DC875A82C68D4C132737ADEAE *)il2cpp_codegen_object_new(TypeInitializationException_t5223A07113C97D6DC875A82C68D4C132737ADEAE_il2cpp_TypeInfo_var);
 		TypeInitializationException__ctor_m392481761B076335738D194514B219AC5A6D8A7E(L_4, L_2, L_3, /*hidden argument*/NULL);
@@ -23503,7 +23503,7 @@ CATCH_0013:
 		V_0 = ((ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 *)__exception_local);
 		Type_t * L_1 = Object_GetType_m2E0B62414ECCAA3094B703790CE88CBB2F83EA60(__this, /*hidden argument*/NULL);
 		NullCheck(L_1);
-		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_1);
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_1);
 		ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1 * L_3 = V_0;
 		TypeInitializationException_t5223A07113C97D6DC875A82C68D4C132737ADEAE * L_4 = (TypeInitializationException_t5223A07113C97D6DC875A82C68D4C132737ADEAE *)il2cpp_codegen_object_new(TypeInitializationException_t5223A07113C97D6DC875A82C68D4C132737ADEAE_il2cpp_TypeInfo_var);
 		TypeInitializationException__ctor_m392481761B076335738D194514B219AC5A6D8A7E(L_4, L_2, L_3, /*hidden argument*/NULL);

@@ -23,6 +23,8 @@ struct unitytls_tlsctx_read_callback_tD85E7923018681355C1D851137CEC527F04093F5;
 struct unitytls_tlsctx_write_callback_tBDF40F27E011F577C3E834B14788491861F870D6;
 // System.Action`1<System.Object>
 struct Action_1_t551A279CEADCF6EEAE8FA2B1E1E757D0D15290D0;
+// System.Action`1<UnityEngine.AsyncOperation>
+struct Action_1_tCBF754C290FAE894631BED8FD56E9E22C4C187F9;
 // System.Byte[]
 struct ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821;
 // System.Char[]
@@ -51,8 +53,12 @@ struct List_1_tF896B8FBD3F9DE7B3854294AD61BFBCDEFDE1AC3;
 struct List_1_t8DF8969F3E4AE06A42AE09B0857ACF7F5605EB24;
 // System.Decimal[]
 struct DecimalU5BU5D_t163CFBECCD3B6655700701D6451CA0CF493CBF0F;
+// System.Delegate
+struct Delegate_t;
 // System.Int32[]
 struct Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83;
+// System.Object[]
+struct ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A;
 // System.Reflection.MemberInfo
 struct MemberInfo_t;
 // System.Security.Cryptography.RandomNumberGenerator
@@ -75,10 +81,14 @@ struct UInt32U5BU5D_t9AA834AF2940E75BBF8E3F08FF0D20D266DB71CB;
 struct Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017;
 // System.Xml.Schema.BitSet
 struct BitSet_t0E4C53EC600670A4B74C5671553596978880138C;
+// System.Xml.Schema.SequenceNode
+struct SequenceNode_tAB18F790CB1B5BCD1D984EECC17C841B00881608;
 // System.Xml.Schema.XmlSchemaObject
 struct XmlSchemaObject_tB5695348FF2B08149CAE95CD10F39F21EDB1F57B;
 // System.Xml.XmlQualifiedName
 struct XmlQualifiedName_tF72E1729FE6150B6ADABFE331F26F5E743E15BAD;
+// UnityEngine.AsyncOperation
+struct AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D;
 // UnityEngine.EventSystems.BaseRaycaster
 struct BaseRaycaster_tC7F6105A89F54A38FBFC2659901855FDBB0E3966;
 // UnityEngine.Events.UnityAction
@@ -89,6 +99,26 @@ struct GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F;
 struct Mesh_t6106B8D8E4C691321581AB0445552EC78B947B8C;
 // UnityEngine.MeshCollider
 struct MeshCollider_t60EB55ADE92499FE8D1AA206D2BD96E65B2766DE;
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<System.Boolean>
+struct AsyncOperationBase_1_t7CF15F8BF9FE9142831F7747E6C64F276A3E5F74;
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>>
+struct AsyncOperationBase_1_tD0DA112AF674DF19546EB8D3CC321170BD45E8E2;
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<System.Int64>
+struct AsyncOperationBase_1_t59B59891A0F815B7C40670DA432D1D6D7F47B9AE;
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<System.Object>
+struct AsyncOperationBase_1_t871FD4E305BA7BBB480F9360D985884672783E66;
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<UnityEngine.GameObject>
+struct AsyncOperationBase_1_tEB1A35FAE28ECB50AB2CFBF20EEFFD61025557AA;
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>
+struct AsyncOperationBase_1_t99FC707D2F08681212212848F795E995BF15B060;
+// UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation
+struct IAsyncOperation_t95BFE028EE1B4B3BF86C0A386CB3FE057D6E4104;
+// UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation
+struct IGenericProviderOperation_t8F85045BBC22712201CF773EDD4A499E05B54B90;
+// UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation
+struct IResourceLocation_t119645264522823BADE61F4626A3351E3A5BBEF3;
+// UnityEngine.ResourceManagement.ResourceManager
+struct ResourceManager_t44D4D3B811BA184EEF3398DEE6880D1506AC7F99;
 // UnityEngine.Sprite
 struct Sprite_tCA09498D612D08DE668653AF1E9C12BF53434198;
 // UnityEngine.Texture2D
@@ -102,7 +132,10 @@ struct ARFace_t6743D3C0C57B5B559B335F7EB6523211A4EA579F;
 // UnityEngine.XR.ARFoundation.ARPlane
 struct ARPlane_t01E416A9DFD24A6A280437A9B8D1CECE0CF3DF0E;
 
+struct AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D_marshaled_com;
 struct Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8 ;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
 struct XPathNode_tC207ED6C653E80055FE6C5ECD3E6137A326659A0_marshaled_com;
 struct XPathNode_tC207ED6C653E80055FE6C5ECD3E6137A326659A0_marshaled_pinvoke;
 
@@ -133,6 +166,23 @@ struct ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_marshaled_pinvoke
 };
 // Native definition for COM marshalling of System.ValueType
 struct ValueType_t4D0C27076F7C36E76190FB3328E232BCB1CD1FFF_marshaled_com
+{
+};
+
+// UnityEngine.YieldInstruction
+struct YieldInstruction_t836035AC7BD07A3C7909F7AD2A5B42DE99D91C44  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.YieldInstruction
+struct YieldInstruction_t836035AC7BD07A3C7909F7AD2A5B42DE99D91C44_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of UnityEngine.YieldInstruction
+struct YieldInstruction_t836035AC7BD07A3C7909F7AD2A5B42DE99D91C44_marshaled_com
 {
 };
 
@@ -1770,6 +1820,87 @@ struct RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA_marshaled_com
 	Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8 * ___rangeCounters_1;
 };
 
+// System.Xml.Schema.SequenceNode/SequenceConstructPosContext
+struct SequenceConstructPosContext_t72DF930B1BE2676BD225E8D9622C78EF2B0DFAC1 
+{
+public:
+	// System.Xml.Schema.SequenceNode System.Xml.Schema.SequenceNode/SequenceConstructPosContext::this_
+	SequenceNode_tAB18F790CB1B5BCD1D984EECC17C841B00881608 * ___this__0;
+	// System.Xml.Schema.BitSet System.Xml.Schema.SequenceNode/SequenceConstructPosContext::firstpos
+	BitSet_t0E4C53EC600670A4B74C5671553596978880138C * ___firstpos_1;
+	// System.Xml.Schema.BitSet System.Xml.Schema.SequenceNode/SequenceConstructPosContext::lastpos
+	BitSet_t0E4C53EC600670A4B74C5671553596978880138C * ___lastpos_2;
+	// System.Xml.Schema.BitSet System.Xml.Schema.SequenceNode/SequenceConstructPosContext::lastposLeft
+	BitSet_t0E4C53EC600670A4B74C5671553596978880138C * ___lastposLeft_3;
+	// System.Xml.Schema.BitSet System.Xml.Schema.SequenceNode/SequenceConstructPosContext::firstposRight
+	BitSet_t0E4C53EC600670A4B74C5671553596978880138C * ___firstposRight_4;
+
+public:
+	inline static int32_t get_offset_of_this__0() { return static_cast<int32_t>(offsetof(SequenceConstructPosContext_t72DF930B1BE2676BD225E8D9622C78EF2B0DFAC1, ___this__0)); }
+	inline SequenceNode_tAB18F790CB1B5BCD1D984EECC17C841B00881608 * get_this__0() const { return ___this__0; }
+	inline SequenceNode_tAB18F790CB1B5BCD1D984EECC17C841B00881608 ** get_address_of_this__0() { return &___this__0; }
+	inline void set_this__0(SequenceNode_tAB18F790CB1B5BCD1D984EECC17C841B00881608 * value)
+	{
+		___this__0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___this__0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_firstpos_1() { return static_cast<int32_t>(offsetof(SequenceConstructPosContext_t72DF930B1BE2676BD225E8D9622C78EF2B0DFAC1, ___firstpos_1)); }
+	inline BitSet_t0E4C53EC600670A4B74C5671553596978880138C * get_firstpos_1() const { return ___firstpos_1; }
+	inline BitSet_t0E4C53EC600670A4B74C5671553596978880138C ** get_address_of_firstpos_1() { return &___firstpos_1; }
+	inline void set_firstpos_1(BitSet_t0E4C53EC600670A4B74C5671553596978880138C * value)
+	{
+		___firstpos_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___firstpos_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_lastpos_2() { return static_cast<int32_t>(offsetof(SequenceConstructPosContext_t72DF930B1BE2676BD225E8D9622C78EF2B0DFAC1, ___lastpos_2)); }
+	inline BitSet_t0E4C53EC600670A4B74C5671553596978880138C * get_lastpos_2() const { return ___lastpos_2; }
+	inline BitSet_t0E4C53EC600670A4B74C5671553596978880138C ** get_address_of_lastpos_2() { return &___lastpos_2; }
+	inline void set_lastpos_2(BitSet_t0E4C53EC600670A4B74C5671553596978880138C * value)
+	{
+		___lastpos_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___lastpos_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_lastposLeft_3() { return static_cast<int32_t>(offsetof(SequenceConstructPosContext_t72DF930B1BE2676BD225E8D9622C78EF2B0DFAC1, ___lastposLeft_3)); }
+	inline BitSet_t0E4C53EC600670A4B74C5671553596978880138C * get_lastposLeft_3() const { return ___lastposLeft_3; }
+	inline BitSet_t0E4C53EC600670A4B74C5671553596978880138C ** get_address_of_lastposLeft_3() { return &___lastposLeft_3; }
+	inline void set_lastposLeft_3(BitSet_t0E4C53EC600670A4B74C5671553596978880138C * value)
+	{
+		___lastposLeft_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___lastposLeft_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_firstposRight_4() { return static_cast<int32_t>(offsetof(SequenceConstructPosContext_t72DF930B1BE2676BD225E8D9622C78EF2B0DFAC1, ___firstposRight_4)); }
+	inline BitSet_t0E4C53EC600670A4B74C5671553596978880138C * get_firstposRight_4() const { return ___firstposRight_4; }
+	inline BitSet_t0E4C53EC600670A4B74C5671553596978880138C ** get_address_of_firstposRight_4() { return &___firstposRight_4; }
+	inline void set_firstposRight_4(BitSet_t0E4C53EC600670A4B74C5671553596978880138C * value)
+	{
+		___firstposRight_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___firstposRight_4), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of System.Xml.Schema.SequenceNode/SequenceConstructPosContext
+struct SequenceConstructPosContext_t72DF930B1BE2676BD225E8D9622C78EF2B0DFAC1_marshaled_pinvoke
+{
+	SequenceNode_tAB18F790CB1B5BCD1D984EECC17C841B00881608 * ___this__0;
+	BitSet_t0E4C53EC600670A4B74C5671553596978880138C * ___firstpos_1;
+	BitSet_t0E4C53EC600670A4B74C5671553596978880138C * ___lastpos_2;
+	BitSet_t0E4C53EC600670A4B74C5671553596978880138C * ___lastposLeft_3;
+	BitSet_t0E4C53EC600670A4B74C5671553596978880138C * ___firstposRight_4;
+};
+// Native definition for COM marshalling of System.Xml.Schema.SequenceNode/SequenceConstructPosContext
+struct SequenceConstructPosContext_t72DF930B1BE2676BD225E8D9622C78EF2B0DFAC1_marshaled_com
+{
+	SequenceNode_tAB18F790CB1B5BCD1D984EECC17C841B00881608 * ___this__0;
+	BitSet_t0E4C53EC600670A4B74C5671553596978880138C * ___firstpos_1;
+	BitSet_t0E4C53EC600670A4B74C5671553596978880138C * ___lastpos_2;
+	BitSet_t0E4C53EC600670A4B74C5671553596978880138C * ___lastposLeft_3;
+	BitSet_t0E4C53EC600670A4B74C5671553596978880138C * ___firstposRight_4;
+};
+
 // System.Xml.Schema.XmlSchemaObjectTable/XmlSchemaObjectEntry
 struct XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B 
 {
@@ -1812,6 +1943,47 @@ struct XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B_marshaled_
 	XmlSchemaObject_tB5695348FF2B08149CAE95CD10F39F21EDB1F57B * ___xso_1;
 };
 
+// UnityEngine.Animations.ConstraintSource
+struct ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994 
+{
+public:
+	// UnityEngine.Transform UnityEngine.Animations.ConstraintSource::m_SourceTransform
+	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___m_SourceTransform_0;
+	// System.Single UnityEngine.Animations.ConstraintSource::m_Weight
+	float ___m_Weight_1;
+
+public:
+	inline static int32_t get_offset_of_m_SourceTransform_0() { return static_cast<int32_t>(offsetof(ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994, ___m_SourceTransform_0)); }
+	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * get_m_SourceTransform_0() const { return ___m_SourceTransform_0; }
+	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA ** get_address_of_m_SourceTransform_0() { return &___m_SourceTransform_0; }
+	inline void set_m_SourceTransform_0(Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * value)
+	{
+		___m_SourceTransform_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_SourceTransform_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_Weight_1() { return static_cast<int32_t>(offsetof(ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994, ___m_Weight_1)); }
+	inline float get_m_Weight_1() const { return ___m_Weight_1; }
+	inline float* get_address_of_m_Weight_1() { return &___m_Weight_1; }
+	inline void set_m_Weight_1(float value)
+	{
+		___m_Weight_1 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.Animations.ConstraintSource
+struct ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshaled_pinvoke
+{
+	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___m_SourceTransform_0;
+	float ___m_Weight_1;
+};
+// Native definition for COM marshalling of UnityEngine.Animations.ConstraintSource
+struct ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshaled_com
+{
+	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___m_SourceTransform_0;
+	float ___m_Weight_1;
+};
+
 // UnityEngine.BeforeRenderHelper/OrderBlock
 struct OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727 
 {
@@ -1852,6 +2024,94 @@ struct OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727_marshaled_com
 	int32_t ___order_0;
 	Il2CppMethodPointer ___callback_1;
 };
+
+// UnityEngine.BoneWeight
+struct BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1 
+{
+public:
+	// System.Single UnityEngine.BoneWeight::m_Weight0
+	float ___m_Weight0_0;
+	// System.Single UnityEngine.BoneWeight::m_Weight1
+	float ___m_Weight1_1;
+	// System.Single UnityEngine.BoneWeight::m_Weight2
+	float ___m_Weight2_2;
+	// System.Single UnityEngine.BoneWeight::m_Weight3
+	float ___m_Weight3_3;
+	// System.Int32 UnityEngine.BoneWeight::m_BoneIndex0
+	int32_t ___m_BoneIndex0_4;
+	// System.Int32 UnityEngine.BoneWeight::m_BoneIndex1
+	int32_t ___m_BoneIndex1_5;
+	// System.Int32 UnityEngine.BoneWeight::m_BoneIndex2
+	int32_t ___m_BoneIndex2_6;
+	// System.Int32 UnityEngine.BoneWeight::m_BoneIndex3
+	int32_t ___m_BoneIndex3_7;
+
+public:
+	inline static int32_t get_offset_of_m_Weight0_0() { return static_cast<int32_t>(offsetof(BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1, ___m_Weight0_0)); }
+	inline float get_m_Weight0_0() const { return ___m_Weight0_0; }
+	inline float* get_address_of_m_Weight0_0() { return &___m_Weight0_0; }
+	inline void set_m_Weight0_0(float value)
+	{
+		___m_Weight0_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Weight1_1() { return static_cast<int32_t>(offsetof(BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1, ___m_Weight1_1)); }
+	inline float get_m_Weight1_1() const { return ___m_Weight1_1; }
+	inline float* get_address_of_m_Weight1_1() { return &___m_Weight1_1; }
+	inline void set_m_Weight1_1(float value)
+	{
+		___m_Weight1_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Weight2_2() { return static_cast<int32_t>(offsetof(BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1, ___m_Weight2_2)); }
+	inline float get_m_Weight2_2() const { return ___m_Weight2_2; }
+	inline float* get_address_of_m_Weight2_2() { return &___m_Weight2_2; }
+	inline void set_m_Weight2_2(float value)
+	{
+		___m_Weight2_2 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Weight3_3() { return static_cast<int32_t>(offsetof(BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1, ___m_Weight3_3)); }
+	inline float get_m_Weight3_3() const { return ___m_Weight3_3; }
+	inline float* get_address_of_m_Weight3_3() { return &___m_Weight3_3; }
+	inline void set_m_Weight3_3(float value)
+	{
+		___m_Weight3_3 = value;
+	}
+
+	inline static int32_t get_offset_of_m_BoneIndex0_4() { return static_cast<int32_t>(offsetof(BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1, ___m_BoneIndex0_4)); }
+	inline int32_t get_m_BoneIndex0_4() const { return ___m_BoneIndex0_4; }
+	inline int32_t* get_address_of_m_BoneIndex0_4() { return &___m_BoneIndex0_4; }
+	inline void set_m_BoneIndex0_4(int32_t value)
+	{
+		___m_BoneIndex0_4 = value;
+	}
+
+	inline static int32_t get_offset_of_m_BoneIndex1_5() { return static_cast<int32_t>(offsetof(BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1, ___m_BoneIndex1_5)); }
+	inline int32_t get_m_BoneIndex1_5() const { return ___m_BoneIndex1_5; }
+	inline int32_t* get_address_of_m_BoneIndex1_5() { return &___m_BoneIndex1_5; }
+	inline void set_m_BoneIndex1_5(int32_t value)
+	{
+		___m_BoneIndex1_5 = value;
+	}
+
+	inline static int32_t get_offset_of_m_BoneIndex2_6() { return static_cast<int32_t>(offsetof(BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1, ___m_BoneIndex2_6)); }
+	inline int32_t get_m_BoneIndex2_6() const { return ___m_BoneIndex2_6; }
+	inline int32_t* get_address_of_m_BoneIndex2_6() { return &___m_BoneIndex2_6; }
+	inline void set_m_BoneIndex2_6(int32_t value)
+	{
+		___m_BoneIndex2_6 = value;
+	}
+
+	inline static int32_t get_offset_of_m_BoneIndex3_7() { return static_cast<int32_t>(offsetof(BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1, ___m_BoneIndex3_7)); }
+	inline int32_t get_m_BoneIndex3_7() const { return ___m_BoneIndex3_7; }
+	inline int32_t* get_address_of_m_BoneIndex3_7() { return &___m_BoneIndex3_7; }
+	inline void set_m_BoneIndex3_7(int32_t value)
+	{
+		___m_BoneIndex3_7 = value;
+	}
+};
+
 
 // UnityEngine.Color
 struct Color_t119BCA590009762C7223FDD3AF9706653AC84ED2 
@@ -2404,6 +2664,775 @@ public:
 	}
 };
 
+
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle
+struct AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185 
+{
+public:
+	// UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle::m_InternalOp
+	RuntimeObject* ___m_InternalOp_1;
+	// System.Int32 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle::m_Version
+	int32_t ___m_Version_2;
+	// System.String UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle::m_LocationName
+	String_t* ___m_LocationName_3;
+
+public:
+	inline static int32_t get_offset_of_m_InternalOp_1() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185, ___m_InternalOp_1)); }
+	inline RuntimeObject* get_m_InternalOp_1() const { return ___m_InternalOp_1; }
+	inline RuntimeObject** get_address_of_m_InternalOp_1() { return &___m_InternalOp_1; }
+	inline void set_m_InternalOp_1(RuntimeObject* value)
+	{
+		___m_InternalOp_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_InternalOp_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_Version_2() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185, ___m_Version_2)); }
+	inline int32_t get_m_Version_2() const { return ___m_Version_2; }
+	inline int32_t* get_address_of_m_Version_2() { return &___m_Version_2; }
+	inline void set_m_Version_2(int32_t value)
+	{
+		___m_Version_2 = value;
+	}
+
+	inline static int32_t get_offset_of_m_LocationName_3() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185, ___m_LocationName_3)); }
+	inline String_t* get_m_LocationName_3() const { return ___m_LocationName_3; }
+	inline String_t** get_address_of_m_LocationName_3() { return &___m_LocationName_3; }
+	inline void set_m_LocationName_3(String_t* value)
+	{
+		___m_LocationName_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_LocationName_3), (void*)value);
+	}
+};
+
+struct AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185_StaticFields
+{
+public:
+	// System.Boolean UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle::m_IsWaitingForCompletion
+	bool ___m_IsWaitingForCompletion_0;
+
+public:
+	inline static int32_t get_offset_of_m_IsWaitingForCompletion_0() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185_StaticFields, ___m_IsWaitingForCompletion_0)); }
+	inline bool get_m_IsWaitingForCompletion_0() const { return ___m_IsWaitingForCompletion_0; }
+	inline bool* get_address_of_m_IsWaitingForCompletion_0() { return &___m_IsWaitingForCompletion_0; }
+	inline void set_m_IsWaitingForCompletion_0(bool value)
+	{
+		___m_IsWaitingForCompletion_0 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle
+struct AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185_marshaled_pinvoke
+{
+	RuntimeObject* ___m_InternalOp_1;
+	int32_t ___m_Version_2;
+	char* ___m_LocationName_3;
+};
+// Native definition for COM marshalling of UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle
+struct AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185_marshaled_com
+{
+	RuntimeObject* ___m_InternalOp_1;
+	int32_t ___m_Version_2;
+	Il2CppChar* ___m_LocationName_3;
+};
+
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Boolean>
+struct AsyncOperationHandle_1_tB9F319F374D61AC027F59FA93D1EF174BE7D6EF9 
+{
+public:
+	// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject> UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_InternalOp
+	AsyncOperationBase_1_t7CF15F8BF9FE9142831F7747E6C64F276A3E5F74 * ___m_InternalOp_0;
+	// System.Int32 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_Version
+	int32_t ___m_Version_1;
+	// System.String UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_LocationName
+	String_t* ___m_LocationName_2;
+	// System.Boolean UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_UnloadSceneOpExcludeReleaseCallback
+	bool ___m_UnloadSceneOpExcludeReleaseCallback_3;
+
+public:
+	inline static int32_t get_offset_of_m_InternalOp_0() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_tB9F319F374D61AC027F59FA93D1EF174BE7D6EF9, ___m_InternalOp_0)); }
+	inline AsyncOperationBase_1_t7CF15F8BF9FE9142831F7747E6C64F276A3E5F74 * get_m_InternalOp_0() const { return ___m_InternalOp_0; }
+	inline AsyncOperationBase_1_t7CF15F8BF9FE9142831F7747E6C64F276A3E5F74 ** get_address_of_m_InternalOp_0() { return &___m_InternalOp_0; }
+	inline void set_m_InternalOp_0(AsyncOperationBase_1_t7CF15F8BF9FE9142831F7747E6C64F276A3E5F74 * value)
+	{
+		___m_InternalOp_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_InternalOp_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_Version_1() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_tB9F319F374D61AC027F59FA93D1EF174BE7D6EF9, ___m_Version_1)); }
+	inline int32_t get_m_Version_1() const { return ___m_Version_1; }
+	inline int32_t* get_address_of_m_Version_1() { return &___m_Version_1; }
+	inline void set_m_Version_1(int32_t value)
+	{
+		___m_Version_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_LocationName_2() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_tB9F319F374D61AC027F59FA93D1EF174BE7D6EF9, ___m_LocationName_2)); }
+	inline String_t* get_m_LocationName_2() const { return ___m_LocationName_2; }
+	inline String_t** get_address_of_m_LocationName_2() { return &___m_LocationName_2; }
+	inline void set_m_LocationName_2(String_t* value)
+	{
+		___m_LocationName_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_LocationName_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_UnloadSceneOpExcludeReleaseCallback_3() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_tB9F319F374D61AC027F59FA93D1EF174BE7D6EF9, ___m_UnloadSceneOpExcludeReleaseCallback_3)); }
+	inline bool get_m_UnloadSceneOpExcludeReleaseCallback_3() const { return ___m_UnloadSceneOpExcludeReleaseCallback_3; }
+	inline bool* get_address_of_m_UnloadSceneOpExcludeReleaseCallback_3() { return &___m_UnloadSceneOpExcludeReleaseCallback_3; }
+	inline void set_m_UnloadSceneOpExcludeReleaseCallback_3(bool value)
+	{
+		___m_UnloadSceneOpExcludeReleaseCallback_3 = value;
+	}
+};
+
+
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle>>
+struct AsyncOperationHandle_1_tE2BCD2CAB5E4D1BFACCFD07756C2B61BC7450143 
+{
+public:
+	// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject> UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_InternalOp
+	AsyncOperationBase_1_tD0DA112AF674DF19546EB8D3CC321170BD45E8E2 * ___m_InternalOp_0;
+	// System.Int32 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_Version
+	int32_t ___m_Version_1;
+	// System.String UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_LocationName
+	String_t* ___m_LocationName_2;
+	// System.Boolean UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_UnloadSceneOpExcludeReleaseCallback
+	bool ___m_UnloadSceneOpExcludeReleaseCallback_3;
+
+public:
+	inline static int32_t get_offset_of_m_InternalOp_0() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_tE2BCD2CAB5E4D1BFACCFD07756C2B61BC7450143, ___m_InternalOp_0)); }
+	inline AsyncOperationBase_1_tD0DA112AF674DF19546EB8D3CC321170BD45E8E2 * get_m_InternalOp_0() const { return ___m_InternalOp_0; }
+	inline AsyncOperationBase_1_tD0DA112AF674DF19546EB8D3CC321170BD45E8E2 ** get_address_of_m_InternalOp_0() { return &___m_InternalOp_0; }
+	inline void set_m_InternalOp_0(AsyncOperationBase_1_tD0DA112AF674DF19546EB8D3CC321170BD45E8E2 * value)
+	{
+		___m_InternalOp_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_InternalOp_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_Version_1() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_tE2BCD2CAB5E4D1BFACCFD07756C2B61BC7450143, ___m_Version_1)); }
+	inline int32_t get_m_Version_1() const { return ___m_Version_1; }
+	inline int32_t* get_address_of_m_Version_1() { return &___m_Version_1; }
+	inline void set_m_Version_1(int32_t value)
+	{
+		___m_Version_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_LocationName_2() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_tE2BCD2CAB5E4D1BFACCFD07756C2B61BC7450143, ___m_LocationName_2)); }
+	inline String_t* get_m_LocationName_2() const { return ___m_LocationName_2; }
+	inline String_t** get_address_of_m_LocationName_2() { return &___m_LocationName_2; }
+	inline void set_m_LocationName_2(String_t* value)
+	{
+		___m_LocationName_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_LocationName_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_UnloadSceneOpExcludeReleaseCallback_3() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_tE2BCD2CAB5E4D1BFACCFD07756C2B61BC7450143, ___m_UnloadSceneOpExcludeReleaseCallback_3)); }
+	inline bool get_m_UnloadSceneOpExcludeReleaseCallback_3() const { return ___m_UnloadSceneOpExcludeReleaseCallback_3; }
+	inline bool* get_address_of_m_UnloadSceneOpExcludeReleaseCallback_3() { return &___m_UnloadSceneOpExcludeReleaseCallback_3; }
+	inline void set_m_UnloadSceneOpExcludeReleaseCallback_3(bool value)
+	{
+		___m_UnloadSceneOpExcludeReleaseCallback_3 = value;
+	}
+};
+
+
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Int64>
+struct AsyncOperationHandle_1_t717850C92508D915E896FA933B507E326D1D98BE 
+{
+public:
+	// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject> UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_InternalOp
+	AsyncOperationBase_1_t59B59891A0F815B7C40670DA432D1D6D7F47B9AE * ___m_InternalOp_0;
+	// System.Int32 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_Version
+	int32_t ___m_Version_1;
+	// System.String UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_LocationName
+	String_t* ___m_LocationName_2;
+	// System.Boolean UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_UnloadSceneOpExcludeReleaseCallback
+	bool ___m_UnloadSceneOpExcludeReleaseCallback_3;
+
+public:
+	inline static int32_t get_offset_of_m_InternalOp_0() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_t717850C92508D915E896FA933B507E326D1D98BE, ___m_InternalOp_0)); }
+	inline AsyncOperationBase_1_t59B59891A0F815B7C40670DA432D1D6D7F47B9AE * get_m_InternalOp_0() const { return ___m_InternalOp_0; }
+	inline AsyncOperationBase_1_t59B59891A0F815B7C40670DA432D1D6D7F47B9AE ** get_address_of_m_InternalOp_0() { return &___m_InternalOp_0; }
+	inline void set_m_InternalOp_0(AsyncOperationBase_1_t59B59891A0F815B7C40670DA432D1D6D7F47B9AE * value)
+	{
+		___m_InternalOp_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_InternalOp_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_Version_1() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_t717850C92508D915E896FA933B507E326D1D98BE, ___m_Version_1)); }
+	inline int32_t get_m_Version_1() const { return ___m_Version_1; }
+	inline int32_t* get_address_of_m_Version_1() { return &___m_Version_1; }
+	inline void set_m_Version_1(int32_t value)
+	{
+		___m_Version_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_LocationName_2() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_t717850C92508D915E896FA933B507E326D1D98BE, ___m_LocationName_2)); }
+	inline String_t* get_m_LocationName_2() const { return ___m_LocationName_2; }
+	inline String_t** get_address_of_m_LocationName_2() { return &___m_LocationName_2; }
+	inline void set_m_LocationName_2(String_t* value)
+	{
+		___m_LocationName_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_LocationName_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_UnloadSceneOpExcludeReleaseCallback_3() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_t717850C92508D915E896FA933B507E326D1D98BE, ___m_UnloadSceneOpExcludeReleaseCallback_3)); }
+	inline bool get_m_UnloadSceneOpExcludeReleaseCallback_3() const { return ___m_UnloadSceneOpExcludeReleaseCallback_3; }
+	inline bool* get_address_of_m_UnloadSceneOpExcludeReleaseCallback_3() { return &___m_UnloadSceneOpExcludeReleaseCallback_3; }
+	inline void set_m_UnloadSceneOpExcludeReleaseCallback_3(bool value)
+	{
+		___m_UnloadSceneOpExcludeReleaseCallback_3 = value;
+	}
+};
+
+
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<System.Object>
+struct AsyncOperationHandle_1_tA3D61DC158CEEADB7D17CA260C0AF36D84E79632 
+{
+public:
+	// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject> UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_InternalOp
+	AsyncOperationBase_1_t871FD4E305BA7BBB480F9360D985884672783E66 * ___m_InternalOp_0;
+	// System.Int32 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_Version
+	int32_t ___m_Version_1;
+	// System.String UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_LocationName
+	String_t* ___m_LocationName_2;
+	// System.Boolean UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_UnloadSceneOpExcludeReleaseCallback
+	bool ___m_UnloadSceneOpExcludeReleaseCallback_3;
+
+public:
+	inline static int32_t get_offset_of_m_InternalOp_0() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_tA3D61DC158CEEADB7D17CA260C0AF36D84E79632, ___m_InternalOp_0)); }
+	inline AsyncOperationBase_1_t871FD4E305BA7BBB480F9360D985884672783E66 * get_m_InternalOp_0() const { return ___m_InternalOp_0; }
+	inline AsyncOperationBase_1_t871FD4E305BA7BBB480F9360D985884672783E66 ** get_address_of_m_InternalOp_0() { return &___m_InternalOp_0; }
+	inline void set_m_InternalOp_0(AsyncOperationBase_1_t871FD4E305BA7BBB480F9360D985884672783E66 * value)
+	{
+		___m_InternalOp_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_InternalOp_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_Version_1() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_tA3D61DC158CEEADB7D17CA260C0AF36D84E79632, ___m_Version_1)); }
+	inline int32_t get_m_Version_1() const { return ___m_Version_1; }
+	inline int32_t* get_address_of_m_Version_1() { return &___m_Version_1; }
+	inline void set_m_Version_1(int32_t value)
+	{
+		___m_Version_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_LocationName_2() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_tA3D61DC158CEEADB7D17CA260C0AF36D84E79632, ___m_LocationName_2)); }
+	inline String_t* get_m_LocationName_2() const { return ___m_LocationName_2; }
+	inline String_t** get_address_of_m_LocationName_2() { return &___m_LocationName_2; }
+	inline void set_m_LocationName_2(String_t* value)
+	{
+		___m_LocationName_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_LocationName_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_UnloadSceneOpExcludeReleaseCallback_3() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_tA3D61DC158CEEADB7D17CA260C0AF36D84E79632, ___m_UnloadSceneOpExcludeReleaseCallback_3)); }
+	inline bool get_m_UnloadSceneOpExcludeReleaseCallback_3() const { return ___m_UnloadSceneOpExcludeReleaseCallback_3; }
+	inline bool* get_address_of_m_UnloadSceneOpExcludeReleaseCallback_3() { return &___m_UnloadSceneOpExcludeReleaseCallback_3; }
+	inline void set_m_UnloadSceneOpExcludeReleaseCallback_3(bool value)
+	{
+		___m_UnloadSceneOpExcludeReleaseCallback_3 = value;
+	}
+};
+
+
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject>
+struct AsyncOperationHandle_1_t02C05A82FC7E95C55852C39FE5A21FCB75A7EA35 
+{
+public:
+	// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject> UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_InternalOp
+	AsyncOperationBase_1_tEB1A35FAE28ECB50AB2CFBF20EEFFD61025557AA * ___m_InternalOp_0;
+	// System.Int32 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_Version
+	int32_t ___m_Version_1;
+	// System.String UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_LocationName
+	String_t* ___m_LocationName_2;
+	// System.Boolean UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_UnloadSceneOpExcludeReleaseCallback
+	bool ___m_UnloadSceneOpExcludeReleaseCallback_3;
+
+public:
+	inline static int32_t get_offset_of_m_InternalOp_0() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_t02C05A82FC7E95C55852C39FE5A21FCB75A7EA35, ___m_InternalOp_0)); }
+	inline AsyncOperationBase_1_tEB1A35FAE28ECB50AB2CFBF20EEFFD61025557AA * get_m_InternalOp_0() const { return ___m_InternalOp_0; }
+	inline AsyncOperationBase_1_tEB1A35FAE28ECB50AB2CFBF20EEFFD61025557AA ** get_address_of_m_InternalOp_0() { return &___m_InternalOp_0; }
+	inline void set_m_InternalOp_0(AsyncOperationBase_1_tEB1A35FAE28ECB50AB2CFBF20EEFFD61025557AA * value)
+	{
+		___m_InternalOp_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_InternalOp_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_Version_1() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_t02C05A82FC7E95C55852C39FE5A21FCB75A7EA35, ___m_Version_1)); }
+	inline int32_t get_m_Version_1() const { return ___m_Version_1; }
+	inline int32_t* get_address_of_m_Version_1() { return &___m_Version_1; }
+	inline void set_m_Version_1(int32_t value)
+	{
+		___m_Version_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_LocationName_2() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_t02C05A82FC7E95C55852C39FE5A21FCB75A7EA35, ___m_LocationName_2)); }
+	inline String_t* get_m_LocationName_2() const { return ___m_LocationName_2; }
+	inline String_t** get_address_of_m_LocationName_2() { return &___m_LocationName_2; }
+	inline void set_m_LocationName_2(String_t* value)
+	{
+		___m_LocationName_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_LocationName_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_UnloadSceneOpExcludeReleaseCallback_3() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_t02C05A82FC7E95C55852C39FE5A21FCB75A7EA35, ___m_UnloadSceneOpExcludeReleaseCallback_3)); }
+	inline bool get_m_UnloadSceneOpExcludeReleaseCallback_3() const { return ___m_UnloadSceneOpExcludeReleaseCallback_3; }
+	inline bool* get_address_of_m_UnloadSceneOpExcludeReleaseCallback_3() { return &___m_UnloadSceneOpExcludeReleaseCallback_3; }
+	inline void set_m_UnloadSceneOpExcludeReleaseCallback_3(bool value)
+	{
+		___m_UnloadSceneOpExcludeReleaseCallback_3 = value;
+	}
+};
+
+
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance>
+struct AsyncOperationHandle_1_t55DB59264A54E9329C55584520C24FD09E5BA024 
+{
+public:
+	// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject> UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_InternalOp
+	AsyncOperationBase_1_t99FC707D2F08681212212848F795E995BF15B060 * ___m_InternalOp_0;
+	// System.Int32 UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_Version
+	int32_t ___m_Version_1;
+	// System.String UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_LocationName
+	String_t* ___m_LocationName_2;
+	// System.Boolean UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1::m_UnloadSceneOpExcludeReleaseCallback
+	bool ___m_UnloadSceneOpExcludeReleaseCallback_3;
+
+public:
+	inline static int32_t get_offset_of_m_InternalOp_0() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_t55DB59264A54E9329C55584520C24FD09E5BA024, ___m_InternalOp_0)); }
+	inline AsyncOperationBase_1_t99FC707D2F08681212212848F795E995BF15B060 * get_m_InternalOp_0() const { return ___m_InternalOp_0; }
+	inline AsyncOperationBase_1_t99FC707D2F08681212212848F795E995BF15B060 ** get_address_of_m_InternalOp_0() { return &___m_InternalOp_0; }
+	inline void set_m_InternalOp_0(AsyncOperationBase_1_t99FC707D2F08681212212848F795E995BF15B060 * value)
+	{
+		___m_InternalOp_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_InternalOp_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_Version_1() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_t55DB59264A54E9329C55584520C24FD09E5BA024, ___m_Version_1)); }
+	inline int32_t get_m_Version_1() const { return ___m_Version_1; }
+	inline int32_t* get_address_of_m_Version_1() { return &___m_Version_1; }
+	inline void set_m_Version_1(int32_t value)
+	{
+		___m_Version_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_LocationName_2() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_t55DB59264A54E9329C55584520C24FD09E5BA024, ___m_LocationName_2)); }
+	inline String_t* get_m_LocationName_2() const { return ___m_LocationName_2; }
+	inline String_t** get_address_of_m_LocationName_2() { return &___m_LocationName_2; }
+	inline void set_m_LocationName_2(String_t* value)
+	{
+		___m_LocationName_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_LocationName_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_UnloadSceneOpExcludeReleaseCallback_3() { return static_cast<int32_t>(offsetof(AsyncOperationHandle_1_t55DB59264A54E9329C55584520C24FD09E5BA024, ___m_UnloadSceneOpExcludeReleaseCallback_3)); }
+	inline bool get_m_UnloadSceneOpExcludeReleaseCallback_3() const { return ___m_UnloadSceneOpExcludeReleaseCallback_3; }
+	inline bool* get_address_of_m_UnloadSceneOpExcludeReleaseCallback_3() { return &___m_UnloadSceneOpExcludeReleaseCallback_3; }
+	inline void set_m_UnloadSceneOpExcludeReleaseCallback_3(bool value)
+	{
+		___m_UnloadSceneOpExcludeReleaseCallback_3 = value;
+	}
+};
+
+
+// UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus
+struct DownloadStatus_tF853F6F3B70EBE3616DB8A302072D12A72DD5185 
+{
+public:
+	// System.Int64 UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus::TotalBytes
+	int64_t ___TotalBytes_0;
+	// System.Int64 UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus::DownloadedBytes
+	int64_t ___DownloadedBytes_1;
+	// System.Boolean UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus::IsDone
+	bool ___IsDone_2;
+
+public:
+	inline static int32_t get_offset_of_TotalBytes_0() { return static_cast<int32_t>(offsetof(DownloadStatus_tF853F6F3B70EBE3616DB8A302072D12A72DD5185, ___TotalBytes_0)); }
+	inline int64_t get_TotalBytes_0() const { return ___TotalBytes_0; }
+	inline int64_t* get_address_of_TotalBytes_0() { return &___TotalBytes_0; }
+	inline void set_TotalBytes_0(int64_t value)
+	{
+		___TotalBytes_0 = value;
+	}
+
+	inline static int32_t get_offset_of_DownloadedBytes_1() { return static_cast<int32_t>(offsetof(DownloadStatus_tF853F6F3B70EBE3616DB8A302072D12A72DD5185, ___DownloadedBytes_1)); }
+	inline int64_t get_DownloadedBytes_1() const { return ___DownloadedBytes_1; }
+	inline int64_t* get_address_of_DownloadedBytes_1() { return &___DownloadedBytes_1; }
+	inline void set_DownloadedBytes_1(int64_t value)
+	{
+		___DownloadedBytes_1 = value;
+	}
+
+	inline static int32_t get_offset_of_IsDone_2() { return static_cast<int32_t>(offsetof(DownloadStatus_tF853F6F3B70EBE3616DB8A302072D12A72DD5185, ___IsDone_2)); }
+	inline bool get_IsDone_2() const { return ___IsDone_2; }
+	inline bool* get_address_of_IsDone_2() { return &___IsDone_2; }
+	inline void set_IsDone_2(bool value)
+	{
+		___IsDone_2 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus
+struct DownloadStatus_tF853F6F3B70EBE3616DB8A302072D12A72DD5185_marshaled_pinvoke
+{
+	int64_t ___TotalBytes_0;
+	int64_t ___DownloadedBytes_1;
+	int32_t ___IsDone_2;
+};
+// Native definition for COM marshalling of UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus
+struct DownloadStatus_tF853F6F3B70EBE3616DB8A302072D12A72DD5185_marshaled_com
+{
+	int64_t ___TotalBytes_0;
+	int64_t ___DownloadedBytes_1;
+	int32_t ___IsDone_2;
+};
+
+// UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent
+struct DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B 
+{
+public:
+	// System.String UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent::m_Graph
+	String_t* ___m_Graph_0;
+	// System.Int32[] UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent::m_Dependencies
+	Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* ___m_Dependencies_1;
+	// System.Int32 UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent::m_ObjectId
+	int32_t ___m_ObjectId_2;
+	// System.String UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent::m_DisplayName
+	String_t* ___m_DisplayName_3;
+	// System.Int32 UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent::m_Stream
+	int32_t ___m_Stream_4;
+	// System.Int32 UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent::m_Frame
+	int32_t ___m_Frame_5;
+	// System.Int32 UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent::m_Value
+	int32_t ___m_Value_6;
+
+public:
+	inline static int32_t get_offset_of_m_Graph_0() { return static_cast<int32_t>(offsetof(DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B, ___m_Graph_0)); }
+	inline String_t* get_m_Graph_0() const { return ___m_Graph_0; }
+	inline String_t** get_address_of_m_Graph_0() { return &___m_Graph_0; }
+	inline void set_m_Graph_0(String_t* value)
+	{
+		___m_Graph_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_Graph_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_Dependencies_1() { return static_cast<int32_t>(offsetof(DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B, ___m_Dependencies_1)); }
+	inline Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* get_m_Dependencies_1() const { return ___m_Dependencies_1; }
+	inline Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83** get_address_of_m_Dependencies_1() { return &___m_Dependencies_1; }
+	inline void set_m_Dependencies_1(Int32U5BU5D_t2B9E4FDDDB9F0A00EC0AC631BA2DA915EB1ECF83* value)
+	{
+		___m_Dependencies_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_Dependencies_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_ObjectId_2() { return static_cast<int32_t>(offsetof(DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B, ___m_ObjectId_2)); }
+	inline int32_t get_m_ObjectId_2() const { return ___m_ObjectId_2; }
+	inline int32_t* get_address_of_m_ObjectId_2() { return &___m_ObjectId_2; }
+	inline void set_m_ObjectId_2(int32_t value)
+	{
+		___m_ObjectId_2 = value;
+	}
+
+	inline static int32_t get_offset_of_m_DisplayName_3() { return static_cast<int32_t>(offsetof(DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B, ___m_DisplayName_3)); }
+	inline String_t* get_m_DisplayName_3() const { return ___m_DisplayName_3; }
+	inline String_t** get_address_of_m_DisplayName_3() { return &___m_DisplayName_3; }
+	inline void set_m_DisplayName_3(String_t* value)
+	{
+		___m_DisplayName_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_DisplayName_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_Stream_4() { return static_cast<int32_t>(offsetof(DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B, ___m_Stream_4)); }
+	inline int32_t get_m_Stream_4() const { return ___m_Stream_4; }
+	inline int32_t* get_address_of_m_Stream_4() { return &___m_Stream_4; }
+	inline void set_m_Stream_4(int32_t value)
+	{
+		___m_Stream_4 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Frame_5() { return static_cast<int32_t>(offsetof(DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B, ___m_Frame_5)); }
+	inline int32_t get_m_Frame_5() const { return ___m_Frame_5; }
+	inline int32_t* get_address_of_m_Frame_5() { return &___m_Frame_5; }
+	inline void set_m_Frame_5(int32_t value)
+	{
+		___m_Frame_5 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Value_6() { return static_cast<int32_t>(offsetof(DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B, ___m_Value_6)); }
+	inline int32_t get_m_Value_6() const { return ___m_Value_6; }
+	inline int32_t* get_address_of_m_Value_6() { return &___m_Value_6; }
+	inline void set_m_Value_6(int32_t value)
+	{
+		___m_Value_6 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent
+struct DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B_marshaled_pinvoke
+{
+	char* ___m_Graph_0;
+	Il2CppSafeArray/*NONE*/* ___m_Dependencies_1;
+	int32_t ___m_ObjectId_2;
+	char* ___m_DisplayName_3;
+	int32_t ___m_Stream_4;
+	int32_t ___m_Frame_5;
+	int32_t ___m_Value_6;
+};
+// Native definition for COM marshalling of UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent
+struct DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B_marshaled_com
+{
+	Il2CppChar* ___m_Graph_0;
+	Il2CppSafeArray/*NONE*/* ___m_Dependencies_1;
+	int32_t ___m_ObjectId_2;
+	Il2CppChar* ___m_DisplayName_3;
+	int32_t ___m_Stream_4;
+	int32_t ___m_Frame_5;
+	int32_t ___m_Value_6;
+};
+
+// UnityEngine.ResourceManagement.ResourceManager/DeferredCallbackRegisterRequest
+struct DeferredCallbackRegisterRequest_t8CD5DA3C2E14ADDC75241644C14A7EADD77D79FD 
+{
+public:
+	// UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation UnityEngine.ResourceManagement.ResourceManager/DeferredCallbackRegisterRequest::operation
+	RuntimeObject* ___operation_0;
+	// System.Boolean UnityEngine.ResourceManagement.ResourceManager/DeferredCallbackRegisterRequest::incrementRefCount
+	bool ___incrementRefCount_1;
+
+public:
+	inline static int32_t get_offset_of_operation_0() { return static_cast<int32_t>(offsetof(DeferredCallbackRegisterRequest_t8CD5DA3C2E14ADDC75241644C14A7EADD77D79FD, ___operation_0)); }
+	inline RuntimeObject* get_operation_0() const { return ___operation_0; }
+	inline RuntimeObject** get_address_of_operation_0() { return &___operation_0; }
+	inline void set_operation_0(RuntimeObject* value)
+	{
+		___operation_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___operation_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_incrementRefCount_1() { return static_cast<int32_t>(offsetof(DeferredCallbackRegisterRequest_t8CD5DA3C2E14ADDC75241644C14A7EADD77D79FD, ___incrementRefCount_1)); }
+	inline bool get_incrementRefCount_1() const { return ___incrementRefCount_1; }
+	inline bool* get_address_of_incrementRefCount_1() { return &___incrementRefCount_1; }
+	inline void set_incrementRefCount_1(bool value)
+	{
+		___incrementRefCount_1 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.ResourceManagement.ResourceManager/DeferredCallbackRegisterRequest
+struct DeferredCallbackRegisterRequest_t8CD5DA3C2E14ADDC75241644C14A7EADD77D79FD_marshaled_pinvoke
+{
+	RuntimeObject* ___operation_0;
+	int32_t ___incrementRefCount_1;
+};
+// Native definition for COM marshalling of UnityEngine.ResourceManagement.ResourceManager/DeferredCallbackRegisterRequest
+struct DeferredCallbackRegisterRequest_t8CD5DA3C2E14ADDC75241644C14A7EADD77D79FD_marshaled_com
+{
+	RuntimeObject* ___operation_0;
+	int32_t ___incrementRefCount_1;
+};
+
+// UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle
+struct ProvideHandle_tD4ED678FA81595AAE488308DDA1D2E8DA1D716B9 
+{
+public:
+	// System.Int32 UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::m_Version
+	int32_t ___m_Version_0;
+	// UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::m_InternalOp
+	RuntimeObject* ___m_InternalOp_1;
+	// UnityEngine.ResourceManagement.ResourceManager UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle::m_ResourceManager
+	ResourceManager_t44D4D3B811BA184EEF3398DEE6880D1506AC7F99 * ___m_ResourceManager_2;
+
+public:
+	inline static int32_t get_offset_of_m_Version_0() { return static_cast<int32_t>(offsetof(ProvideHandle_tD4ED678FA81595AAE488308DDA1D2E8DA1D716B9, ___m_Version_0)); }
+	inline int32_t get_m_Version_0() const { return ___m_Version_0; }
+	inline int32_t* get_address_of_m_Version_0() { return &___m_Version_0; }
+	inline void set_m_Version_0(int32_t value)
+	{
+		___m_Version_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_InternalOp_1() { return static_cast<int32_t>(offsetof(ProvideHandle_tD4ED678FA81595AAE488308DDA1D2E8DA1D716B9, ___m_InternalOp_1)); }
+	inline RuntimeObject* get_m_InternalOp_1() const { return ___m_InternalOp_1; }
+	inline RuntimeObject** get_address_of_m_InternalOp_1() { return &___m_InternalOp_1; }
+	inline void set_m_InternalOp_1(RuntimeObject* value)
+	{
+		___m_InternalOp_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_InternalOp_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_ResourceManager_2() { return static_cast<int32_t>(offsetof(ProvideHandle_tD4ED678FA81595AAE488308DDA1D2E8DA1D716B9, ___m_ResourceManager_2)); }
+	inline ResourceManager_t44D4D3B811BA184EEF3398DEE6880D1506AC7F99 * get_m_ResourceManager_2() const { return ___m_ResourceManager_2; }
+	inline ResourceManager_t44D4D3B811BA184EEF3398DEE6880D1506AC7F99 ** get_address_of_m_ResourceManager_2() { return &___m_ResourceManager_2; }
+	inline void set_m_ResourceManager_2(ResourceManager_t44D4D3B811BA184EEF3398DEE6880D1506AC7F99 * value)
+	{
+		___m_ResourceManager_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_ResourceManager_2), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle
+struct ProvideHandle_tD4ED678FA81595AAE488308DDA1D2E8DA1D716B9_marshaled_pinvoke
+{
+	int32_t ___m_Version_0;
+	RuntimeObject* ___m_InternalOp_1;
+	ResourceManager_t44D4D3B811BA184EEF3398DEE6880D1506AC7F99 * ___m_ResourceManager_2;
+};
+// Native definition for COM marshalling of UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle
+struct ProvideHandle_tD4ED678FA81595AAE488308DDA1D2E8DA1D716B9_marshaled_com
+{
+	int32_t ___m_Version_0;
+	RuntimeObject* ___m_InternalOp_1;
+	ResourceManager_t44D4D3B811BA184EEF3398DEE6880D1506AC7F99 * ___m_ResourceManager_2;
+};
+
+// UnityEngine.ResourceManagement.Util.DelayedActionManager/DelegateInfo
+struct DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B 
+{
+public:
+	// System.Int32 UnityEngine.ResourceManagement.Util.DelayedActionManager/DelegateInfo::m_Id
+	int32_t ___m_Id_1;
+	// System.Delegate UnityEngine.ResourceManagement.Util.DelayedActionManager/DelegateInfo::m_Delegate
+	Delegate_t * ___m_Delegate_2;
+	// System.Object[] UnityEngine.ResourceManagement.Util.DelayedActionManager/DelegateInfo::m_Target
+	ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* ___m_Target_3;
+	// System.Single UnityEngine.ResourceManagement.Util.DelayedActionManager/DelegateInfo::<InvocationTime>k__BackingField
+	float ___U3CInvocationTimeU3Ek__BackingField_4;
+
+public:
+	inline static int32_t get_offset_of_m_Id_1() { return static_cast<int32_t>(offsetof(DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B, ___m_Id_1)); }
+	inline int32_t get_m_Id_1() const { return ___m_Id_1; }
+	inline int32_t* get_address_of_m_Id_1() { return &___m_Id_1; }
+	inline void set_m_Id_1(int32_t value)
+	{
+		___m_Id_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Delegate_2() { return static_cast<int32_t>(offsetof(DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B, ___m_Delegate_2)); }
+	inline Delegate_t * get_m_Delegate_2() const { return ___m_Delegate_2; }
+	inline Delegate_t ** get_address_of_m_Delegate_2() { return &___m_Delegate_2; }
+	inline void set_m_Delegate_2(Delegate_t * value)
+	{
+		___m_Delegate_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_Delegate_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_Target_3() { return static_cast<int32_t>(offsetof(DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B, ___m_Target_3)); }
+	inline ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* get_m_Target_3() const { return ___m_Target_3; }
+	inline ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A** get_address_of_m_Target_3() { return &___m_Target_3; }
+	inline void set_m_Target_3(ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* value)
+	{
+		___m_Target_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_Target_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CInvocationTimeU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B, ___U3CInvocationTimeU3Ek__BackingField_4)); }
+	inline float get_U3CInvocationTimeU3Ek__BackingField_4() const { return ___U3CInvocationTimeU3Ek__BackingField_4; }
+	inline float* get_address_of_U3CInvocationTimeU3Ek__BackingField_4() { return &___U3CInvocationTimeU3Ek__BackingField_4; }
+	inline void set_U3CInvocationTimeU3Ek__BackingField_4(float value)
+	{
+		___U3CInvocationTimeU3Ek__BackingField_4 = value;
+	}
+};
+
+struct DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B_StaticFields
+{
+public:
+	// System.Int32 UnityEngine.ResourceManagement.Util.DelayedActionManager/DelegateInfo::s_Id
+	int32_t ___s_Id_0;
+
+public:
+	inline static int32_t get_offset_of_s_Id_0() { return static_cast<int32_t>(offsetof(DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B_StaticFields, ___s_Id_0)); }
+	inline int32_t get_s_Id_0() const { return ___s_Id_0; }
+	inline int32_t* get_address_of_s_Id_0() { return &___s_Id_0; }
+	inline void set_s_Id_0(int32_t value)
+	{
+		___s_Id_0 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.ResourceManagement.Util.DelayedActionManager/DelegateInfo
+struct DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B_marshaled_pinvoke
+{
+	int32_t ___m_Id_1;
+	Delegate_t_marshaled_pinvoke* ___m_Delegate_2;
+	ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* ___m_Target_3;
+	float ___U3CInvocationTimeU3Ek__BackingField_4;
+};
+// Native definition for COM marshalling of UnityEngine.ResourceManagement.Util.DelayedActionManager/DelegateInfo
+struct DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B_marshaled_com
+{
+	int32_t ___m_Id_1;
+	Delegate_t_marshaled_com* ___m_Delegate_2;
+	ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* ___m_Target_3;
+	float ___U3CInvocationTimeU3Ek__BackingField_4;
+};
+
+// UnityEngine.ResourceManagement.Util.SerializedType
+struct SerializedType_tB1DA04E1A1C6B139586FA06F849C50CC729B7E84 
+{
+public:
+	// System.String UnityEngine.ResourceManagement.Util.SerializedType::m_AssemblyName
+	String_t* ___m_AssemblyName_0;
+	// System.String UnityEngine.ResourceManagement.Util.SerializedType::m_ClassName
+	String_t* ___m_ClassName_1;
+	// System.Type UnityEngine.ResourceManagement.Util.SerializedType::m_CachedType
+	Type_t * ___m_CachedType_2;
+	// System.Boolean UnityEngine.ResourceManagement.Util.SerializedType::<ValueChanged>k__BackingField
+	bool ___U3CValueChangedU3Ek__BackingField_3;
+
+public:
+	inline static int32_t get_offset_of_m_AssemblyName_0() { return static_cast<int32_t>(offsetof(SerializedType_tB1DA04E1A1C6B139586FA06F849C50CC729B7E84, ___m_AssemblyName_0)); }
+	inline String_t* get_m_AssemblyName_0() const { return ___m_AssemblyName_0; }
+	inline String_t** get_address_of_m_AssemblyName_0() { return &___m_AssemblyName_0; }
+	inline void set_m_AssemblyName_0(String_t* value)
+	{
+		___m_AssemblyName_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_AssemblyName_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_ClassName_1() { return static_cast<int32_t>(offsetof(SerializedType_tB1DA04E1A1C6B139586FA06F849C50CC729B7E84, ___m_ClassName_1)); }
+	inline String_t* get_m_ClassName_1() const { return ___m_ClassName_1; }
+	inline String_t** get_address_of_m_ClassName_1() { return &___m_ClassName_1; }
+	inline void set_m_ClassName_1(String_t* value)
+	{
+		___m_ClassName_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_ClassName_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_CachedType_2() { return static_cast<int32_t>(offsetof(SerializedType_tB1DA04E1A1C6B139586FA06F849C50CC729B7E84, ___m_CachedType_2)); }
+	inline Type_t * get_m_CachedType_2() const { return ___m_CachedType_2; }
+	inline Type_t ** get_address_of_m_CachedType_2() { return &___m_CachedType_2; }
+	inline void set_m_CachedType_2(Type_t * value)
+	{
+		___m_CachedType_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_CachedType_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CValueChangedU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(SerializedType_tB1DA04E1A1C6B139586FA06F849C50CC729B7E84, ___U3CValueChangedU3Ek__BackingField_3)); }
+	inline bool get_U3CValueChangedU3Ek__BackingField_3() const { return ___U3CValueChangedU3Ek__BackingField_3; }
+	inline bool* get_address_of_U3CValueChangedU3Ek__BackingField_3() { return &___U3CValueChangedU3Ek__BackingField_3; }
+	inline void set_U3CValueChangedU3Ek__BackingField_3(bool value)
+	{
+		___U3CValueChangedU3Ek__BackingField_3 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.ResourceManagement.Util.SerializedType
+struct SerializedType_tB1DA04E1A1C6B139586FA06F849C50CC729B7E84_marshaled_pinvoke
+{
+	char* ___m_AssemblyName_0;
+	char* ___m_ClassName_1;
+	Type_t * ___m_CachedType_2;
+	int32_t ___U3CValueChangedU3Ek__BackingField_3;
+};
+// Native definition for COM marshalling of UnityEngine.ResourceManagement.Util.SerializedType
+struct SerializedType_tB1DA04E1A1C6B139586FA06F849C50CC729B7E84_marshaled_com
+{
+	Il2CppChar* ___m_AssemblyName_0;
+	Il2CppChar* ___m_ClassName_1;
+	Type_t * ___m_CachedType_2;
+	int32_t ___U3CValueChangedU3Ek__BackingField_3;
+};
 
 // UnityEngine.SceneManagement.Scene
 struct Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2 
@@ -4425,6 +5454,47 @@ public:
 };
 
 
+// UnityEngine.AsyncOperation
+struct AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D  : public YieldInstruction_t836035AC7BD07A3C7909F7AD2A5B42DE99D91C44
+{
+public:
+	// System.IntPtr UnityEngine.AsyncOperation::m_Ptr
+	intptr_t ___m_Ptr_0;
+	// System.Action`1<UnityEngine.AsyncOperation> UnityEngine.AsyncOperation::m_completeCallback
+	Action_1_tCBF754C290FAE894631BED8FD56E9E22C4C187F9 * ___m_completeCallback_1;
+
+public:
+	inline static int32_t get_offset_of_m_Ptr_0() { return static_cast<int32_t>(offsetof(AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D, ___m_Ptr_0)); }
+	inline intptr_t get_m_Ptr_0() const { return ___m_Ptr_0; }
+	inline intptr_t* get_address_of_m_Ptr_0() { return &___m_Ptr_0; }
+	inline void set_m_Ptr_0(intptr_t value)
+	{
+		___m_Ptr_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_completeCallback_1() { return static_cast<int32_t>(offsetof(AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D, ___m_completeCallback_1)); }
+	inline Action_1_tCBF754C290FAE894631BED8FD56E9E22C4C187F9 * get_m_completeCallback_1() const { return ___m_completeCallback_1; }
+	inline Action_1_tCBF754C290FAE894631BED8FD56E9E22C4C187F9 ** get_address_of_m_completeCallback_1() { return &___m_completeCallback_1; }
+	inline void set_m_completeCallback_1(Action_1_tCBF754C290FAE894631BED8FD56E9E22C4C187F9 * value)
+	{
+		___m_completeCallback_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_completeCallback_1), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.AsyncOperation
+struct AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D_marshaled_pinvoke : public YieldInstruction_t836035AC7BD07A3C7909F7AD2A5B42DE99D91C44_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr_0;
+	Il2CppMethodPointer ___m_completeCallback_1;
+};
+// Native definition for COM marshalling of UnityEngine.AsyncOperation
+struct AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D_marshaled_com : public YieldInstruction_t836035AC7BD07A3C7909F7AD2A5B42DE99D91C44_marshaled_com
+{
+	intptr_t ___m_Ptr_0;
+	Il2CppMethodPointer ___m_completeCallback_1;
+};
+
 // UnityEngine.EventSystems.RaycastResult
 struct RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91 
 {
@@ -4574,6 +5644,24 @@ struct RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91_marshaled_com
 	Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___screenPosition_9;
 	int32_t ___displayIndex_10;
 };
+
+// UnityEngine.LogType
+struct LogType_t6B6C6234E8B44B73937581ACFBE15DE28227849D 
+{
+public:
+	// System.Int32 UnityEngine.LogType::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(LogType_t6B6C6234E8B44B73937581ACFBE15DE28227849D, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
 
 // UnityEngine.Playables.PlayableGraph
 struct PlayableGraph_tEC38BBCA59BDD496F75037F220984D41339AB8BA 
@@ -4974,6 +6062,198 @@ public:
 	}
 };
 
+
+// UnityEngine.Rendering.VertexAttribute
+struct VertexAttribute_t2D79DF64001C55DA72AC86CE8946098970E8194D 
+{
+public:
+	// System.Int32 UnityEngine.Rendering.VertexAttribute::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(VertexAttribute_t2D79DF64001C55DA72AC86CE8946098970E8194D, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// UnityEngine.Rendering.VertexAttributeFormat
+struct VertexAttributeFormat_tE6C8ECB044124F5BE97C3AA20DDFE9EDB0046F27 
+{
+public:
+	// System.Int32 UnityEngine.Rendering.VertexAttributeFormat::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(VertexAttributeFormat_tE6C8ECB044124F5BE97C3AA20DDFE9EDB0046F27, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventType
+struct DiagnosticEventType_t1B2A4FC541A87A486224EED4EFED115A4BA2CF83 
+{
+public:
+	// System.Int32 UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventType::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(DiagnosticEventType_t1B2A4FC541A87A486224EED4EFED115A4BA2CF83, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
+// UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters
+struct InstantiationParameters_tCDF04D3098F7DA3D979FEC7F4E77778DC1AF60D2 
+{
+public:
+	// UnityEngine.Vector3 UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters::m_Position
+	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___m_Position_0;
+	// UnityEngine.Quaternion UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters::m_Rotation
+	Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___m_Rotation_1;
+	// UnityEngine.Transform UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters::m_Parent
+	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___m_Parent_2;
+	// System.Boolean UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters::m_InstantiateInWorldPosition
+	bool ___m_InstantiateInWorldPosition_3;
+	// System.Boolean UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters::m_SetPositionRotation
+	bool ___m_SetPositionRotation_4;
+
+public:
+	inline static int32_t get_offset_of_m_Position_0() { return static_cast<int32_t>(offsetof(InstantiationParameters_tCDF04D3098F7DA3D979FEC7F4E77778DC1AF60D2, ___m_Position_0)); }
+	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  get_m_Position_0() const { return ___m_Position_0; }
+	inline Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * get_address_of_m_Position_0() { return &___m_Position_0; }
+	inline void set_m_Position_0(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  value)
+	{
+		___m_Position_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Rotation_1() { return static_cast<int32_t>(offsetof(InstantiationParameters_tCDF04D3098F7DA3D979FEC7F4E77778DC1AF60D2, ___m_Rotation_1)); }
+	inline Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  get_m_Rotation_1() const { return ___m_Rotation_1; }
+	inline Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 * get_address_of_m_Rotation_1() { return &___m_Rotation_1; }
+	inline void set_m_Rotation_1(Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  value)
+	{
+		___m_Rotation_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Parent_2() { return static_cast<int32_t>(offsetof(InstantiationParameters_tCDF04D3098F7DA3D979FEC7F4E77778DC1AF60D2, ___m_Parent_2)); }
+	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * get_m_Parent_2() const { return ___m_Parent_2; }
+	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA ** get_address_of_m_Parent_2() { return &___m_Parent_2; }
+	inline void set_m_Parent_2(Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * value)
+	{
+		___m_Parent_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_Parent_2), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_InstantiateInWorldPosition_3() { return static_cast<int32_t>(offsetof(InstantiationParameters_tCDF04D3098F7DA3D979FEC7F4E77778DC1AF60D2, ___m_InstantiateInWorldPosition_3)); }
+	inline bool get_m_InstantiateInWorldPosition_3() const { return ___m_InstantiateInWorldPosition_3; }
+	inline bool* get_address_of_m_InstantiateInWorldPosition_3() { return &___m_InstantiateInWorldPosition_3; }
+	inline void set_m_InstantiateInWorldPosition_3(bool value)
+	{
+		___m_InstantiateInWorldPosition_3 = value;
+	}
+
+	inline static int32_t get_offset_of_m_SetPositionRotation_4() { return static_cast<int32_t>(offsetof(InstantiationParameters_tCDF04D3098F7DA3D979FEC7F4E77778DC1AF60D2, ___m_SetPositionRotation_4)); }
+	inline bool get_m_SetPositionRotation_4() const { return ___m_SetPositionRotation_4; }
+	inline bool* get_address_of_m_SetPositionRotation_4() { return &___m_SetPositionRotation_4; }
+	inline void set_m_SetPositionRotation_4(bool value)
+	{
+		___m_SetPositionRotation_4 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters
+struct InstantiationParameters_tCDF04D3098F7DA3D979FEC7F4E77778DC1AF60D2_marshaled_pinvoke
+{
+	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___m_Position_0;
+	Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___m_Rotation_1;
+	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___m_Parent_2;
+	int32_t ___m_InstantiateInWorldPosition_3;
+	int32_t ___m_SetPositionRotation_4;
+};
+// Native definition for COM marshalling of UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters
+struct InstantiationParameters_tCDF04D3098F7DA3D979FEC7F4E77778DC1AF60D2_marshaled_com
+{
+	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___m_Position_0;
+	Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___m_Rotation_1;
+	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___m_Parent_2;
+	int32_t ___m_InstantiateInWorldPosition_3;
+	int32_t ___m_SetPositionRotation_4;
+};
+
+// UnityEngine.ResourceManagement.Util.ObjectInitializationData
+struct ObjectInitializationData_tC00BF9C8049326F9F0DAD00A4337AD174723EE42 
+{
+public:
+	// System.String UnityEngine.ResourceManagement.Util.ObjectInitializationData::m_Id
+	String_t* ___m_Id_0;
+	// UnityEngine.ResourceManagement.Util.SerializedType UnityEngine.ResourceManagement.Util.ObjectInitializationData::m_ObjectType
+	SerializedType_tB1DA04E1A1C6B139586FA06F849C50CC729B7E84  ___m_ObjectType_1;
+	// System.String UnityEngine.ResourceManagement.Util.ObjectInitializationData::m_Data
+	String_t* ___m_Data_2;
+
+public:
+	inline static int32_t get_offset_of_m_Id_0() { return static_cast<int32_t>(offsetof(ObjectInitializationData_tC00BF9C8049326F9F0DAD00A4337AD174723EE42, ___m_Id_0)); }
+	inline String_t* get_m_Id_0() const { return ___m_Id_0; }
+	inline String_t** get_address_of_m_Id_0() { return &___m_Id_0; }
+	inline void set_m_Id_0(String_t* value)
+	{
+		___m_Id_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_Id_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_ObjectType_1() { return static_cast<int32_t>(offsetof(ObjectInitializationData_tC00BF9C8049326F9F0DAD00A4337AD174723EE42, ___m_ObjectType_1)); }
+	inline SerializedType_tB1DA04E1A1C6B139586FA06F849C50CC729B7E84  get_m_ObjectType_1() const { return ___m_ObjectType_1; }
+	inline SerializedType_tB1DA04E1A1C6B139586FA06F849C50CC729B7E84 * get_address_of_m_ObjectType_1() { return &___m_ObjectType_1; }
+	inline void set_m_ObjectType_1(SerializedType_tB1DA04E1A1C6B139586FA06F849C50CC729B7E84  value)
+	{
+		___m_ObjectType_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&___m_ObjectType_1))->___m_AssemblyName_0), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___m_ObjectType_1))->___m_ClassName_1), (void*)NULL);
+		#endif
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___m_ObjectType_1))->___m_CachedType_2), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_m_Data_2() { return static_cast<int32_t>(offsetof(ObjectInitializationData_tC00BF9C8049326F9F0DAD00A4337AD174723EE42, ___m_Data_2)); }
+	inline String_t* get_m_Data_2() const { return ___m_Data_2; }
+	inline String_t** get_address_of_m_Data_2() { return &___m_Data_2; }
+	inline void set_m_Data_2(String_t* value)
+	{
+		___m_Data_2 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_Data_2), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.ResourceManagement.Util.ObjectInitializationData
+struct ObjectInitializationData_tC00BF9C8049326F9F0DAD00A4337AD174723EE42_marshaled_pinvoke
+{
+	char* ___m_Id_0;
+	SerializedType_tB1DA04E1A1C6B139586FA06F849C50CC729B7E84_marshaled_pinvoke ___m_ObjectType_1;
+	char* ___m_Data_2;
+};
+// Native definition for COM marshalling of UnityEngine.ResourceManagement.Util.ObjectInitializationData
+struct ObjectInitializationData_tC00BF9C8049326F9F0DAD00A4337AD174723EE42_marshaled_com
+{
+	Il2CppChar* ___m_Id_0;
+	SerializedType_tB1DA04E1A1C6B139586FA06F849C50CC729B7E84_marshaled_com ___m_ObjectType_1;
+	Il2CppChar* ___m_Data_2;
+};
 
 // UnityEngine.ScreenOrientation
 struct ScreenOrientation_t4AB8E2E02033B0EAEA0260B05B1D88DA8058BB51 
@@ -6151,6 +7431,47 @@ public:
 };
 
 
+// PackedPlayModeBuildLogs/RuntimeBuildLog
+struct RuntimeBuildLog_t1E879632D1AAA1D6C22018CCD41812929740BB44 
+{
+public:
+	// UnityEngine.LogType PackedPlayModeBuildLogs/RuntimeBuildLog::Type
+	int32_t ___Type_0;
+	// System.String PackedPlayModeBuildLogs/RuntimeBuildLog::Message
+	String_t* ___Message_1;
+
+public:
+	inline static int32_t get_offset_of_Type_0() { return static_cast<int32_t>(offsetof(RuntimeBuildLog_t1E879632D1AAA1D6C22018CCD41812929740BB44, ___Type_0)); }
+	inline int32_t get_Type_0() const { return ___Type_0; }
+	inline int32_t* get_address_of_Type_0() { return &___Type_0; }
+	inline void set_Type_0(int32_t value)
+	{
+		___Type_0 = value;
+	}
+
+	inline static int32_t get_offset_of_Message_1() { return static_cast<int32_t>(offsetof(RuntimeBuildLog_t1E879632D1AAA1D6C22018CCD41812929740BB44, ___Message_1)); }
+	inline String_t* get_Message_1() const { return ___Message_1; }
+	inline String_t** get_address_of_Message_1() { return &___Message_1; }
+	inline void set_Message_1(String_t* value)
+	{
+		___Message_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Message_1), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of PackedPlayModeBuildLogs/RuntimeBuildLog
+struct RuntimeBuildLog_t1E879632D1AAA1D6C22018CCD41812929740BB44_marshaled_pinvoke
+{
+	int32_t ___Type_0;
+	char* ___Message_1;
+};
+// Native definition for COM marshalling of PackedPlayModeBuildLogs/RuntimeBuildLog
+struct RuntimeBuildLog_t1E879632D1AAA1D6C22018CCD41812929740BB44_marshaled_com
+{
+	int32_t ___Type_0;
+	Il2CppChar* ___Message_1;
+};
+
 // System.ConsoleKeyInfo
 struct ConsoleKeyInfo_t5BE3CE05E8258CDB5404256E96AF7C22BC5DE768 
 {
@@ -7061,6 +8382,190 @@ public:
 	}
 };
 
+
+// UnityEngine.Rendering.VertexAttributeDescriptor
+struct VertexAttributeDescriptor_t1E87473A5C1E3A379EE43EF2F64E0F03FCC71D59 
+{
+public:
+	// UnityEngine.Rendering.VertexAttribute UnityEngine.Rendering.VertexAttributeDescriptor::<attribute>k__BackingField
+	int32_t ___U3CattributeU3Ek__BackingField_0;
+	// UnityEngine.Rendering.VertexAttributeFormat UnityEngine.Rendering.VertexAttributeDescriptor::<format>k__BackingField
+	int32_t ___U3CformatU3Ek__BackingField_1;
+	// System.Int32 UnityEngine.Rendering.VertexAttributeDescriptor::<dimension>k__BackingField
+	int32_t ___U3CdimensionU3Ek__BackingField_2;
+	// System.Int32 UnityEngine.Rendering.VertexAttributeDescriptor::<stream>k__BackingField
+	int32_t ___U3CstreamU3Ek__BackingField_3;
+
+public:
+	inline static int32_t get_offset_of_U3CattributeU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(VertexAttributeDescriptor_t1E87473A5C1E3A379EE43EF2F64E0F03FCC71D59, ___U3CattributeU3Ek__BackingField_0)); }
+	inline int32_t get_U3CattributeU3Ek__BackingField_0() const { return ___U3CattributeU3Ek__BackingField_0; }
+	inline int32_t* get_address_of_U3CattributeU3Ek__BackingField_0() { return &___U3CattributeU3Ek__BackingField_0; }
+	inline void set_U3CattributeU3Ek__BackingField_0(int32_t value)
+	{
+		___U3CattributeU3Ek__BackingField_0 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CformatU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(VertexAttributeDescriptor_t1E87473A5C1E3A379EE43EF2F64E0F03FCC71D59, ___U3CformatU3Ek__BackingField_1)); }
+	inline int32_t get_U3CformatU3Ek__BackingField_1() const { return ___U3CformatU3Ek__BackingField_1; }
+	inline int32_t* get_address_of_U3CformatU3Ek__BackingField_1() { return &___U3CformatU3Ek__BackingField_1; }
+	inline void set_U3CformatU3Ek__BackingField_1(int32_t value)
+	{
+		___U3CformatU3Ek__BackingField_1 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CdimensionU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(VertexAttributeDescriptor_t1E87473A5C1E3A379EE43EF2F64E0F03FCC71D59, ___U3CdimensionU3Ek__BackingField_2)); }
+	inline int32_t get_U3CdimensionU3Ek__BackingField_2() const { return ___U3CdimensionU3Ek__BackingField_2; }
+	inline int32_t* get_address_of_U3CdimensionU3Ek__BackingField_2() { return &___U3CdimensionU3Ek__BackingField_2; }
+	inline void set_U3CdimensionU3Ek__BackingField_2(int32_t value)
+	{
+		___U3CdimensionU3Ek__BackingField_2 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CstreamU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(VertexAttributeDescriptor_t1E87473A5C1E3A379EE43EF2F64E0F03FCC71D59, ___U3CstreamU3Ek__BackingField_3)); }
+	inline int32_t get_U3CstreamU3Ek__BackingField_3() const { return ___U3CstreamU3Ek__BackingField_3; }
+	inline int32_t* get_address_of_U3CstreamU3Ek__BackingField_3() { return &___U3CstreamU3Ek__BackingField_3; }
+	inline void set_U3CstreamU3Ek__BackingField_3(int32_t value)
+	{
+		___U3CstreamU3Ek__BackingField_3 = value;
+	}
+};
+
+
+// UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventContext
+struct DiagnosticEventContext_tA7CD037EBDF1B867429301566D44CA6672809C3E 
+{
+public:
+	// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventContext::<OperationHandle>k__BackingField
+	AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___U3COperationHandleU3Ek__BackingField_0;
+	// UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventType UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventContext::<Type>k__BackingField
+	int32_t ___U3CTypeU3Ek__BackingField_1;
+	// System.Int32 UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventContext::<EventValue>k__BackingField
+	int32_t ___U3CEventValueU3Ek__BackingField_2;
+	// UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventContext::<Location>k__BackingField
+	RuntimeObject* ___U3CLocationU3Ek__BackingField_3;
+	// System.Object UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventContext::<Context>k__BackingField
+	RuntimeObject * ___U3CContextU3Ek__BackingField_4;
+	// System.String UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventContext::<Error>k__BackingField
+	String_t* ___U3CErrorU3Ek__BackingField_5;
+
+public:
+	inline static int32_t get_offset_of_U3COperationHandleU3Ek__BackingField_0() { return static_cast<int32_t>(offsetof(DiagnosticEventContext_tA7CD037EBDF1B867429301566D44CA6672809C3E, ___U3COperationHandleU3Ek__BackingField_0)); }
+	inline AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  get_U3COperationHandleU3Ek__BackingField_0() const { return ___U3COperationHandleU3Ek__BackingField_0; }
+	inline AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185 * get_address_of_U3COperationHandleU3Ek__BackingField_0() { return &___U3COperationHandleU3Ek__BackingField_0; }
+	inline void set_U3COperationHandleU3Ek__BackingField_0(AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  value)
+	{
+		___U3COperationHandleU3Ek__BackingField_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)&(((&___U3COperationHandleU3Ek__BackingField_0))->___m_InternalOp_1), (void*)NULL);
+		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
+		Il2CppCodeGenWriteBarrier((void**)&(((&___U3COperationHandleU3Ek__BackingField_0))->___m_LocationName_3), (void*)NULL);
+		#endif
+	}
+
+	inline static int32_t get_offset_of_U3CTypeU3Ek__BackingField_1() { return static_cast<int32_t>(offsetof(DiagnosticEventContext_tA7CD037EBDF1B867429301566D44CA6672809C3E, ___U3CTypeU3Ek__BackingField_1)); }
+	inline int32_t get_U3CTypeU3Ek__BackingField_1() const { return ___U3CTypeU3Ek__BackingField_1; }
+	inline int32_t* get_address_of_U3CTypeU3Ek__BackingField_1() { return &___U3CTypeU3Ek__BackingField_1; }
+	inline void set_U3CTypeU3Ek__BackingField_1(int32_t value)
+	{
+		___U3CTypeU3Ek__BackingField_1 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CEventValueU3Ek__BackingField_2() { return static_cast<int32_t>(offsetof(DiagnosticEventContext_tA7CD037EBDF1B867429301566D44CA6672809C3E, ___U3CEventValueU3Ek__BackingField_2)); }
+	inline int32_t get_U3CEventValueU3Ek__BackingField_2() const { return ___U3CEventValueU3Ek__BackingField_2; }
+	inline int32_t* get_address_of_U3CEventValueU3Ek__BackingField_2() { return &___U3CEventValueU3Ek__BackingField_2; }
+	inline void set_U3CEventValueU3Ek__BackingField_2(int32_t value)
+	{
+		___U3CEventValueU3Ek__BackingField_2 = value;
+	}
+
+	inline static int32_t get_offset_of_U3CLocationU3Ek__BackingField_3() { return static_cast<int32_t>(offsetof(DiagnosticEventContext_tA7CD037EBDF1B867429301566D44CA6672809C3E, ___U3CLocationU3Ek__BackingField_3)); }
+	inline RuntimeObject* get_U3CLocationU3Ek__BackingField_3() const { return ___U3CLocationU3Ek__BackingField_3; }
+	inline RuntimeObject** get_address_of_U3CLocationU3Ek__BackingField_3() { return &___U3CLocationU3Ek__BackingField_3; }
+	inline void set_U3CLocationU3Ek__BackingField_3(RuntimeObject* value)
+	{
+		___U3CLocationU3Ek__BackingField_3 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CLocationU3Ek__BackingField_3), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CContextU3Ek__BackingField_4() { return static_cast<int32_t>(offsetof(DiagnosticEventContext_tA7CD037EBDF1B867429301566D44CA6672809C3E, ___U3CContextU3Ek__BackingField_4)); }
+	inline RuntimeObject * get_U3CContextU3Ek__BackingField_4() const { return ___U3CContextU3Ek__BackingField_4; }
+	inline RuntimeObject ** get_address_of_U3CContextU3Ek__BackingField_4() { return &___U3CContextU3Ek__BackingField_4; }
+	inline void set_U3CContextU3Ek__BackingField_4(RuntimeObject * value)
+	{
+		___U3CContextU3Ek__BackingField_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CContextU3Ek__BackingField_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CErrorU3Ek__BackingField_5() { return static_cast<int32_t>(offsetof(DiagnosticEventContext_tA7CD037EBDF1B867429301566D44CA6672809C3E, ___U3CErrorU3Ek__BackingField_5)); }
+	inline String_t* get_U3CErrorU3Ek__BackingField_5() const { return ___U3CErrorU3Ek__BackingField_5; }
+	inline String_t** get_address_of_U3CErrorU3Ek__BackingField_5() { return &___U3CErrorU3Ek__BackingField_5; }
+	inline void set_U3CErrorU3Ek__BackingField_5(String_t* value)
+	{
+		___U3CErrorU3Ek__BackingField_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CErrorU3Ek__BackingField_5), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventContext
+struct DiagnosticEventContext_tA7CD037EBDF1B867429301566D44CA6672809C3E_marshaled_pinvoke
+{
+	AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185_marshaled_pinvoke ___U3COperationHandleU3Ek__BackingField_0;
+	int32_t ___U3CTypeU3Ek__BackingField_1;
+	int32_t ___U3CEventValueU3Ek__BackingField_2;
+	RuntimeObject* ___U3CLocationU3Ek__BackingField_3;
+	Il2CppIUnknown* ___U3CContextU3Ek__BackingField_4;
+	char* ___U3CErrorU3Ek__BackingField_5;
+};
+// Native definition for COM marshalling of UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventContext
+struct DiagnosticEventContext_tA7CD037EBDF1B867429301566D44CA6672809C3E_marshaled_com
+{
+	AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185_marshaled_com ___U3COperationHandleU3Ek__BackingField_0;
+	int32_t ___U3CTypeU3Ek__BackingField_1;
+	int32_t ___U3CEventValueU3Ek__BackingField_2;
+	RuntimeObject* ___U3CLocationU3Ek__BackingField_3;
+	Il2CppIUnknown* ___U3CContextU3Ek__BackingField_4;
+	Il2CppChar* ___U3CErrorU3Ek__BackingField_5;
+};
+
+// UnityEngine.ResourceManagement.ResourceProviders.SceneInstance
+struct SceneInstance_t51F6CCA46E7D95C7D96B120EF531A30409F02636 
+{
+public:
+	// UnityEngine.SceneManagement.Scene UnityEngine.ResourceManagement.ResourceProviders.SceneInstance::m_Scene
+	Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2  ___m_Scene_0;
+	// UnityEngine.AsyncOperation UnityEngine.ResourceManagement.ResourceProviders.SceneInstance::m_Operation
+	AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D * ___m_Operation_1;
+
+public:
+	inline static int32_t get_offset_of_m_Scene_0() { return static_cast<int32_t>(offsetof(SceneInstance_t51F6CCA46E7D95C7D96B120EF531A30409F02636, ___m_Scene_0)); }
+	inline Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2  get_m_Scene_0() const { return ___m_Scene_0; }
+	inline Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2 * get_address_of_m_Scene_0() { return &___m_Scene_0; }
+	inline void set_m_Scene_0(Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2  value)
+	{
+		___m_Scene_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_Operation_1() { return static_cast<int32_t>(offsetof(SceneInstance_t51F6CCA46E7D95C7D96B120EF531A30409F02636, ___m_Operation_1)); }
+	inline AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D * get_m_Operation_1() const { return ___m_Operation_1; }
+	inline AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D ** get_address_of_m_Operation_1() { return &___m_Operation_1; }
+	inline void set_m_Operation_1(AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D * value)
+	{
+		___m_Operation_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_Operation_1), (void*)value);
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.ResourceManagement.ResourceProviders.SceneInstance
+struct SceneInstance_t51F6CCA46E7D95C7D96B120EF531A30409F02636_marshaled_pinvoke
+{
+	Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2  ___m_Scene_0;
+	AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D_marshaled_pinvoke ___m_Operation_1;
+};
+// Native definition for COM marshalling of UnityEngine.ResourceManagement.ResourceProviders.SceneInstance
+struct SceneInstance_t51F6CCA46E7D95C7D96B120EF531A30409F02636_marshaled_com
+{
+	Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2  ___m_Scene_0;
+	AsyncOperation_t304C51ABED8AE734CC8DDDFE13013D8D5A44641D_marshaled_com* ___m_Operation_1;
+};
 
 // UnityEngine.Touch
 struct Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8 
@@ -10263,2528 +11768,3176 @@ static  int32_t UnresolvedVirtualCall_239 (RuntimeObject * __this, int32_t ___In
 	il2cpp_codegen_no_return();
 }
 
-static  NativeArray_1_tDAF0F4880AF8B000465CDA62C8389E82D86A9BC4  UnresolvedVirtualCall_240 (RuntimeObject * __this, XRTextureDescriptor_t56503F48CEBC183AF26EE86935E918F31D09E9FD  ___XRTextureDescriptor1, int32_t ___Int322, const RuntimeMethod* method)
+static  DownloadStatus_tF853F6F3B70EBE3616DB8A302072D12A72DD5185  UnresolvedVirtualCall_240 (RuntimeObject * __this, RuntimeObject * ___Object1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  NativeArray_1_tE5CEB105A05A940128DD35911654FAC07904E8D7  UnresolvedVirtualCall_241 (RuntimeObject * __this, XRCameraConfiguration_t2D43C7394DAE2223CF48F09DF55076DE5B2A5E97  ___XRCameraConfiguration1, int32_t ___Int322, const RuntimeMethod* method)
+static  AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  UnresolvedVirtualCall_241 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Nullable_1_tE9B0A1522DF70D439DDB9B586CAC054F3DAE279B  UnresolvedVirtualCall_242 (RuntimeObject * __this, const RuntimeMethod* method)
+static  AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  UnresolvedVirtualCall_242 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_243 (RuntimeObject * __this, Nullable_1_tE9B0A1522DF70D439DDB9B586CAC054F3DAE279B  ___Nullable_11, const RuntimeMethod* method)
+static  DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B  UnresolvedVirtualCall_243 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_244 (RuntimeObject * __this, XRCameraParams_t7D7BD73FED17232F00E62B75053F66F7A110099B  ___XRCameraParams1, RuntimeObject * ___Object2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_244 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, RuntimeObject * ___Object3, AsyncOperationHandle_1_tE2BCD2CAB5E4D1BFACCFD07756C2B61BC7450143  ___AsyncOperationHandle_14, int8_t ___SByte5, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_245 (RuntimeObject * __this, int32_t ___Int321, XRCameraImageConversionParams_t94D5A9992C6D9C03637B14C4399D4CAE35F899C5  ___XRCameraImageConversionParams2, intptr_t ___IntPtr3, int32_t ___Int324, intptr_t ___IntPtr5, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_245 (RuntimeObject * __this, RuntimeObject * ___Object1, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle2, RuntimeObject * ___Object3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  TrackableChanges_1_t67F5E50C0B7A063774AEC211C4C81BA7679876BB  UnresolvedVirtualCall_246 (RuntimeObject * __this, XRPointCloud_tA4A412DE503530E1B2953919F1463B9B48504ED0  ___XRPointCloud1, int32_t ___Int322, const RuntimeMethod* method)
+static  AsyncOperationHandle_1_t55DB59264A54E9329C55584520C24FD09E5BA024  UnresolvedVirtualCall_246 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, int32_t ___Int323, int8_t ___SByte4, int32_t ___Int325, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  XRPointCloudData_t790D531E8C51EE83A08A457B436F969CBF9439BA  UnresolvedVirtualCall_247 (RuntimeObject * __this, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId1, int32_t ___Int322, const RuntimeMethod* method)
+static  AsyncOperationHandle_1_t55DB59264A54E9329C55584520C24FD09E5BA024  UnresolvedVirtualCall_247 (RuntimeObject * __this, RuntimeObject * ___Object1, AsyncOperationHandle_1_t55DB59264A54E9329C55584520C24FD09E5BA024  ___AsyncOperationHandle_12, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  TrackableChanges_1_t5B1E235F751BB96851611F0EE82810617DA588C7  UnresolvedVirtualCall_248 (RuntimeObject * __this, XREnvironmentProbe_tDB5526F4BBECB568A61BB4E0BD38612DE053C5A2  ___XREnvironmentProbe1, int32_t ___Int322, const RuntimeMethod* method)
+static  RuntimeObject * UnresolvedVirtualCall_248 (RuntimeObject * __this, RuntimeObject * ___Object1, AsyncOperationHandle_1_t02C05A82FC7E95C55852C39FE5A21FCB75A7EA35  ___AsyncOperationHandle_12, InstantiationParameters_tCDF04D3098F7DA3D979FEC7F4E77778DC1AF60D2  ___InstantiationParameters3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_249 (RuntimeObject * __this, Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29  ___Pose1, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector32, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector33, RuntimeObject * ___Object4, const RuntimeMethod* method)
+static  AsyncOperationHandle_1_tB9F319F374D61AC027F59FA93D1EF174BE7D6EF9  UnresolvedVirtualCall_249 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, RuntimeObject * ___Object3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_250 (RuntimeObject * __this, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId1, const RuntimeMethod* method)
+static  NativeArray_1_tDAF0F4880AF8B000465CDA62C8389E82D86A9BC4  UnresolvedVirtualCall_250 (RuntimeObject * __this, XRTextureDescriptor_t56503F48CEBC183AF26EE86935E918F31D09E9FD  ___XRTextureDescriptor1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  TrackableChanges_1_t316F273AB927198D6305E965CDB7B0ED758920E6  UnresolvedVirtualCall_251 (RuntimeObject * __this, XRFace_tF2B2E9B06813BA74F5DAFD527FD249DD1002B7C7  ___XRFace1, int32_t ___Int322, const RuntimeMethod* method)
+static  NativeArray_1_tE5CEB105A05A940128DD35911654FAC07904E8D7  UnresolvedVirtualCall_251 (RuntimeObject * __this, XRCameraConfiguration_t2D43C7394DAE2223CF48F09DF55076DE5B2A5E97  ___XRCameraConfiguration1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_252 (RuntimeObject * __this, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId1, int32_t ___Int322, RuntimeObject * ___Object3, const RuntimeMethod* method)
+static  Nullable_1_tE9B0A1522DF70D439DDB9B586CAC054F3DAE279B  UnresolvedVirtualCall_252 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  TrackableChanges_1_tE90399F00562881A054A3592F7AF134BA053AF4F  UnresolvedVirtualCall_253 (RuntimeObject * __this, XRTrackedImage_t178EACF5BFA4228DF4EB1899685C533F3F296AA8  ___XRTrackedImage1, int32_t ___Int322, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_253 (RuntimeObject * __this, Nullable_1_tE9B0A1522DF70D439DDB9B586CAC054F3DAE279B  ___Nullable_11, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  TrackableChanges_1_t58DA4DDCECFD0F3DF5CFA68485A8D322B2D83CAE  UnresolvedVirtualCall_254 (RuntimeObject * __this, BoundedPlane_t5FBCC289E172852D4A9C51F6581B3C7EEE17A227  ___BoundedPlane1, int32_t ___Int322, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_254 (RuntimeObject * __this, XRCameraParams_t7D7BD73FED17232F00E62B75053F66F7A110099B  ___XRCameraParams1, RuntimeObject * ___Object2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  UnresolvedVirtualCall_255 (RuntimeObject * __this, XRRaycastHit_t2DE122E601B75E2070D4A542A13E2486DEE60E82  ___XRRaycastHit1, Ray_tE2163D4CB3E6B267E29F8ABE41684490E4A614B2  ___Ray2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_255 (RuntimeObject * __this, int32_t ___Int321, XRCameraImageConversionParams_t94D5A9992C6D9C03637B14C4399D4CAE35F899C5  ___XRCameraImageConversionParams2, intptr_t ___IntPtr3, int32_t ___Int324, intptr_t ___IntPtr5, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  UnresolvedVirtualCall_256 (RuntimeObject * __this, XRRaycastHit_t2DE122E601B75E2070D4A542A13E2486DEE60E82  ___XRRaycastHit1, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector22, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  TrackableChanges_1_t67F5E50C0B7A063774AEC211C4C81BA7679876BB  UnresolvedVirtualCall_256 (RuntimeObject * __this, XRPointCloud_tA4A412DE503530E1B2953919F1463B9B48504ED0  ___XRPointCloud1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  TrackableChanges_1_t5C8C3FBA23E5BBC147A6991B68520A756EF54FDF  UnresolvedVirtualCall_257 (RuntimeObject * __this, XRReferencePoint_tA8592C08A27EC91D9B1FB3B083C95C5D372FF1F9  ___XRReferencePoint1, int32_t ___Int322, const RuntimeMethod* method)
+static  XRPointCloudData_t790D531E8C51EE83A08A457B436F969CBF9439BA  UnresolvedVirtualCall_257 (RuntimeObject * __this, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_258 (RuntimeObject * __this, Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29  ___Pose1, RuntimeObject * ___Object2, const RuntimeMethod* method)
+static  TrackableChanges_1_t5B1E235F751BB96851611F0EE82810617DA588C7  UnresolvedVirtualCall_258 (RuntimeObject * __this, XREnvironmentProbe_tDB5526F4BBECB568A61BB4E0BD38612DE053C5A2  ___XREnvironmentProbe1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_259 (RuntimeObject * __this, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId1, Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29  ___Pose2, RuntimeObject * ___Object3, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_259 (RuntimeObject * __this, Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29  ___Pose1, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector32, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector33, RuntimeObject * ___Object4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_260 (RuntimeObject * __this, XRSessionUpdateParams_tAA765EB179BD3BAB22FA143AF178D328B30EAD16  ___XRSessionUpdateParams1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_260 (RuntimeObject * __this, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_261 (RuntimeObject * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector31, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion2, int32_t ___Int323, const RuntimeMethod* method)
+static  TrackableChanges_1_t316F273AB927198D6305E965CDB7B0ED758920E6  UnresolvedVirtualCall_261 (RuntimeObject * __this, XRFace_tF2B2E9B06813BA74F5DAFD527FD249DD1002B7C7  ___XRFace1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_262 (RuntimeObject * __this, float ___Single1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_262 (RuntimeObject * __this, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId1, int32_t ___Int322, RuntimeObject * ___Object3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_263 (RuntimeObject * __this, float ___Single1, float ___Single2, float ___Single3, float ___Single4, const RuntimeMethod* method)
+static  TrackableChanges_1_tE90399F00562881A054A3592F7AF134BA053AF4F  UnresolvedVirtualCall_263 (RuntimeObject * __this, XRTrackedImage_t178EACF5BFA4228DF4EB1899685C533F3F296AA8  ___XRTrackedImage1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  UnresolvedVirtualCall_264 (RuntimeObject * __this, float ___Single1, RuntimeObject * ___Object2, RuntimeObject * ___Object3, RuntimeObject * ___Object4, const RuntimeMethod* method)
+static  TrackableChanges_1_t58DA4DDCECFD0F3DF5CFA68485A8D322B2D83CAE  UnresolvedVirtualCall_264 (RuntimeObject * __this, BoundedPlane_t5FBCC289E172852D4A9C51F6581B3C7EEE17A227  ___BoundedPlane1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_265 (RuntimeObject * __this, float ___Single1, int32_t ___Int322, int32_t ___Int323, int8_t ___SByte4, int32_t ___Int325, int32_t ___Int326, const RuntimeMethod* method)
+static  NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  UnresolvedVirtualCall_265 (RuntimeObject * __this, XRRaycastHit_t2DE122E601B75E2070D4A542A13E2486DEE60E82  ___XRRaycastHit1, Ray_tE2163D4CB3E6B267E29F8ABE41684490E4A614B2  ___Ray2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  RuntimeObject * UnresolvedVirtualCall_266 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, RuntimeObject * ___Object3, uint32_t ___UInt324, RuntimeObject * ___Object5, const RuntimeMethod* method)
+static  NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  UnresolvedVirtualCall_266 (RuntimeObject * __this, XRRaycastHit_t2DE122E601B75E2070D4A542A13E2486DEE60E82  ___XRRaycastHit1, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector22, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int64_t UnresolvedVirtualCall_267 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, int32_t ___Int323, RuntimeObject * ___Object4, int32_t ___Int325, int32_t ___Int326, const RuntimeMethod* method)
+static  TrackableChanges_1_t5C8C3FBA23E5BBC147A6991B68520A756EF54FDF  UnresolvedVirtualCall_267 (RuntimeObject * __this, XRReferencePoint_tA8592C08A27EC91D9B1FB3B083C95C5D372FF1F9  ___XRReferencePoint1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  UnresolvedVirtualCall_268 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_268 (RuntimeObject * __this, Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29  ___Pose1, RuntimeObject * ___Object2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  double UnresolvedVirtualCall_269 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_269 (RuntimeObject * __this, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId1, Pose_t2997DE3CB3863E4D78FCF42B46FC481818823F29  ___Pose2, RuntimeObject * ___Object3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int64_t UnresolvedVirtualCall_270 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_270 (RuntimeObject * __this, XRSessionUpdateParams_tAA765EB179BD3BAB22FA143AF178D328B30EAD16  ___XRSessionUpdateParams1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_271 (RuntimeObject * __this, intptr_t ___IntPtr1, int32_t ___Int322, intptr_t ___IntPtr3, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_271 (RuntimeObject * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector31, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion2, int32_t ___Int323, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_272 (RuntimeObject * __this, intptr_t ___IntPtr1, int32_t ___Int322, intptr_t ___IntPtr3, int32_t ___Int324, intptr_t ___IntPtr5, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_272 (RuntimeObject * __this, float ___Single1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_273 (RuntimeObject * __this, intptr_t ___IntPtr1, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_273 (RuntimeObject * __this, float ___Single1, float ___Single2, float ___Single3, float ___Single4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_274 (RuntimeObject * __this, intptr_t ___IntPtr1, int32_t ___Int322, intptr_t ___IntPtr3, intptr_t ___IntPtr4, int64_t ___Int645, const RuntimeMethod* method)
+static  Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  UnresolvedVirtualCall_274 (RuntimeObject * __this, float ___Single1, RuntimeObject * ___Object2, RuntimeObject * ___Object3, RuntimeObject * ___Object4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_275 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, int32_t ___Int323, int8_t ___SByte4, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_275 (RuntimeObject * __this, float ___Single1, int32_t ___Int322, int32_t ___Int323, int8_t ___SByte4, int32_t ___Int325, int32_t ___Int326, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_276 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, RuntimeObject * ___Object3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, RuntimeObject * ___Object6, const RuntimeMethod* method)
+static  RuntimeObject * UnresolvedVirtualCall_276 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, RuntimeObject * ___Object3, uint32_t ___UInt324, RuntimeObject * ___Object5, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  RuntimeObject * UnresolvedVirtualCall_277 (RuntimeObject * __this, intptr_t ___IntPtr1, int32_t ___Int322, const RuntimeMethod* method)
+static  int64_t UnresolvedVirtualCall_277 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, int32_t ___Int323, RuntimeObject * ___Object4, int32_t ___Int325, int32_t ___Int326, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  RuntimeObject * UnresolvedVirtualCall_278 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, RuntimeObject * ___Object3, const RuntimeMethod* method)
+static  DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  UnresolvedVirtualCall_278 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_279 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, RuntimeObject * ___Object3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, RuntimeObject * ___Object6, RuntimeObject * ___Object7, RuntimeObject * ___Object8, const RuntimeMethod* method)
+static  double UnresolvedVirtualCall_279 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int64_t UnresolvedVirtualCall_280 (RuntimeObject * __this, intptr_t ___IntPtr1, const RuntimeMethod* method)
+static  int64_t UnresolvedVirtualCall_280 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  double UnresolvedVirtualCall_281 (RuntimeObject * __this, intptr_t ___IntPtr1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_281 (RuntimeObject * __this, intptr_t ___IntPtr1, int32_t ___Int322, intptr_t ___IntPtr3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  RuntimeObject * UnresolvedVirtualCall_282 (RuntimeObject * __this, intptr_t ___IntPtr1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_282 (RuntimeObject * __this, intptr_t ___IntPtr1, int32_t ___Int322, intptr_t ___IntPtr3, int32_t ___Int324, intptr_t ___IntPtr5, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int64_t UnresolvedVirtualCall_283 (RuntimeObject * __this, intptr_t ___IntPtr1, int32_t ___Int322, RuntimeObject * ___Object3, int32_t ___Int324, int32_t ___Int325, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_283 (RuntimeObject * __this, intptr_t ___IntPtr1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_284 (RuntimeObject * __this, intptr_t ___IntPtr1, RuntimeObject * ___Object2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_284 (RuntimeObject * __this, intptr_t ___IntPtr1, int32_t ___Int322, intptr_t ___IntPtr3, intptr_t ___IntPtr4, int64_t ___Int645, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_285 (RuntimeObject * __this, intptr_t ___IntPtr1, int64_t ___Int642, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_285 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, int32_t ___Int323, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_286 (RuntimeObject * __this, intptr_t ___IntPtr1, double ___Double2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_286 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, RuntimeObject * ___Object3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, RuntimeObject * ___Object6, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  intptr_t UnresolvedVirtualCall_287 (RuntimeObject * __this, intptr_t ___IntPtr1, const RuntimeMethod* method)
+static  RuntimeObject * UnresolvedVirtualCall_287 (RuntimeObject * __this, intptr_t ___IntPtr1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_288 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, RuntimeObject * ___Object6, const RuntimeMethod* method)
+static  RuntimeObject * UnresolvedVirtualCall_288 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, RuntimeObject * ___Object3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_289 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  ___DateTime3, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_289 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, RuntimeObject * ___Object3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, RuntimeObject * ___Object6, RuntimeObject * ___Object7, RuntimeObject * ___Object8, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_290 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, int64_t ___Int643, const RuntimeMethod* method)
+static  int64_t UnresolvedVirtualCall_290 (RuntimeObject * __this, intptr_t ___IntPtr1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_291 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, double ___Double3, const RuntimeMethod* method)
+static  double UnresolvedVirtualCall_291 (RuntimeObject * __this, intptr_t ___IntPtr1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  UnresolvedVirtualCall_292 (RuntimeObject * __this, Ray_tE2163D4CB3E6B267E29F8ABE41684490E4A614B2  ___Ray1, int32_t ___Int322, int32_t ___Int323, const RuntimeMethod* method)
+static  RuntimeObject * UnresolvedVirtualCall_292 (RuntimeObject * __this, intptr_t ___IntPtr1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_293 (RuntimeObject * __this, MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  ___MeshId1, const RuntimeMethod* method)
+static  int64_t UnresolvedVirtualCall_293 (RuntimeObject * __this, intptr_t ___IntPtr1, int32_t ___Int322, RuntimeObject * ___Object3, int32_t ___Int324, int32_t ___Int325, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  UnresolvedVirtualCall_294 (RuntimeObject * __this, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_294 (RuntimeObject * __this, intptr_t ___IntPtr1, RuntimeObject * ___Object2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8  UnresolvedVirtualCall_295 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_295 (RuntimeObject * __this, intptr_t ___IntPtr1, int64_t ___Int642, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  RuntimeObject * UnresolvedVirtualCall_296 (RuntimeObject * __this, float ___Single1, float ___Single2, float ___Single3, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_296 (RuntimeObject * __this, intptr_t ___IntPtr1, double ___Double2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_297 (RuntimeObject * __this, int32_t ___Int321, int8_t ___SByte2, const RuntimeMethod* method)
+static  intptr_t UnresolvedVirtualCall_297 (RuntimeObject * __this, intptr_t ___IntPtr1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_298 (RuntimeObject * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_298 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, RuntimeObject * ___Object6, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  UnresolvedVirtualCall_299 (RuntimeObject * __this, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_299 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  ___DateTime3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_300 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, RuntimeObject * ___Object2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_300 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, int64_t ___Int643, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_301 (RuntimeObject * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color1, float ___Single2, int8_t ___SByte3, int8_t ___SByte4, int8_t ___SByte5, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_301 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, double ___Double3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  UnresolvedVirtualCall_302 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+static  AsyncOperationHandle_1_t55DB59264A54E9329C55584520C24FD09E5BA024  UnresolvedVirtualCall_302 (RuntimeObject * __this, int32_t ___Int321, int8_t ___SByte2, int32_t ___Int323, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  UnresolvedVirtualCall_303 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+static  AsyncOperationHandle_1_t02C05A82FC7E95C55852C39FE5A21FCB75A7EA35  UnresolvedVirtualCall_303 (RuntimeObject * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector31, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion2, RuntimeObject * ___Object3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_304 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, const RuntimeMethod* method)
+static  AsyncOperationHandle_1_t02C05A82FC7E95C55852C39FE5A21FCB75A7EA35  UnresolvedVirtualCall_304 (RuntimeObject * __this, RuntimeObject * ___Object1, int8_t ___SByte2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int16_t UnresolvedVirtualCall_305 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, int16_t ___Int163, const RuntimeMethod* method)
+static  NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  UnresolvedVirtualCall_305 (RuntimeObject * __this, Ray_tE2163D4CB3E6B267E29F8ABE41684490E4A614B2  ___Ray1, int32_t ___Int322, int32_t ___Int323, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_306 (RuntimeObject * __this, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect1, int8_t ___SByte2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_306 (RuntimeObject * __this, MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  ___MeshId1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  RuntimeObject * UnresolvedVirtualCall_307 (RuntimeObject * __this, Ray_tE2163D4CB3E6B267E29F8ABE41684490E4A614B2  ___Ray1, float ___Single2, int32_t ___Int323, const RuntimeMethod* method)
+static  Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  UnresolvedVirtualCall_307 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_308 (RuntimeObject * __this, Ray_tE2163D4CB3E6B267E29F8ABE41684490E4A614B2  ___Ray1, RuntimeObject * ___Object2, float ___Single3, int32_t ___Int324, const RuntimeMethod* method)
+static  Touch_tAACD32535FF3FE5DD91125E0B6987B93C68D2DE8  UnresolvedVirtualCall_308 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  UnresolvedVirtualCall_309 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector22, float ___Single3, int32_t ___Int324, const RuntimeMethod* method)
+static  RuntimeObject * UnresolvedVirtualCall_309 (RuntimeObject * __this, float ___Single1, float ___Single2, float ___Single3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_310 (RuntimeObject * __this, Ray_tE2163D4CB3E6B267E29F8ABE41684490E4A614B2  ___Ray1, RuntimeObject * ___Object2, float ___Single3, int32_t ___Int324, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_310 (RuntimeObject * __this, int32_t ___Int321, int8_t ___SByte2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_311 (RuntimeObject * __this, float ___Single1, int32_t ___Int322, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_311 (RuntimeObject * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_312 (RuntimeObject * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color1, float ___Single2, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  UnresolvedVirtualCall_312 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_313 (RuntimeObject * __this, float ___Single1, int8_t ___SByte2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_313 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, RuntimeObject * ___Object2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  UnresolvedVirtualCall_314 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_314 (RuntimeObject * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color1, float ___Single2, int8_t ___SByte3, int8_t ___SByte4, int8_t ___SByte5, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_315 (RuntimeObject * __this, float ___Single1, float ___Single2, int8_t ___SByte3, const RuntimeMethod* method)
+static  UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  UnresolvedVirtualCall_315 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_316 (RuntimeObject * __this, int32_t ___Int321, int32_t ___Int322, intptr_t ___IntPtr3, const RuntimeMethod* method)
+static  UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  UnresolvedVirtualCall_316 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  UnresolvedVirtualCall_317 (RuntimeObject * __this, RuntimeObject * ___Object1, Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  ___Color22, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_317 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  double UnresolvedVirtualCall_318 (RuntimeObject * __this, RuntimeObject * ___Object1, double ___Double2, const RuntimeMethod* method)
+static  int16_t UnresolvedVirtualCall_318 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, int16_t ___Int163, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int64_t UnresolvedVirtualCall_319 (RuntimeObject * __this, RuntimeObject * ___Object1, int64_t ___Int642, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_319 (RuntimeObject * __this, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect1, int8_t ___SByte2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_320 (RuntimeObject * __this, RuntimeObject * ___Object1, float ___Single2, const RuntimeMethod* method)
+static  RuntimeObject * UnresolvedVirtualCall_320 (RuntimeObject * __this, Ray_tE2163D4CB3E6B267E29F8ABE41684490E4A614B2  ___Ray1, float ___Single2, int32_t ___Int323, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  uint32_t UnresolvedVirtualCall_321 (RuntimeObject * __this, RuntimeObject * ___Object1, uint32_t ___UInt322, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_321 (RuntimeObject * __this, Ray_tE2163D4CB3E6B267E29F8ABE41684490E4A614B2  ___Ray1, RuntimeObject * ___Object2, float ___Single3, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  uint64_t UnresolvedVirtualCall_322 (RuntimeObject * __this, RuntimeObject * ___Object1, uint64_t ___UInt642, const RuntimeMethod* method)
+static  RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  UnresolvedVirtualCall_322 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector22, float ___Single3, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  UnresolvedVirtualCall_323 (RuntimeObject * __this, RuntimeObject * ___Object1, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_323 (RuntimeObject * __this, Ray_tE2163D4CB3E6B267E29F8ABE41684490E4A614B2  ___Ray1, RuntimeObject * ___Object2, float ___Single3, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  UnresolvedVirtualCall_324 (RuntimeObject * __this, RuntimeObject * ___Object1, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_324 (RuntimeObject * __this, float ___Single1, int32_t ___Int322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  UnresolvedVirtualCall_325 (RuntimeObject * __this, RuntimeObject * ___Object1, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_325 (RuntimeObject * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color1, float ___Single2, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Rect_t35B976DE901B5423C11705E156938EA27AB402CE  UnresolvedVirtualCall_326 (RuntimeObject * __this, RuntimeObject * ___Object1, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_326 (RuntimeObject * __this, float ___Single1, int8_t ___SByte2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  UnresolvedVirtualCall_327 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector22, const RuntimeMethod* method)
+static  UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  UnresolvedVirtualCall_327 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  RuntimeObject * UnresolvedVirtualCall_328 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector32, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_328 (RuntimeObject * __this, float ___Single1, float ___Single2, int8_t ___SByte3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  UnresolvedVirtualCall_329 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector32, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_329 (RuntimeObject * __this, int32_t ___Int321, int32_t ___Int322, intptr_t ___IntPtr3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  UnresolvedVirtualCall_330 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector42, const RuntimeMethod* method)
+static  Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  UnresolvedVirtualCall_330 (RuntimeObject * __this, RuntimeObject * ___Object1, Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  ___Color22, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_331 (RuntimeObject * __this, int8_t ___SByte1, int8_t ___SByte2, const RuntimeMethod* method)
+static  double UnresolvedVirtualCall_331 (RuntimeObject * __this, RuntimeObject * ___Object1, double ___Double2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_332 (RuntimeObject * __this, int16_t ___Int161, int16_t ___Int162, const RuntimeMethod* method)
+static  int64_t UnresolvedVirtualCall_332 (RuntimeObject * __this, RuntimeObject * ___Object1, int64_t ___Int642, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_333 (RuntimeObject * __this, float ___Single1, float ___Single2, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_333 (RuntimeObject * __this, RuntimeObject * ___Object1, float ___Single2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_334 (RuntimeObject * __this, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  ___ColorBlock1, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  ___ColorBlock2, const RuntimeMethod* method)
+static  uint32_t UnresolvedVirtualCall_334 (RuntimeObject * __this, RuntimeObject * ___Object1, uint32_t ___UInt322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_335 (RuntimeObject * __this, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  ___Navigation1, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  ___Navigation2, const RuntimeMethod* method)
+static  uint64_t UnresolvedVirtualCall_335 (RuntimeObject * __this, RuntimeObject * ___Object1, uint64_t ___UInt642, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_336 (RuntimeObject * __this, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  ___SpriteState1, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  ___SpriteState2, const RuntimeMethod* method)
+static  Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  UnresolvedVirtualCall_336 (RuntimeObject * __this, RuntimeObject * ___Object1, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_337 (RuntimeObject * __this, RuntimeObject * ___Object1, KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  ___KeyInfo2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  UnresolvedVirtualCall_337 (RuntimeObject * __this, RuntimeObject * ___Object1, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_338 (RuntimeObject * __this, RuntimeObject * ___Object1, int8_t ___SByte2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  UnresolvedVirtualCall_338 (RuntimeObject * __this, RuntimeObject * ___Object1, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_339 (RuntimeObject * __this, RuntimeObject * ___Object1, uint8_t ___Byte2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  Rect_t35B976DE901B5423C11705E156938EA27AB402CE  UnresolvedVirtualCall_339 (RuntimeObject * __this, RuntimeObject * ___Object1, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_340 (RuntimeObject * __this, RuntimeObject * ___Object1, int16_t ___Int162, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  UnresolvedVirtualCall_340 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector22, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_341 (RuntimeObject * __this, RuntimeObject * ___Object1, KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  ___KeyValuePair_22, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  RuntimeObject * UnresolvedVirtualCall_341 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector32, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_342 (RuntimeObject * __this, RuntimeObject * ___Object1, KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  ___KeyValuePair_22, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  UnresolvedVirtualCall_342 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector32, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_343 (RuntimeObject * __this, RuntimeObject * ___Object1, DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  ___DateTime2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  UnresolvedVirtualCall_343 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector42, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_344 (RuntimeObject * __this, RuntimeObject * ___Object1, DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___DateTimeOffset2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_344 (RuntimeObject * __this, int8_t ___SByte1, int8_t ___SByte2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_345 (RuntimeObject * __this, RuntimeObject * ___Object1, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___Decimal2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_345 (RuntimeObject * __this, int16_t ___Int161, int16_t ___Int162, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_346 (RuntimeObject * __this, RuntimeObject * ___Object1, double ___Double2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_346 (RuntimeObject * __this, float ___Single1, float ___Single2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_347 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_347 (RuntimeObject * __this, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  ___ColorBlock1, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  ___ColorBlock2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_348 (RuntimeObject * __this, RuntimeObject * ___Object1, int64_t ___Int642, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_348 (RuntimeObject * __this, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  ___Navigation1, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  ___Navigation2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_349 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_349 (RuntimeObject * __this, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  ___SpriteState1, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  ___SpriteState2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_350 (RuntimeObject * __this, RuntimeObject * ___Object1, float ___Single2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_350 (RuntimeObject * __this, RuntimeObject * ___Object1, KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  ___KeyInfo2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_351 (RuntimeObject * __this, RuntimeObject * ___Object1, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___TimeSpan2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_351 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeBuildLog_t1E879632D1AAA1D6C22018CCD41812929740BB44  ___RuntimeBuildLog2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_352 (RuntimeObject * __this, RuntimeObject * ___Object1, uint16_t ___UInt162, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_352 (RuntimeObject * __this, RuntimeObject * ___Object1, int8_t ___SByte2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_353 (RuntimeObject * __this, RuntimeObject * ___Object1, uint32_t ___UInt322, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_353 (RuntimeObject * __this, RuntimeObject * ___Object1, uint8_t ___Byte2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_354 (RuntimeObject * __this, RuntimeObject * ___Object1, uint64_t ___UInt642, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_354 (RuntimeObject * __this, RuntimeObject * ___Object1, int16_t ___Int162, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_355 (RuntimeObject * __this, RuntimeObject * ___Object1, RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  ___RangePositionInfo2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_355 (RuntimeObject * __this, RuntimeObject * ___Object1, KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  ___KeyValuePair_22, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_356 (RuntimeObject * __this, RuntimeObject * ___Object1, XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  ___XmlSchemaObjectEntry2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_356 (RuntimeObject * __this, RuntimeObject * ___Object1, KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  ___KeyValuePair_22, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_357 (RuntimeObject * __this, RuntimeObject * ___Object1, NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  ___NativeArray_12, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_357 (RuntimeObject * __this, RuntimeObject * ___Object1, DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  ___DateTime2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_358 (RuntimeObject * __this, RuntimeObject * ___Object1, OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  ___OrderBlock2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_358 (RuntimeObject * __this, RuntimeObject * ___Object1, DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___DateTimeOffset2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_359 (RuntimeObject * __this, RuntimeObject * ___Object1, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___Color322, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_359 (RuntimeObject * __this, RuntimeObject * ___Object1, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___Decimal2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_360 (RuntimeObject * __this, RuntimeObject * ___Object1, RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___RaycastResult2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_360 (RuntimeObject * __this, RuntimeObject * ___Object1, double ___Double2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_361 (RuntimeObject * __this, RuntimeObject * ___Object1, RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  ___RaycastHit2D2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_361 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_362 (RuntimeObject * __this, RuntimeObject * ___Object1, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___PoseData2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_362 (RuntimeObject * __this, RuntimeObject * ___Object1, int64_t ___Int642, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_363 (RuntimeObject * __this, RuntimeObject * ___Object1, UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  ___UICharInfo2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_363 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_364 (RuntimeObject * __this, RuntimeObject * ___Object1, UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  ___UILineInfo2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_364 (RuntimeObject * __this, RuntimeObject * ___Object1, float ___Single2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_365 (RuntimeObject * __this, RuntimeObject * ___Object1, UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  ___UIVertex2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_365 (RuntimeObject * __this, RuntimeObject * ___Object1, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___TimeSpan2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_366 (RuntimeObject * __this, RuntimeObject * ___Object1, WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  ___WorkRequest2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_366 (RuntimeObject * __this, RuntimeObject * ___Object1, uint16_t ___UInt162, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_367 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector22, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_367 (RuntimeObject * __this, RuntimeObject * ___Object1, uint32_t ___UInt322, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_368 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector32, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_368 (RuntimeObject * __this, RuntimeObject * ___Object1, uint64_t ___UInt642, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_369 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector42, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_369 (RuntimeObject * __this, RuntimeObject * ___Object1, RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  ___RangePositionInfo2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_370 (RuntimeObject * __this, RuntimeObject * ___Object1, TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  ___TextureInfo2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_370 (RuntimeObject * __this, RuntimeObject * ___Object1, XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  ___XmlSchemaObjectEntry2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_371 (RuntimeObject * __this, RuntimeObject * ___Object1, ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  ___ARRaycastHit2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_371 (RuntimeObject * __this, RuntimeObject * ___Object1, NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  ___NativeArray_12, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_372 (RuntimeObject * __this, RuntimeObject * ___Object1, XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  ___XRReferenceImage2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_372 (RuntimeObject * __this, RuntimeObject * ___Object1, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  ___ConstraintSource2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_373 (RuntimeObject * __this, RuntimeObject * ___Object1, MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  ___MeshInfo2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_373 (RuntimeObject * __this, RuntimeObject * ___Object1, OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  ___OrderBlock2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_374 (RuntimeObject * __this, RuntimeObject * ___Object1, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_374 (RuntimeObject * __this, RuntimeObject * ___Object1, BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1  ___BoneWeight2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_375 (RuntimeObject * __this, ColorOptions_tD57E512D2F4329BEE7EAEE0D1B2C4A0683D288DA  ___ColorOptions1, float ___Single2, Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  ___Color23, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_375 (RuntimeObject * __this, RuntimeObject * ___Object1, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___Color322, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_376 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, float ___Single2, double ___Double3, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_376 (RuntimeObject * __this, RuntimeObject * ___Object1, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_377 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, float ___Single2, int32_t ___Int323, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_377 (RuntimeObject * __this, RuntimeObject * ___Object1, RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___RaycastResult2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_378 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, float ___Single2, int64_t ___Int643, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_378 (RuntimeObject * __this, RuntimeObject * ___Object1, Matrix4x4_t6BF60F70C9169DF14C9D2577672A44224B236ECA  ___Matrix4x42, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_379 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, float ___Single2, RuntimeObject * ___Object3, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_379 (RuntimeObject * __this, RuntimeObject * ___Object1, RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  ___RaycastHit2D2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_380 (RuntimeObject * __this, StringOptions_t58D6011099873A39926A99C00EE24D0D80B231FC  ___StringOptions1, float ___Single2, RuntimeObject * ___Object3, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_380 (RuntimeObject * __this, RuntimeObject * ___Object1, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_381 (RuntimeObject * __this, FloatOptions_t7285C3D13285197B6B003786B85DAAD83E654C1B  ___FloatOptions1, float ___Single2, float ___Single3, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_381 (RuntimeObject * __this, RuntimeObject * ___Object1, VertexAttributeDescriptor_t1E87473A5C1E3A379EE43EF2F64E0F03FCC71D59  ___VertexAttributeDescriptor2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_382 (RuntimeObject * __this, UintOptions_tCD241771582D5159D0129AA82E86590D0A0FC1E6  ___UintOptions1, float ___Single2, uint32_t ___UInt323, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_382 (RuntimeObject * __this, RuntimeObject * ___Object1, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_383 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, float ___Single2, uint64_t ___UInt643, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_383 (RuntimeObject * __this, RuntimeObject * ___Object1, DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B  ___DiagnosticEvent2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_384 (RuntimeObject * __this, ColorOptions_tD57E512D2F4329BEE7EAEE0D1B2C4A0683D288DA  ___ColorOptions1, float ___Single2, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color3, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_384 (RuntimeObject * __this, RuntimeObject * ___Object1, DeferredCallbackRegisterRequest_t8CD5DA3C2E14ADDC75241644C14A7EADD77D79FD  ___DeferredCallbackRegisterRequest2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_385 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, float ___Single2, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion3, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_385 (RuntimeObject * __this, RuntimeObject * ___Object1, DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B  ___DelegateInfo2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_386 (RuntimeObject * __this, QuaternionOptions_t217D095C19651CE87896F40C41802FA82552880B  ___QuaternionOptions1, float ___Single2, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector33, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_386 (RuntimeObject * __this, RuntimeObject * ___Object1, ObjectInitializationData_tC00BF9C8049326F9F0DAD00A4337AD174723EE42  ___ObjectInitializationData2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_387 (RuntimeObject * __this, RectOptions_t1C4579A85851F16B3300F373FC807B4913D59A5E  ___RectOptions1, float ___Single2, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect3, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_387 (RuntimeObject * __this, RuntimeObject * ___Object1, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___PoseData2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_388 (RuntimeObject * __this, CircleOptions_t45C5FB5E55882A9276C7E7D11F65426C10592F6A  ___CircleOptions1, float ___Single2, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector23, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_388 (RuntimeObject * __this, RuntimeObject * ___Object1, UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  ___UICharInfo2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_389 (RuntimeObject * __this, VectorOptions_t385A0AFDBE150CC9F61EA0DC03FEA860BA5EA322  ___VectorOptions1, float ___Single2, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector23, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_389 (RuntimeObject * __this, RuntimeObject * ___Object1, UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  ___UILineInfo2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_390 (RuntimeObject * __this, PathOptions_tE44D7F93669AF298F0376DB1276BFAF8902F65A7  ___PathOptions1, float ___Single2, RuntimeObject * ___Object3, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_390 (RuntimeObject * __this, RuntimeObject * ___Object1, UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  ___UIVertex2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_391 (RuntimeObject * __this, Vector3ArrayOptions_t3E84666D670017F133C32243F0709A3852F05257  ___Vector3ArrayOptions1, float ___Single2, RuntimeObject * ___Object3, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_391 (RuntimeObject * __this, RuntimeObject * ___Object1, WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  ___WorkRequest2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_392 (RuntimeObject * __this, VectorOptions_t385A0AFDBE150CC9F61EA0DC03FEA860BA5EA322  ___VectorOptions1, float ___Single2, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector33, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_392 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector22, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  float UnresolvedVirtualCall_393 (RuntimeObject * __this, VectorOptions_t385A0AFDBE150CC9F61EA0DC03FEA860BA5EA322  ___VectorOptions1, float ___Single2, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector43, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_393 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector32, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  UnresolvedVirtualCall_394 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_394 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector42, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  UnresolvedVirtualCall_395 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_395 (RuntimeObject * __this, RuntimeObject * ___Object1, TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  ___TextureInfo2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Rect_t35B976DE901B5423C11705E156938EA27AB402CE  UnresolvedVirtualCall_396 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_396 (RuntimeObject * __this, RuntimeObject * ___Object1, ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  ___ARRaycastHit2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  UnresolvedVirtualCall_397 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_397 (RuntimeObject * __this, RuntimeObject * ___Object1, XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  ___XRReferenceImage2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  UnresolvedVirtualCall_398 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_398 (RuntimeObject * __this, RuntimeObject * ___Object1, MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  ___MeshInfo2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_399 (RuntimeObject * __this, Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  ___Color21, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_399 (RuntimeObject * __this, RuntimeObject * ___Object1, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_400 (RuntimeObject * __this, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_400 (RuntimeObject * __this, RuntimeObject * ___Object1, SequenceConstructPosContext_t72DF930B1BE2676BD225E8D9622C78EF2B0DFAC1  ___SequenceConstructPosContext2, int32_t ___Int323, int32_t ___Int324, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_401 (RuntimeObject * __this, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect1, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_401 (RuntimeObject * __this, ColorOptions_tD57E512D2F4329BEE7EAEE0D1B2C4A0683D288DA  ___ColorOptions1, float ___Single2, Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  ___Color23, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_402 (RuntimeObject * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector31, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_402 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, float ___Single2, double ___Double3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_403 (RuntimeObject * __this, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector41, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_403 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, float ___Single2, int32_t ___Int323, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  RuntimeObject * UnresolvedVirtualCall_404 (RuntimeObject * __this, RuntimeObject * ___Object1, float ___Single2, int8_t ___SByte3, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_404 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, float ___Single2, int64_t ___Int643, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_405 (RuntimeObject * __this, RuntimeObject * ___Object1, Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  ___Color22, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_405 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, float ___Single2, RuntimeObject * ___Object3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_406 (RuntimeObject * __this, ColorOptions_tD57E512D2F4329BEE7EAEE0D1B2C4A0683D288DA  ___ColorOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  ___Color27, Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  ___Color28, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_406 (RuntimeObject * __this, StringOptions_t58D6011099873A39926A99C00EE24D0D80B231FC  ___StringOptions1, float ___Single2, RuntimeObject * ___Object3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_407 (RuntimeObject * __this, RuntimeObject * ___Object1, double ___Double2, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_407 (RuntimeObject * __this, FloatOptions_t7285C3D13285197B6B003786B85DAAD83E654C1B  ___FloatOptions1, float ___Single2, float ___Single3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_408 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, double ___Double7, double ___Double8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_408 (RuntimeObject * __this, UintOptions_tCD241771582D5159D0129AA82E86590D0A0FC1E6  ___UintOptions1, float ___Single2, uint32_t ___UInt323, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_409 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_409 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, float ___Single2, uint64_t ___UInt643, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_410 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, int32_t ___Int327, int32_t ___Int328, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_410 (RuntimeObject * __this, ColorOptions_tD57E512D2F4329BEE7EAEE0D1B2C4A0683D288DA  ___ColorOptions1, float ___Single2, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_411 (RuntimeObject * __this, RuntimeObject * ___Object1, int64_t ___Int642, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_411 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, float ___Single2, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_412 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, int64_t ___Int647, int64_t ___Int648, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_412 (RuntimeObject * __this, QuaternionOptions_t217D095C19651CE87896F40C41802FA82552880B  ___QuaternionOptions1, float ___Single2, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector33, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_413 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_413 (RuntimeObject * __this, RectOptions_t1C4579A85851F16B3300F373FC807B4913D59A5E  ___RectOptions1, float ___Single2, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_414 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, RuntimeObject * ___Object7, RuntimeObject * ___Object8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_414 (RuntimeObject * __this, CircleOptions_t45C5FB5E55882A9276C7E7D11F65426C10592F6A  ___CircleOptions1, float ___Single2, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector23, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_415 (RuntimeObject * __this, StringOptions_t58D6011099873A39926A99C00EE24D0D80B231FC  ___StringOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, RuntimeObject * ___Object7, RuntimeObject * ___Object8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_415 (RuntimeObject * __this, VectorOptions_t385A0AFDBE150CC9F61EA0DC03FEA860BA5EA322  ___VectorOptions1, float ___Single2, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector23, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_416 (RuntimeObject * __this, RuntimeObject * ___Object1, float ___Single2, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_416 (RuntimeObject * __this, PathOptions_tE44D7F93669AF298F0376DB1276BFAF8902F65A7  ___PathOptions1, float ___Single2, RuntimeObject * ___Object3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_417 (RuntimeObject * __this, FloatOptions_t7285C3D13285197B6B003786B85DAAD83E654C1B  ___FloatOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, float ___Single7, float ___Single8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_417 (RuntimeObject * __this, Vector3ArrayOptions_t3E84666D670017F133C32243F0709A3852F05257  ___Vector3ArrayOptions1, float ___Single2, RuntimeObject * ___Object3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_418 (RuntimeObject * __this, RuntimeObject * ___Object1, uint32_t ___UInt322, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_418 (RuntimeObject * __this, VectorOptions_t385A0AFDBE150CC9F61EA0DC03FEA860BA5EA322  ___VectorOptions1, float ___Single2, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector33, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_419 (RuntimeObject * __this, UintOptions_tCD241771582D5159D0129AA82E86590D0A0FC1E6  ___UintOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, uint32_t ___UInt327, uint32_t ___UInt328, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  float UnresolvedVirtualCall_419 (RuntimeObject * __this, VectorOptions_t385A0AFDBE150CC9F61EA0DC03FEA860BA5EA322  ___VectorOptions1, float ___Single2, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector43, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_420 (RuntimeObject * __this, RuntimeObject * ___Object1, uint64_t ___UInt642, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  UnresolvedVirtualCall_420 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_421 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, uint64_t ___UInt647, uint64_t ___UInt648, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  UnresolvedVirtualCall_421 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_422 (RuntimeObject * __this, RuntimeObject * ___Object1, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color2, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  Rect_t35B976DE901B5423C11705E156938EA27AB402CE  UnresolvedVirtualCall_422 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_423 (RuntimeObject * __this, ColorOptions_tD57E512D2F4329BEE7EAEE0D1B2C4A0683D288DA  ___ColorOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color7, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  UnresolvedVirtualCall_423 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_424 (RuntimeObject * __this, RuntimeObject * ___Object1, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion2, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  UnresolvedVirtualCall_424 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_425 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion7, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_425 (RuntimeObject * __this, Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  ___Color21, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_426 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector32, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_426 (RuntimeObject * __this, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_427 (RuntimeObject * __this, QuaternionOptions_t217D095C19651CE87896F40C41802FA82552880B  ___QuaternionOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector37, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector38, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_427 (RuntimeObject * __this, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_428 (RuntimeObject * __this, RuntimeObject * ___Object1, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect2, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_428 (RuntimeObject * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector31, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_429 (RuntimeObject * __this, RectOptions_t1C4579A85851F16B3300F373FC807B4913D59A5E  ___RectOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect7, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_429 (RuntimeObject * __this, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector41, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_430 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector22, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  RuntimeObject * UnresolvedVirtualCall_430 (RuntimeObject * __this, RuntimeObject * ___Object1, float ___Single2, int8_t ___SByte3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_431 (RuntimeObject * __this, CircleOptions_t45C5FB5E55882A9276C7E7D11F65426C10592F6A  ___CircleOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector27, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector28, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_431 (RuntimeObject * __this, RuntimeObject * ___Object1, Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  ___Color22, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_432 (RuntimeObject * __this, VectorOptions_t385A0AFDBE150CC9F61EA0DC03FEA860BA5EA322  ___VectorOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector27, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector28, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_432 (RuntimeObject * __this, ColorOptions_tD57E512D2F4329BEE7EAEE0D1B2C4A0683D288DA  ___ColorOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  ___Color27, Color2_t04D7DADEE8440A02309444A79F7FCD19FAD7313E  ___Color28, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_433 (RuntimeObject * __this, PathOptions_tE44D7F93669AF298F0376DB1276BFAF8902F65A7  ___PathOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, RuntimeObject * ___Object7, RuntimeObject * ___Object8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_433 (RuntimeObject * __this, RuntimeObject * ___Object1, double ___Double2, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_434 (RuntimeObject * __this, Vector3ArrayOptions_t3E84666D670017F133C32243F0709A3852F05257  ___Vector3ArrayOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, RuntimeObject * ___Object7, RuntimeObject * ___Object8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_434 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, double ___Double7, double ___Double8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_435 (RuntimeObject * __this, VectorOptions_t385A0AFDBE150CC9F61EA0DC03FEA860BA5EA322  ___VectorOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector37, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector38, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_435 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_436 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector42, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_436 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, int32_t ___Int327, int32_t ___Int328, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_437 (RuntimeObject * __this, VectorOptions_t385A0AFDBE150CC9F61EA0DC03FEA860BA5EA322  ___VectorOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector47, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector48, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_437 (RuntimeObject * __this, RuntimeObject * ___Object1, int64_t ___Int642, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_438 (RuntimeObject * __this, ARCameraFrameEventArgs_t25F661E15E542829DB3CAAD158FED01CC8874672  ___ARCameraFrameEventArgs1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_438 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, int64_t ___Int647, int64_t ___Int648, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_439 (RuntimeObject * __this, AREnvironmentProbesChangedEvent_t9DE50A9ADFB748D7D217823A211EE29847086A91  ___AREnvironmentProbesChangedEvent1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_439 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_440 (RuntimeObject * __this, ARFaceUpdatedEventArgs_t699190818DE910123AD1334A80B4AB7C07C2605D  ___ARFaceUpdatedEventArgs1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_440 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, RuntimeObject * ___Object7, RuntimeObject * ___Object8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_441 (RuntimeObject * __this, ARFacesChangedEventArgs_tEBEBBB4C67D42971A7434AA6289EEC3A81030CE7  ___ARFacesChangedEventArgs1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_441 (RuntimeObject * __this, StringOptions_t58D6011099873A39926A99C00EE24D0D80B231FC  ___StringOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, RuntimeObject * ___Object7, RuntimeObject * ___Object8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_442 (RuntimeObject * __this, ARFoundationBackgroundRendererChangedEventArgs_tC07E0710F73B174679974D85908F81F51A7ED527  ___ARFoundationBackgroundRendererChangedEventArgs1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_442 (RuntimeObject * __this, RuntimeObject * ___Object1, float ___Single2, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_443 (RuntimeObject * __this, ARMeshesChangedEventArgs_t3964E364B190B3699E8DEF26B5C5578DDF896B2D  ___ARMeshesChangedEventArgs1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_443 (RuntimeObject * __this, FloatOptions_t7285C3D13285197B6B003786B85DAAD83E654C1B  ___FloatOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, float ___Single7, float ___Single8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_444 (RuntimeObject * __this, ARPlaneBoundaryChangedEventArgs_tA15FDEF8B4549CC68EBEBBCF1465205AEFACE013  ___ARPlaneBoundaryChangedEventArgs1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_444 (RuntimeObject * __this, RuntimeObject * ___Object1, uint32_t ___UInt322, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_445 (RuntimeObject * __this, ARPlanesChangedEventArgs_tF37A2B029AF11A39989174B82CD4F7D4670C9FC5  ___ARPlanesChangedEventArgs1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_445 (RuntimeObject * __this, UintOptions_tCD241771582D5159D0129AA82E86590D0A0FC1E6  ___UintOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, uint32_t ___UInt327, uint32_t ___UInt328, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_446 (RuntimeObject * __this, ARPointCloudChangedEventArgs_tE62CA6173559A72E92B2A4D6DDD45DEF46C7AADC  ___ARPointCloudChangedEventArgs1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_446 (RuntimeObject * __this, RuntimeObject * ___Object1, uint64_t ___UInt642, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_447 (RuntimeObject * __this, ARPointCloudUpdatedEventArgs_t86D3B452398F031801009934DDD131427344DA20  ___ARPointCloudUpdatedEventArgs1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_447 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, uint64_t ___UInt647, uint64_t ___UInt648, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_448 (RuntimeObject * __this, ARReferencePointsChangedEventArgs_t21C8CF418E0A8B7C6A8682D1FE4DA95E8D41021E  ___ARReferencePointsChangedEventArgs1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_448 (RuntimeObject * __this, RuntimeObject * ___Object1, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color2, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_449 (RuntimeObject * __this, ARSessionStateChangedEventArgs_tAB726C94F3164280811C27B77D92B0189C302082  ___ARSessionStateChangedEventArgs1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_449 (RuntimeObject * __this, ColorOptions_tD57E512D2F4329BEE7EAEE0D1B2C4A0683D288DA  ___ColorOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color7, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_450 (RuntimeObject * __this, ARTrackedImagesChangedEventArgs_t64F82ABE51189C62E3811D96F2C2143DB91669E4  ___ARTrackedImagesChangedEventArgs1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_450 (RuntimeObject * __this, RuntimeObject * ___Object1, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion2, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_451 (RuntimeObject * __this, InputDevice_tF13BD967109BAB2CF49E1304EDFDA255067A2CDC  ___InputDevice1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_451 (RuntimeObject * __this, NoOptions_tC312CAA4CCC3BD59EC7E6930F0E08272608A5DE2  ___NoOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion7, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_452 (RuntimeObject * __this, MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A  ___MeshGenerationResult1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_452 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector32, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_453 (RuntimeObject * __this, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_453 (RuntimeObject * __this, QuaternionOptions_t217D095C19651CE87896F40C41802FA82552880B  ___QuaternionOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector37, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector38, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_454 (RuntimeObject * __this, int8_t ___SByte1, RuntimeObject * ___Object2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_454 (RuntimeObject * __this, RuntimeObject * ___Object1, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect2, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_455 (RuntimeObject * __this, int32_t ___Int321, ARWorldMap_t8BAE5D083A023D7DD23C29E4082B6BBD329010DE  ___ARWorldMap2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_455 (RuntimeObject * __this, RectOptions_t1C4579A85851F16B3300F373FC807B4913D59A5E  ___RectOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect7, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_456 (RuntimeObject * __this, int32_t ___Int321, XRCameraImageConversionParams_t94D5A9992C6D9C03637B14C4399D4CAE35F899C5  ___XRCameraImageConversionParams2, NativeArray_1_tB942A78CFAC276F95E8B08EBB94DF670FFAA0405  ___NativeArray_13, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_456 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector22, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_457 (RuntimeObject * __this, RuntimeObject * ___Object1, int8_t ___SByte2, DebugScreenCapture_t0250AAA3AE55F6AE2BDDBC4F85B00E2519A8CEF2  ___DebugScreenCapture3, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_457 (RuntimeObject * __this, CircleOptions_t45C5FB5E55882A9276C7E7D11F65426C10592F6A  ___CircleOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector27, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector28, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_458 (RuntimeObject * __this, PathOptions_tE44D7F93669AF298F0376DB1276BFAF8902F65A7  ___PathOptions1, RuntimeObject * ___Object2, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion3, RuntimeObject * ___Object4, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_458 (RuntimeObject * __this, VectorOptions_t385A0AFDBE150CC9F61EA0DC03FEA860BA5EA322  ___VectorOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector27, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector28, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_459 (RuntimeObject * __this, KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  ___KeyInfo1, KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  ___KeyInfo2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_459 (RuntimeObject * __this, PathOptions_tE44D7F93669AF298F0376DB1276BFAF8902F65A7  ___PathOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, RuntimeObject * ___Object7, RuntimeObject * ___Object8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_460 (RuntimeObject * __this, int8_t ___SByte1, int8_t ___SByte2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_460 (RuntimeObject * __this, Vector3ArrayOptions_t3E84666D670017F133C32243F0709A3852F05257  ___Vector3ArrayOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, RuntimeObject * ___Object7, RuntimeObject * ___Object8, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_461 (RuntimeObject * __this, uint8_t ___Byte1, uint8_t ___Byte2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_461 (RuntimeObject * __this, VectorOptions_t385A0AFDBE150CC9F61EA0DC03FEA860BA5EA322  ___VectorOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector37, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector38, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_462 (RuntimeObject * __this, int16_t ___Int161, int16_t ___Int162, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_462 (RuntimeObject * __this, RuntimeObject * ___Object1, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector42, int8_t ___SByte3, int8_t ___SByte4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_463 (RuntimeObject * __this, KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  ___KeyValuePair_21, KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  ___KeyValuePair_22, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_463 (RuntimeObject * __this, VectorOptions_t385A0AFDBE150CC9F61EA0DC03FEA860BA5EA322  ___VectorOptions1, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, RuntimeObject * ___Object5, float ___Single6, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector47, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector48, float ___Single9, int8_t ___SByte10, int32_t ___Int3211, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_464 (RuntimeObject * __this, KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  ___KeyValuePair_21, KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  ___KeyValuePair_22, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_464 (RuntimeObject * __this, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_465 (RuntimeObject * __this, DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  ___DateTime1, DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  ___DateTime2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_465 (RuntimeObject * __this, AsyncOperationHandle_1_tB9F319F374D61AC027F59FA93D1EF174BE7D6EF9  ___AsyncOperationHandle_11, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_466 (RuntimeObject * __this, DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___DateTimeOffset1, DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___DateTimeOffset2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_466 (RuntimeObject * __this, AsyncOperationHandle_1_t717850C92508D915E896FA933B507E326D1D98BE  ___AsyncOperationHandle_11, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_467 (RuntimeObject * __this, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___Decimal1, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___Decimal2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_467 (RuntimeObject * __this, AsyncOperationHandle_1_tA3D61DC158CEEADB7D17CA260C0AF36D84E79632  ___AsyncOperationHandle_11, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_468 (RuntimeObject * __this, double ___Double1, double ___Double2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_468 (RuntimeObject * __this, AsyncOperationHandle_1_t55DB59264A54E9329C55584520C24FD09E5BA024  ___AsyncOperationHandle_11, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_469 (RuntimeObject * __this, int64_t ___Int641, int64_t ___Int642, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_469 (RuntimeObject * __this, DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B  ___DiagnosticEvent1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_470 (RuntimeObject * __this, float ___Single1, float ___Single2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_470 (RuntimeObject * __this, DiagnosticEventContext_tA7CD037EBDF1B867429301566D44CA6672809C3E  ___DiagnosticEventContext1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_471 (RuntimeObject * __this, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___TimeSpan1, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___TimeSpan2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_471 (RuntimeObject * __this, ARCameraFrameEventArgs_t25F661E15E542829DB3CAAD158FED01CC8874672  ___ARCameraFrameEventArgs1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_472 (RuntimeObject * __this, uint16_t ___UInt161, uint16_t ___UInt162, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_472 (RuntimeObject * __this, AREnvironmentProbesChangedEvent_t9DE50A9ADFB748D7D217823A211EE29847086A91  ___AREnvironmentProbesChangedEvent1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_473 (RuntimeObject * __this, uint32_t ___UInt321, uint32_t ___UInt322, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_473 (RuntimeObject * __this, ARFaceUpdatedEventArgs_t699190818DE910123AD1334A80B4AB7C07C2605D  ___ARFaceUpdatedEventArgs1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_474 (RuntimeObject * __this, uint64_t ___UInt641, uint64_t ___UInt642, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_474 (RuntimeObject * __this, ARFacesChangedEventArgs_tEBEBBB4C67D42971A7434AA6289EEC3A81030CE7  ___ARFacesChangedEventArgs1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_475 (RuntimeObject * __this, RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  ___RangePositionInfo1, RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  ___RangePositionInfo2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_475 (RuntimeObject * __this, ARFoundationBackgroundRendererChangedEventArgs_tC07E0710F73B174679974D85908F81F51A7ED527  ___ARFoundationBackgroundRendererChangedEventArgs1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_476 (RuntimeObject * __this, XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  ___XmlSchemaObjectEntry1, XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  ___XmlSchemaObjectEntry2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_476 (RuntimeObject * __this, ARMeshesChangedEventArgs_t3964E364B190B3699E8DEF26B5C5578DDF896B2D  ___ARMeshesChangedEventArgs1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_477 (RuntimeObject * __this, NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  ___NativeArray_11, NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  ___NativeArray_12, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_477 (RuntimeObject * __this, ARPlaneBoundaryChangedEventArgs_tA15FDEF8B4549CC68EBEBBCF1465205AEFACE013  ___ARPlaneBoundaryChangedEventArgs1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_478 (RuntimeObject * __this, OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  ___OrderBlock1, OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  ___OrderBlock2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_478 (RuntimeObject * __this, ARPlanesChangedEventArgs_tF37A2B029AF11A39989174B82CD4F7D4670C9FC5  ___ARPlanesChangedEventArgs1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_479 (RuntimeObject * __this, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___Color321, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___Color322, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_479 (RuntimeObject * __this, ARPointCloudChangedEventArgs_tE62CA6173559A72E92B2A4D6DDD45DEF46C7AADC  ___ARPointCloudChangedEventArgs1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_480 (RuntimeObject * __this, RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___RaycastResult1, RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___RaycastResult2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_480 (RuntimeObject * __this, ARPointCloudUpdatedEventArgs_t86D3B452398F031801009934DDD131427344DA20  ___ARPointCloudUpdatedEventArgs1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_481 (RuntimeObject * __this, RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  ___RaycastHit2D1, RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  ___RaycastHit2D2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_481 (RuntimeObject * __this, ARReferencePointsChangedEventArgs_t21C8CF418E0A8B7C6A8682D1FE4DA95E8D41021E  ___ARReferencePointsChangedEventArgs1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_482 (RuntimeObject * __this, RaycastHit_t19695F18F9265FE5425062BBA6A4D330480538C3  ___RaycastHit1, RaycastHit_t19695F18F9265FE5425062BBA6A4D330480538C3  ___RaycastHit2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_482 (RuntimeObject * __this, ARSessionStateChangedEventArgs_tAB726C94F3164280811C27B77D92B0189C302082  ___ARSessionStateChangedEventArgs1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_483 (RuntimeObject * __this, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___PoseData1, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___PoseData2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_483 (RuntimeObject * __this, ARTrackedImagesChangedEventArgs_t64F82ABE51189C62E3811D96F2C2143DB91669E4  ___ARTrackedImagesChangedEventArgs1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_484 (RuntimeObject * __this, UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  ___UICharInfo1, UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  ___UICharInfo2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_484 (RuntimeObject * __this, InputDevice_tF13BD967109BAB2CF49E1304EDFDA255067A2CDC  ___InputDevice1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_485 (RuntimeObject * __this, UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  ___UILineInfo1, UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  ___UILineInfo2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_485 (RuntimeObject * __this, MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A  ___MeshGenerationResult1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_486 (RuntimeObject * __this, UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  ___UIVertex1, UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  ___UIVertex2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_486 (RuntimeObject * __this, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_487 (RuntimeObject * __this, WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  ___WorkRequest1, WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  ___WorkRequest2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_487 (RuntimeObject * __this, int8_t ___SByte1, RuntimeObject * ___Object2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_488 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector22, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_488 (RuntimeObject * __this, int32_t ___Int321, ARWorldMap_t8BAE5D083A023D7DD23C29E4082B6BBD329010DE  ___ARWorldMap2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_489 (RuntimeObject * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector31, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector32, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_489 (RuntimeObject * __this, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle1, RuntimeObject * ___Object2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_490 (RuntimeObject * __this, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector41, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector42, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_490 (RuntimeObject * __this, int32_t ___Int321, XRCameraImageConversionParams_t94D5A9992C6D9C03637B14C4399D4CAE35F899C5  ___XRCameraImageConversionParams2, NativeArray_1_tB942A78CFAC276F95E8B08EBB94DF670FFAA0405  ___NativeArray_13, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_491 (RuntimeObject * __this, TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  ___TextureInfo1, TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  ___TextureInfo2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_491 (RuntimeObject * __this, RuntimeObject * ___Object1, int8_t ___SByte2, DebugScreenCapture_t0250AAA3AE55F6AE2BDDBC4F85B00E2519A8CEF2  ___DebugScreenCapture3, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_492 (RuntimeObject * __this, ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  ___ARRaycastHit1, ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  ___ARRaycastHit2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_492 (RuntimeObject * __this, PathOptions_tE44D7F93669AF298F0376DB1276BFAF8902F65A7  ___PathOptions1, RuntimeObject * ___Object2, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___Quaternion3, RuntimeObject * ___Object4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_493 (RuntimeObject * __this, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId1, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_493 (RuntimeObject * __this, int32_t ___Int321, RuntimeObject * ___Object2, int8_t ___SByte3, RuntimeObject * ___Object4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_494 (RuntimeObject * __this, XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  ___XRReferenceImage1, XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  ___XRReferenceImage2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_494 (RuntimeObject * __this, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle1, int32_t ___Int322, int32_t ___Int323, RuntimeObject * ___Object4, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_495 (RuntimeObject * __this, MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  ___MeshInfo1, MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  ___MeshInfo2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_495 (RuntimeObject * __this, KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  ___KeyInfo1, KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  ___KeyInfo2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_496 (RuntimeObject * __this, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState1, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_496 (RuntimeObject * __this, RuntimeBuildLog_t1E879632D1AAA1D6C22018CCD41812929740BB44  ___RuntimeBuildLog1, RuntimeBuildLog_t1E879632D1AAA1D6C22018CCD41812929740BB44  ___RuntimeBuildLog2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_497 (RuntimeObject * __this, XPathNodeRef_t6F631244BF7B58CE7DB9239662B4EE745CD54E14  ___XPathNodeRef1, XPathNodeRef_t6F631244BF7B58CE7DB9239662B4EE745CD54E14  ___XPathNodeRef2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_497 (RuntimeObject * __this, int8_t ___SByte1, int8_t ___SByte2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_498 (RuntimeObject * __this, XPathNodeRef_t6F631244BF7B58CE7DB9239662B4EE745CD54E14  ___XPathNodeRef1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_498 (RuntimeObject * __this, uint8_t ___Byte1, uint8_t ___Byte2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_499 (RuntimeObject * __this, KeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE  ___KeyValuePair_21, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_499 (RuntimeObject * __this, int16_t ___Int161, int16_t ___Int162, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_500 (RuntimeObject * __this, KeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE  ___KeyValuePair_21, KeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE  ___KeyValuePair_22, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_500 (RuntimeObject * __this, KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  ___KeyValuePair_21, KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  ___KeyValuePair_22, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_501 (RuntimeObject * __this, Guid_t  ___Guid1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_501 (RuntimeObject * __this, KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  ___KeyValuePair_21, KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  ___KeyValuePair_22, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_502 (RuntimeObject * __this, Guid_t  ___Guid1, Guid_t  ___Guid2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_502 (RuntimeObject * __this, DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  ___DateTime1, DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  ___DateTime2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_503 (RuntimeObject * __this, XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  ___XRReferenceImage1, XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  ___XRReferenceImage2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_503 (RuntimeObject * __this, DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___DateTimeOffset1, DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___DateTimeOffset2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_504 (RuntimeObject * __this, int64_t ___Int641, int64_t ___Int642, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_504 (RuntimeObject * __this, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___Decimal1, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___Decimal2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_505 (RuntimeObject * __this, ResourceLocator_t1783916E271C27CB09DF57E7E5ED08ECA4B3275C  ___ResourceLocator1, ResourceLocator_t1783916E271C27CB09DF57E7E5ED08ECA4B3275C  ___ResourceLocator2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_505 (RuntimeObject * __this, double ___Double1, double ___Double2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_506 (RuntimeObject * __this, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_506 (RuntimeObject * __this, int64_t ___Int641, int64_t ___Int642, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_507 (RuntimeObject * __this, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId1, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_507 (RuntimeObject * __this, float ___Single1, float ___Single2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_508 (RuntimeObject * __this, MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  ___MeshInfo1, MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  ___MeshInfo2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_508 (RuntimeObject * __this, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___TimeSpan1, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___TimeSpan2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_509 (RuntimeObject * __this, MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  ___MeshId1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_509 (RuntimeObject * __this, uint16_t ___UInt161, uint16_t ___UInt162, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_510 (RuntimeObject * __this, MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  ___MeshId1, MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  ___MeshId2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_510 (RuntimeObject * __this, uint32_t ___UInt321, uint32_t ___UInt322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_511 (RuntimeObject * __this, KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  ___KeyInfo1, KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  ___KeyInfo2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_511 (RuntimeObject * __this, uint64_t ___UInt641, uint64_t ___UInt642, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_512 (RuntimeObject * __this, KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  ___KeyInfo1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_512 (RuntimeObject * __this, RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  ___RangePositionInfo1, RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  ___RangePositionInfo2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_513 (RuntimeObject * __this, uint8_t ___Byte1, uint8_t ___Byte2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_513 (RuntimeObject * __this, XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  ___XmlSchemaObjectEntry1, XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  ___XmlSchemaObjectEntry2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_514 (RuntimeObject * __this, uint8_t ___Byte1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_514 (RuntimeObject * __this, NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  ___NativeArray_11, NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  ___NativeArray_12, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_515 (RuntimeObject * __this, int16_t ___Int161, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_515 (RuntimeObject * __this, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  ___ConstraintSource1, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  ___ConstraintSource2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_516 (RuntimeObject * __this, KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  ___KeyValuePair_21, KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  ___KeyValuePair_22, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_516 (RuntimeObject * __this, OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  ___OrderBlock1, OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  ___OrderBlock2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_517 (RuntimeObject * __this, KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  ___KeyValuePair_21, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_517 (RuntimeObject * __this, BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1  ___BoneWeight1, BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1  ___BoneWeight2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_518 (RuntimeObject * __this, KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  ___KeyValuePair_21, KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  ___KeyValuePair_22, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_518 (RuntimeObject * __this, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___Color321, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___Color322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_519 (RuntimeObject * __this, KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  ___KeyValuePair_21, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_519 (RuntimeObject * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color1, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_520 (RuntimeObject * __this, DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  ___DateTime1, DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  ___DateTime2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_520 (RuntimeObject * __this, RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___RaycastResult1, RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___RaycastResult2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_521 (RuntimeObject * __this, DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___DateTimeOffset1, DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___DateTimeOffset2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_521 (RuntimeObject * __this, Matrix4x4_t6BF60F70C9169DF14C9D2577672A44224B236ECA  ___Matrix4x41, Matrix4x4_t6BF60F70C9169DF14C9D2577672A44224B236ECA  ___Matrix4x42, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_522 (RuntimeObject * __this, DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___DateTimeOffset1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_522 (RuntimeObject * __this, RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  ___RaycastHit2D1, RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  ___RaycastHit2D2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_523 (RuntimeObject * __this, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___Decimal1, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___Decimal2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_523 (RuntimeObject * __this, RaycastHit_t19695F18F9265FE5425062BBA6A4D330480538C3  ___RaycastHit1, RaycastHit_t19695F18F9265FE5425062BBA6A4D330480538C3  ___RaycastHit2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_524 (RuntimeObject * __this, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___Decimal1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_524 (RuntimeObject * __this, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect1, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_525 (RuntimeObject * __this, double ___Double1, double ___Double2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_525 (RuntimeObject * __this, VertexAttributeDescriptor_t1E87473A5C1E3A379EE43EF2F64E0F03FCC71D59  ___VertexAttributeDescriptor1, VertexAttributeDescriptor_t1E87473A5C1E3A379EE43EF2F64E0F03FCC71D59  ___VertexAttributeDescriptor2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_526 (RuntimeObject * __this, ResourceLocator_t1783916E271C27CB09DF57E7E5ED08ECA4B3275C  ___ResourceLocator1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_526 (RuntimeObject * __this, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle1, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_527 (RuntimeObject * __this, float ___Single1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_527 (RuntimeObject * __this, DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B  ___DiagnosticEvent1, DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B  ___DiagnosticEvent2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_528 (RuntimeObject * __this, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___TimeSpan1, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___TimeSpan2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_528 (RuntimeObject * __this, DeferredCallbackRegisterRequest_t8CD5DA3C2E14ADDC75241644C14A7EADD77D79FD  ___DeferredCallbackRegisterRequest1, DeferredCallbackRegisterRequest_t8CD5DA3C2E14ADDC75241644C14A7EADD77D79FD  ___DeferredCallbackRegisterRequest2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_529 (RuntimeObject * __this, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___TimeSpan1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_529 (RuntimeObject * __this, DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B  ___DelegateInfo1, DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B  ___DelegateInfo2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_530 (RuntimeObject * __this, uint16_t ___UInt161, uint16_t ___UInt162, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_530 (RuntimeObject * __this, ObjectInitializationData_tC00BF9C8049326F9F0DAD00A4337AD174723EE42  ___ObjectInitializationData1, ObjectInitializationData_tC00BF9C8049326F9F0DAD00A4337AD174723EE42  ___ObjectInitializationData2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_531 (RuntimeObject * __this, uint16_t ___UInt161, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_531 (RuntimeObject * __this, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___PoseData1, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___PoseData2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_532 (RuntimeObject * __this, uint32_t ___UInt321, uint32_t ___UInt322, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_532 (RuntimeObject * __this, UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  ___UICharInfo1, UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  ___UICharInfo2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_533 (RuntimeObject * __this, uint32_t ___UInt321, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_533 (RuntimeObject * __this, UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  ___UILineInfo1, UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  ___UILineInfo2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_534 (RuntimeObject * __this, uint64_t ___UInt641, uint64_t ___UInt642, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_534 (RuntimeObject * __this, UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  ___UIVertex1, UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  ___UIVertex2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_535 (RuntimeObject * __this, uint64_t ___UInt641, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_535 (RuntimeObject * __this, WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  ___WorkRequest1, WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  ___WorkRequest2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_536 (RuntimeObject * __this, RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  ___RangePositionInfo1, RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  ___RangePositionInfo2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_536 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector22, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_537 (RuntimeObject * __this, RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  ___RangePositionInfo1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_537 (RuntimeObject * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector31, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector32, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_538 (RuntimeObject * __this, XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  ___XmlSchemaObjectEntry1, XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  ___XmlSchemaObjectEntry2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_538 (RuntimeObject * __this, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector41, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector42, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_539 (RuntimeObject * __this, XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  ___XmlSchemaObjectEntry1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_539 (RuntimeObject * __this, TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  ___TextureInfo1, TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  ___TextureInfo2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_540 (RuntimeObject * __this, NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  ___NativeArray_11, NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  ___NativeArray_12, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_540 (RuntimeObject * __this, ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  ___ARRaycastHit1, ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  ___ARRaycastHit2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_541 (RuntimeObject * __this, NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  ___NativeArray_11, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_541 (RuntimeObject * __this, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId1, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_542 (RuntimeObject * __this, OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  ___OrderBlock1, OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  ___OrderBlock2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_542 (RuntimeObject * __this, XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  ___XRReferenceImage1, XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  ___XRReferenceImage2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_543 (RuntimeObject * __this, OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  ___OrderBlock1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_543 (RuntimeObject * __this, MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  ___MeshInfo1, MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  ___MeshInfo2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_544 (RuntimeObject * __this, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___Color321, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___Color322, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_544 (RuntimeObject * __this, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState1, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_545 (RuntimeObject * __this, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___Color321, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_545 (RuntimeObject * __this, XPathNodeRef_t6F631244BF7B58CE7DB9239662B4EE745CD54E14  ___XPathNodeRef1, XPathNodeRef_t6F631244BF7B58CE7DB9239662B4EE745CD54E14  ___XPathNodeRef2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_546 (RuntimeObject * __this, RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___RaycastResult1, RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___RaycastResult2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_546 (RuntimeObject * __this, XPathNodeRef_t6F631244BF7B58CE7DB9239662B4EE745CD54E14  ___XPathNodeRef1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_547 (RuntimeObject * __this, RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___RaycastResult1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_547 (RuntimeObject * __this, KeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE  ___KeyValuePair_21, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_548 (RuntimeObject * __this, RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  ___RaycastHit2D1, RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  ___RaycastHit2D2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_548 (RuntimeObject * __this, KeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE  ___KeyValuePair_21, KeyValuePair_2_t23481547E419E16E3B96A303578C1EB685C99EEE  ___KeyValuePair_22, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_549 (RuntimeObject * __this, RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  ___RaycastHit2D1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_549 (RuntimeObject * __this, Guid_t  ___Guid1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_550 (RuntimeObject * __this, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___PoseData1, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___PoseData2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_550 (RuntimeObject * __this, Guid_t  ___Guid1, Guid_t  ___Guid2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_551 (RuntimeObject * __this, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___PoseData1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_551 (RuntimeObject * __this, XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  ___XRReferenceImage1, XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  ___XRReferenceImage2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_552 (RuntimeObject * __this, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  ___ColorBlock1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_552 (RuntimeObject * __this, DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B  ___DiagnosticEvent1, DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B  ___DiagnosticEvent2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_553 (RuntimeObject * __this, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  ___Navigation1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_553 (RuntimeObject * __this, int64_t ___Int641, int64_t ___Int642, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_554 (RuntimeObject * __this, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  ___SpriteState1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_554 (RuntimeObject * __this, ResourceLocator_t1783916E271C27CB09DF57E7E5ED08ECA4B3275C  ___ResourceLocator1, ResourceLocator_t1783916E271C27CB09DF57E7E5ED08ECA4B3275C  ___ResourceLocator2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_555 (RuntimeObject * __this, UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  ___UICharInfo1, UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  ___UICharInfo2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_555 (RuntimeObject * __this, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle1, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_556 (RuntimeObject * __this, UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  ___UICharInfo1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_556 (RuntimeObject * __this, AsyncOperationHandle_1_tA3D61DC158CEEADB7D17CA260C0AF36D84E79632  ___AsyncOperationHandle_11, AsyncOperationHandle_1_tA3D61DC158CEEADB7D17CA260C0AF36D84E79632  ___AsyncOperationHandle_12, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_557 (RuntimeObject * __this, UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  ___UILineInfo1, UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  ___UILineInfo2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_557 (RuntimeObject * __this, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_558 (RuntimeObject * __this, UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  ___UILineInfo1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_558 (RuntimeObject * __this, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId1, TrackableId_tA7E19AFE62176E25E3759548887E9068E1E4AE47  ___TrackableId2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_559 (RuntimeObject * __this, UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  ___UIVertex1, UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  ___UIVertex2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_559 (RuntimeObject * __this, MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  ___MeshInfo1, MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  ___MeshInfo2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_560 (RuntimeObject * __this, UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  ___UIVertex1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_560 (RuntimeObject * __this, MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  ___MeshId1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_561 (RuntimeObject * __this, WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  ___WorkRequest1, WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  ___WorkRequest2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_561 (RuntimeObject * __this, MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  ___MeshId1, MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  ___MeshId2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_562 (RuntimeObject * __this, WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  ___WorkRequest1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_562 (RuntimeObject * __this, KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  ___KeyInfo1, KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  ___KeyInfo2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_563 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector22, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_563 (RuntimeObject * __this, KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  ___KeyInfo1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_564 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_564 (RuntimeObject * __this, RuntimeBuildLog_t1E879632D1AAA1D6C22018CCD41812929740BB44  ___RuntimeBuildLog1, RuntimeBuildLog_t1E879632D1AAA1D6C22018CCD41812929740BB44  ___RuntimeBuildLog2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_565 (RuntimeObject * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector31, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector32, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_565 (RuntimeObject * __this, RuntimeBuildLog_t1E879632D1AAA1D6C22018CCD41812929740BB44  ___RuntimeBuildLog1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_566 (RuntimeObject * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector31, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_566 (RuntimeObject * __this, uint8_t ___Byte1, uint8_t ___Byte2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_567 (RuntimeObject * __this, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector41, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector42, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_567 (RuntimeObject * __this, uint8_t ___Byte1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_568 (RuntimeObject * __this, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector41, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_568 (RuntimeObject * __this, int16_t ___Int161, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_569 (RuntimeObject * __this, TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  ___TextureInfo1, TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  ___TextureInfo2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_569 (RuntimeObject * __this, KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  ___KeyValuePair_21, KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  ___KeyValuePair_22, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_570 (RuntimeObject * __this, TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  ___TextureInfo1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_570 (RuntimeObject * __this, KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  ___KeyValuePair_21, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_571 (RuntimeObject * __this, ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  ___ARRaycastHit1, ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  ___ARRaycastHit2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_571 (RuntimeObject * __this, KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  ___KeyValuePair_21, KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  ___KeyValuePair_22, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_572 (RuntimeObject * __this, ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  ___ARRaycastHit1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_572 (RuntimeObject * __this, KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  ___KeyValuePair_21, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_573 (RuntimeObject * __this, XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  ___XRReferenceImage1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_573 (RuntimeObject * __this, DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  ___DateTime1, DateTime_t349B7449FBAAFF4192636E2B7A07694DA9236132  ___DateTime2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_574 (RuntimeObject * __this, MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  ___MeshInfo1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_574 (RuntimeObject * __this, DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___DateTimeOffset1, DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___DateTimeOffset2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_575 (RuntimeObject * __this, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState1, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_575 (RuntimeObject * __this, DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___DateTimeOffset1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_576 (RuntimeObject * __this, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_576 (RuntimeObject * __this, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___Decimal1, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___Decimal2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  UnresolvedVirtualCall_577 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_577 (RuntimeObject * __this, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___Decimal1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  UnresolvedVirtualCall_578 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_578 (RuntimeObject * __this, double ___Double1, double ___Double2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  UnresolvedVirtualCall_579 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_579 (RuntimeObject * __this, ResourceLocator_t1783916E271C27CB09DF57E7E5ED08ECA4B3275C  ___ResourceLocator1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  UnresolvedVirtualCall_580 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_580 (RuntimeObject * __this, float ___Single1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  UnresolvedVirtualCall_581 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_581 (RuntimeObject * __this, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___TimeSpan1, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___TimeSpan2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  UnresolvedVirtualCall_582 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_582 (RuntimeObject * __this, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___TimeSpan1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  UnresolvedVirtualCall_583 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_583 (RuntimeObject * __this, uint16_t ___UInt161, uint16_t ___UInt162, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  UnresolvedVirtualCall_584 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_584 (RuntimeObject * __this, uint16_t ___UInt161, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  UnresolvedVirtualCall_585 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_585 (RuntimeObject * __this, uint32_t ___UInt321, uint32_t ___UInt322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  UnresolvedVirtualCall_586 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_586 (RuntimeObject * __this, uint32_t ___UInt321, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  UnresolvedVirtualCall_587 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_587 (RuntimeObject * __this, uint64_t ___UInt641, uint64_t ___UInt642, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  UnresolvedVirtualCall_588 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_588 (RuntimeObject * __this, uint64_t ___UInt641, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  UnresolvedVirtualCall_589 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_589 (RuntimeObject * __this, RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  ___RangePositionInfo1, RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  ___RangePositionInfo2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  UnresolvedVirtualCall_590 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_590 (RuntimeObject * __this, RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  ___RangePositionInfo1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  UnresolvedVirtualCall_591 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_591 (RuntimeObject * __this, SequenceConstructPosContext_t72DF930B1BE2676BD225E8D9622C78EF2B0DFAC1  ___SequenceConstructPosContext1, SequenceConstructPosContext_t72DF930B1BE2676BD225E8D9622C78EF2B0DFAC1  ___SequenceConstructPosContext2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  UnresolvedVirtualCall_592 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_592 (RuntimeObject * __this, SequenceConstructPosContext_t72DF930B1BE2676BD225E8D9622C78EF2B0DFAC1  ___SequenceConstructPosContext1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  UnresolvedVirtualCall_593 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_593 (RuntimeObject * __this, XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  ___XmlSchemaObjectEntry1, XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  ___XmlSchemaObjectEntry2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  UnresolvedVirtualCall_594 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_594 (RuntimeObject * __this, XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  ___XmlSchemaObjectEntry1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  UnresolvedVirtualCall_595 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_595 (RuntimeObject * __this, NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  ___NativeArray_11, NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  ___NativeArray_12, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  UnresolvedVirtualCall_596 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_596 (RuntimeObject * __this, NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  ___NativeArray_11, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  UnresolvedVirtualCall_597 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_597 (RuntimeObject * __this, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  ___ConstraintSource1, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  ___ConstraintSource2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_598 (RuntimeObject * __this, CustomAttributeNamedArgument_t08BA731A94FD7F173551DF3098384CB9B3056E9E  ___CustomAttributeNamedArgument1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_598 (RuntimeObject * __this, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  ___ConstraintSource1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_599 (RuntimeObject * __this, CustomAttributeNamedArgument_t08BA731A94FD7F173551DF3098384CB9B3056E9E  ___CustomAttributeNamedArgument1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_599 (RuntimeObject * __this, OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  ___OrderBlock1, OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  ___OrderBlock2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_600 (RuntimeObject * __this, CustomAttributeTypedArgument_t238ACCB3A438CB5EDE4A924C637B288CCEC958E8  ___CustomAttributeTypedArgument1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_600 (RuntimeObject * __this, OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  ___OrderBlock1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_601 (RuntimeObject * __this, CustomAttributeTypedArgument_t238ACCB3A438CB5EDE4A924C637B288CCEC958E8  ___CustomAttributeTypedArgument1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_601 (RuntimeObject * __this, BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1  ___BoneWeight1, BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1  ___BoneWeight2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_602 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, RuntimeObject * ___Object3, int8_t ___SByte4, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_602 (RuntimeObject * __this, BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1  ___BoneWeight1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  VoidTaskResult_t66EBC10DDE738848DB00F6EC1A2536D7D4715F40  UnresolvedVirtualCall_603 (RuntimeObject * __this, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_603 (RuntimeObject * __this, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___Color321, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___Color322, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Nullable_1_t0D03270832B3FFDDC0E7C2D89D4A0EA25376A1EB  UnresolvedVirtualCall_604 (RuntimeObject * __this, RuntimeObject * ___Object1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_604 (RuntimeObject * __this, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___Color321, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  VoidTaskResult_t66EBC10DDE738848DB00F6EC1A2536D7D4715F40  UnresolvedVirtualCall_605 (RuntimeObject * __this, RuntimeObject * ___Object1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_605 (RuntimeObject * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color1, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_606 (RuntimeObject * __this, int32_t ___Int321, intptr_t ___IntPtr2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_606 (RuntimeObject * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_607 (RuntimeObject * __this, int32_t ___Int321, RuntimeObject * ___Object2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_607 (RuntimeObject * __this, RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___RaycastResult1, RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___RaycastResult2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  VoidTaskResult_t66EBC10DDE738848DB00F6EC1A2536D7D4715F40  UnresolvedVirtualCall_608 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_608 (RuntimeObject * __this, RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___RaycastResult1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  UnresolvedVirtualCall_609 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, int32_t ___Int322, int32_t ___Int323, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_609 (RuntimeObject * __this, Matrix4x4_t6BF60F70C9169DF14C9D2577672A44224B236ECA  ___Matrix4x41, Matrix4x4_t6BF60F70C9169DF14C9D2577672A44224B236ECA  ___Matrix4x42, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  RuntimeObject * UnresolvedVirtualCall_610 (RuntimeObject * __this, RuntimeObject * ___Object1, ReadWriteParameters_t5A9E416E0129249869039FC606326558DA3B597F  ___ReadWriteParameters2, RuntimeObject * ___Object3, RuntimeObject * ___Object4, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_610 (RuntimeObject * __this, Matrix4x4_t6BF60F70C9169DF14C9D2577672A44224B236ECA  ___Matrix4x41, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_611 (RuntimeObject * __this, KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  ___KeyInfo1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_611 (RuntimeObject * __this, RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  ___RaycastHit2D1, RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  ___RaycastHit2D2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_612 (RuntimeObject * __this, int8_t ___SByte1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_612 (RuntimeObject * __this, RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  ___RaycastHit2D1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_613 (RuntimeObject * __this, uint8_t ___Byte1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_613 (RuntimeObject * __this, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect1, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_614 (RuntimeObject * __this, int16_t ___Int161, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_614 (RuntimeObject * __this, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_615 (RuntimeObject * __this, KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  ___KeyValuePair_21, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_615 (RuntimeObject * __this, VertexAttributeDescriptor_t1E87473A5C1E3A379EE43EF2F64E0F03FCC71D59  ___VertexAttributeDescriptor1, VertexAttributeDescriptor_t1E87473A5C1E3A379EE43EF2F64E0F03FCC71D59  ___VertexAttributeDescriptor2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_616 (RuntimeObject * __this, KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  ___KeyValuePair_21, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_616 (RuntimeObject * __this, VertexAttributeDescriptor_t1E87473A5C1E3A379EE43EF2F64E0F03FCC71D59  ___VertexAttributeDescriptor1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_617 (RuntimeObject * __this, DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___DateTimeOffset1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_617 (RuntimeObject * __this, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_618 (RuntimeObject * __this, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___Decimal1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_618 (RuntimeObject * __this, AsyncOperationHandle_1_tA3D61DC158CEEADB7D17CA260C0AF36D84E79632  ___AsyncOperationHandle_11, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_619 (RuntimeObject * __this, float ___Single1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_619 (RuntimeObject * __this, DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B  ___DiagnosticEvent1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_620 (RuntimeObject * __this, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___TimeSpan1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_620 (RuntimeObject * __this, DeferredCallbackRegisterRequest_t8CD5DA3C2E14ADDC75241644C14A7EADD77D79FD  ___DeferredCallbackRegisterRequest1, DeferredCallbackRegisterRequest_t8CD5DA3C2E14ADDC75241644C14A7EADD77D79FD  ___DeferredCallbackRegisterRequest2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_621 (RuntimeObject * __this, uint16_t ___UInt161, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_621 (RuntimeObject * __this, DeferredCallbackRegisterRequest_t8CD5DA3C2E14ADDC75241644C14A7EADD77D79FD  ___DeferredCallbackRegisterRequest1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_622 (RuntimeObject * __this, uint32_t ___UInt321, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_622 (RuntimeObject * __this, DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B  ___DelegateInfo1, DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B  ___DelegateInfo2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_623 (RuntimeObject * __this, uint64_t ___UInt641, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_623 (RuntimeObject * __this, DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B  ___DelegateInfo1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_624 (RuntimeObject * __this, RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  ___RangePositionInfo1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_624 (RuntimeObject * __this, ObjectInitializationData_tC00BF9C8049326F9F0DAD00A4337AD174723EE42  ___ObjectInitializationData1, ObjectInitializationData_tC00BF9C8049326F9F0DAD00A4337AD174723EE42  ___ObjectInitializationData2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_625 (RuntimeObject * __this, XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  ___XmlSchemaObjectEntry1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_625 (RuntimeObject * __this, ObjectInitializationData_tC00BF9C8049326F9F0DAD00A4337AD174723EE42  ___ObjectInitializationData1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_626 (RuntimeObject * __this, NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  ___NativeArray_11, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_626 (RuntimeObject * __this, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___PoseData1, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___PoseData2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_627 (RuntimeObject * __this, OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  ___OrderBlock1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_627 (RuntimeObject * __this, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___PoseData1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_628 (RuntimeObject * __this, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___Color321, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_628 (RuntimeObject * __this, ColorBlock_t93B54DF6E8D65D24CEA9726CA745E48C53E3B1EA  ___ColorBlock1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_629 (RuntimeObject * __this, RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___RaycastResult1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_629 (RuntimeObject * __this, Navigation_t761250C05C09773B75F5E0D52DDCBBFE60288A07  ___Navigation1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_630 (RuntimeObject * __this, RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  ___RaycastHit2D1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_630 (RuntimeObject * __this, SpriteState_t58B9DD66A79CD69AB4CFC3AD0C41E45DC2192C0A  ___SpriteState1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_631 (RuntimeObject * __this, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___PoseData1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_631 (RuntimeObject * __this, UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  ___UICharInfo1, UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  ___UICharInfo2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_632 (RuntimeObject * __this, UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  ___UICharInfo1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_632 (RuntimeObject * __this, UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  ___UICharInfo1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_633 (RuntimeObject * __this, UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  ___UILineInfo1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_633 (RuntimeObject * __this, UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  ___UILineInfo1, UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  ___UILineInfo2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_634 (RuntimeObject * __this, UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  ___UIVertex1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_634 (RuntimeObject * __this, UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  ___UILineInfo1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_635 (RuntimeObject * __this, WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  ___WorkRequest1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_635 (RuntimeObject * __this, UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  ___UIVertex1, UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  ___UIVertex2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_636 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_636 (RuntimeObject * __this, UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  ___UIVertex1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_637 (RuntimeObject * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector31, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_637 (RuntimeObject * __this, WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  ___WorkRequest1, WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  ___WorkRequest2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_638 (RuntimeObject * __this, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector41, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_638 (RuntimeObject * __this, WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  ___WorkRequest1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_639 (RuntimeObject * __this, TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  ___TextureInfo1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_639 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector22, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_640 (RuntimeObject * __this, ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  ___ARRaycastHit1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_640 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_641 (RuntimeObject * __this, XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  ___XRReferenceImage1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_641 (RuntimeObject * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector31, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector32, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_642 (RuntimeObject * __this, MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  ___MeshInfo1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_642 (RuntimeObject * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector31, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_643 (RuntimeObject * __this, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_643 (RuntimeObject * __this, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector41, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector42, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_644 (RuntimeObject * __this, RuntimeObject * ___Object1, intptr_t ___IntPtr2, intptr_t ___IntPtr3, RuntimeObject * ___Object4, int32_t ___Int325, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_644 (RuntimeObject * __this, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector41, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_645 (RuntimeObject * __this, Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2  ___Scene1, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_645 (RuntimeObject * __this, TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  ___TextureInfo1, TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  ___TextureInfo2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_646 (RuntimeObject * __this, Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2  ___Scene1, int32_t ___Int322, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_646 (RuntimeObject * __this, TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  ___TextureInfo1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_647 (RuntimeObject * __this, Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2  ___Scene1, Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2  ___Scene2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_647 (RuntimeObject * __this, ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  ___ARRaycastHit1, ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  ___ARRaycastHit2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  TrackableChanges_1_t58DA4DDCECFD0F3DF5CFA68485A8D322B2D83CAE  UnresolvedVirtualCall_648 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_648 (RuntimeObject * __this, ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  ___ARRaycastHit1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_649 (RuntimeObject * __this, RuntimeObject * ___Object1, BoundedPlane_t5FBCC289E172852D4A9C51F6581B3C7EEE17A227  ___BoundedPlane2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_649 (RuntimeObject * __this, XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  ___XRReferenceImage1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  TrackableChanges_1_t5B1E235F751BB96851611F0EE82810617DA588C7  UnresolvedVirtualCall_650 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_650 (RuntimeObject * __this, MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  ___MeshInfo1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_651 (RuntimeObject * __this, RuntimeObject * ___Object1, XREnvironmentProbe_tDB5526F4BBECB568A61BB4E0BD38612DE053C5A2  ___XREnvironmentProbe2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_651 (RuntimeObject * __this, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState1, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  TrackableChanges_1_t316F273AB927198D6305E965CDB7B0ED758920E6  UnresolvedVirtualCall_652 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_652 (RuntimeObject * __this, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_653 (RuntimeObject * __this, RuntimeObject * ___Object1, XRFace_tF2B2E9B06813BA74F5DAFD527FD249DD1002B7C7  ___XRFace2, const RuntimeMethod* method)
+static  MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  UnresolvedVirtualCall_653 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  TrackableChanges_1_t67F5E50C0B7A063774AEC211C4C81BA7679876BB  UnresolvedVirtualCall_654 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+static  KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  UnresolvedVirtualCall_654 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_655 (RuntimeObject * __this, RuntimeObject * ___Object1, XRPointCloud_tA4A412DE503530E1B2953919F1463B9B48504ED0  ___XRPointCloud2, const RuntimeMethod* method)
+static  RuntimeBuildLog_t1E879632D1AAA1D6C22018CCD41812929740BB44  UnresolvedVirtualCall_655 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  TrackableChanges_1_t5C8C3FBA23E5BBC147A6991B68520A756EF54FDF  UnresolvedVirtualCall_656 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+static  KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  UnresolvedVirtualCall_656 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_657 (RuntimeObject * __this, RuntimeObject * ___Object1, XRReferencePoint_tA8592C08A27EC91D9B1FB3B083C95C5D372FF1F9  ___XRReferencePoint2, const RuntimeMethod* method)
+static  KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  UnresolvedVirtualCall_657 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  TrackableChanges_1_tE90399F00562881A054A3592F7AF134BA053AF4F  UnresolvedVirtualCall_658 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+static  DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  UnresolvedVirtualCall_658 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_659 (RuntimeObject * __this, RuntimeObject * ___Object1, XRTrackedImage_t178EACF5BFA4228DF4EB1899685C533F3F296AA8  ___XRTrackedImage2, const RuntimeMethod* method)
+static  RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  UnresolvedVirtualCall_659 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  UnresolvedVirtualCall_660 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  UnresolvedVirtualCall_661 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  UnresolvedVirtualCall_662 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  UnresolvedVirtualCall_663 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1  UnresolvedVirtualCall_664 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  UnresolvedVirtualCall_665 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  UnresolvedVirtualCall_666 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  Matrix4x4_t6BF60F70C9169DF14C9D2577672A44224B236ECA  UnresolvedVirtualCall_667 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  UnresolvedVirtualCall_668 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  VertexAttributeDescriptor_t1E87473A5C1E3A379EE43EF2F64E0F03FCC71D59  UnresolvedVirtualCall_669 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  DeferredCallbackRegisterRequest_t8CD5DA3C2E14ADDC75241644C14A7EADD77D79FD  UnresolvedVirtualCall_670 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B  UnresolvedVirtualCall_671 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  ObjectInitializationData_tC00BF9C8049326F9F0DAD00A4337AD174723EE42  UnresolvedVirtualCall_672 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  UnresolvedVirtualCall_673 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  UnresolvedVirtualCall_674 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  UnresolvedVirtualCall_675 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  UnresolvedVirtualCall_676 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  UnresolvedVirtualCall_677 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  UnresolvedVirtualCall_678 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  UnresolvedVirtualCall_679 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  UnresolvedVirtualCall_680 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  UnresolvedVirtualCall_681 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  UnresolvedVirtualCall_682 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_683 (RuntimeObject * __this, CustomAttributeNamedArgument_t08BA731A94FD7F173551DF3098384CB9B3056E9E  ___CustomAttributeNamedArgument1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int32_t UnresolvedVirtualCall_684 (RuntimeObject * __this, CustomAttributeNamedArgument_t08BA731A94FD7F173551DF3098384CB9B3056E9E  ___CustomAttributeNamedArgument1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_685 (RuntimeObject * __this, CustomAttributeTypedArgument_t238ACCB3A438CB5EDE4A924C637B288CCEC958E8  ___CustomAttributeTypedArgument1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int32_t UnresolvedVirtualCall_686 (RuntimeObject * __this, CustomAttributeTypedArgument_t238ACCB3A438CB5EDE4A924C637B288CCEC958E8  ___CustomAttributeTypedArgument1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  void UnresolvedVirtualCall_687 (RuntimeObject * __this, RuntimeObject * ___Object1, int32_t ___Int322, RuntimeObject * ___Object3, int8_t ___SByte4, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  VoidTaskResult_t66EBC10DDE738848DB00F6EC1A2536D7D4715F40  UnresolvedVirtualCall_688 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  DownloadStatus_tF853F6F3B70EBE3616DB8A302072D12A72DD5185  UnresolvedVirtualCall_689 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  SceneInstance_t51F6CCA46E7D95C7D96B120EF531A30409F02636  UnresolvedVirtualCall_690 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  Nullable_1_t0D03270832B3FFDDC0E7C2D89D4A0EA25376A1EB  UnresolvedVirtualCall_691 (RuntimeObject * __this, RuntimeObject * ___Object1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  VoidTaskResult_t66EBC10DDE738848DB00F6EC1A2536D7D4715F40  UnresolvedVirtualCall_692 (RuntimeObject * __this, RuntimeObject * ___Object1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  SceneInstance_t51F6CCA46E7D95C7D96B120EF531A30409F02636  UnresolvedVirtualCall_693 (RuntimeObject * __this, RuntimeObject * ___Object1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  AsyncOperationHandle_1_tB9F319F374D61AC027F59FA93D1EF174BE7D6EF9  UnresolvedVirtualCall_694 (RuntimeObject * __this, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  AsyncOperationHandle_1_t717850C92508D915E896FA933B507E326D1D98BE  UnresolvedVirtualCall_695 (RuntimeObject * __this, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  AsyncOperationHandle_1_tA3D61DC158CEEADB7D17CA260C0AF36D84E79632  UnresolvedVirtualCall_696 (RuntimeObject * __this, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  AsyncOperationHandle_1_t55DB59264A54E9329C55584520C24FD09E5BA024  UnresolvedVirtualCall_697 (RuntimeObject * __this, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  AsyncOperationHandle_1_tA3D61DC158CEEADB7D17CA260C0AF36D84E79632  UnresolvedVirtualCall_698 (RuntimeObject * __this, AsyncOperationHandle_1_tA3D61DC158CEEADB7D17CA260C0AF36D84E79632  ___AsyncOperationHandle_11, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  AsyncOperationHandle_1_t55DB59264A54E9329C55584520C24FD09E5BA024  UnresolvedVirtualCall_699 (RuntimeObject * __this, AsyncOperationHandle_1_t55DB59264A54E9329C55584520C24FD09E5BA024  ___AsyncOperationHandle_11, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_700 (RuntimeObject * __this, int32_t ___Int321, intptr_t ___IntPtr2, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_701 (RuntimeObject * __this, int32_t ___Int321, RuntimeObject * ___Object2, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  VoidTaskResult_t66EBC10DDE738848DB00F6EC1A2536D7D4715F40  UnresolvedVirtualCall_702 (RuntimeObject * __this, RuntimeObject * ___Object1, RuntimeObject * ___Object2, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  UnresolvedVirtualCall_703 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, int32_t ___Int322, int32_t ___Int323, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  RuntimeObject * UnresolvedVirtualCall_704 (RuntimeObject * __this, RuntimeObject * ___Object1, ReadWriteParameters_t5A9E416E0129249869039FC606326558DA3B597F  ___ReadWriteParameters2, RuntimeObject * ___Object3, RuntimeObject * ___Object4, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_705 (RuntimeObject * __this, KeyInfo_tE5FC024B7C6507C910292D7D1B2A8D6B43E123AC  ___KeyInfo1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_706 (RuntimeObject * __this, RuntimeBuildLog_t1E879632D1AAA1D6C22018CCD41812929740BB44  ___RuntimeBuildLog1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_707 (RuntimeObject * __this, int8_t ___SByte1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_708 (RuntimeObject * __this, uint8_t ___Byte1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_709 (RuntimeObject * __this, int16_t ___Int161, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_710 (RuntimeObject * __this, KeyValuePair_2_t5DDBBB9A3C8CBE3A4A39721E8F0A10AEBF13737B  ___KeyValuePair_21, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_711 (RuntimeObject * __this, KeyValuePair_2_t142B50DAD5164EBD2E1495FD821B1A4C3233FA26  ___KeyValuePair_21, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_712 (RuntimeObject * __this, DateTimeOffset_t6C333873402CAD576160B4F8E159EB6834F06B85  ___DateTimeOffset1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_713 (RuntimeObject * __this, Decimal_t44EE9DA309A1BF848308DE4DDFC070CAE6D95EE8  ___Decimal1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_714 (RuntimeObject * __this, float ___Single1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_715 (RuntimeObject * __this, TimeSpan_tA8069278ACE8A74D6DF7D514A9CD4432433F64C4  ___TimeSpan1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_716 (RuntimeObject * __this, uint16_t ___UInt161, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_717 (RuntimeObject * __this, uint32_t ___UInt321, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_718 (RuntimeObject * __this, uint64_t ___UInt641, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_719 (RuntimeObject * __this, RangePositionInfo_tDCA2617E7E1292998A9700E38DBBA177330A80CA  ___RangePositionInfo1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_720 (RuntimeObject * __this, XmlSchemaObjectEntry_tD7A5D31C794A4D04759882DDAD01103D2C19D63B  ___XmlSchemaObjectEntry1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_721 (RuntimeObject * __this, NativeArray_1_t769CF3061467D3B5B0062090193576AD726411C1  ___NativeArray_11, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_722 (RuntimeObject * __this, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  ___ConstraintSource1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_723 (RuntimeObject * __this, OrderBlock_t3B2BBCE8320FAEC3DB605F7DC9AB641102F53727  ___OrderBlock1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_724 (RuntimeObject * __this, BoneWeight_t9D77A4964F9376FE7E46CA6997882B91B8AAA9A1  ___BoneWeight1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_725 (RuntimeObject * __this, Color32_t23ABC4AE0E0BDFD2E22EE1FA0DA3904FFE5F6E23  ___Color321, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_726 (RuntimeObject * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___Color1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_727 (RuntimeObject * __this, RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___RaycastResult1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_728 (RuntimeObject * __this, Matrix4x4_t6BF60F70C9169DF14C9D2577672A44224B236ECA  ___Matrix4x41, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_729 (RuntimeObject * __this, RaycastHit2D_t5E8A7F96317BAF2033362FC780F4D72DC72764BE  ___RaycastHit2D1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_730 (RuntimeObject * __this, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___Rect1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_731 (RuntimeObject * __this, VertexAttributeDescriptor_t1E87473A5C1E3A379EE43EF2F64E0F03FCC71D59  ___VertexAttributeDescriptor1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_732 (RuntimeObject * __this, AsyncOperationHandle_tAC7DCCEDF2D1435FBF227C116E1B91768F2B2185  ___AsyncOperationHandle1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_733 (RuntimeObject * __this, DiagnosticEvent_tED3D7D0BE9ED237F4CDA86F69E2BC8C89BC3BD1B  ___DiagnosticEvent1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_734 (RuntimeObject * __this, DeferredCallbackRegisterRequest_t8CD5DA3C2E14ADDC75241644C14A7EADD77D79FD  ___DeferredCallbackRegisterRequest1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_735 (RuntimeObject * __this, DelegateInfo_t574D30C0FB1D2948420780E94FB26C50AD85FC8B  ___DelegateInfo1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_736 (RuntimeObject * __this, ObjectInitializationData_tC00BF9C8049326F9F0DAD00A4337AD174723EE42  ___ObjectInitializationData1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_737 (RuntimeObject * __this, PoseData_tF79A33767571168AAB333A85A6B6F0F9A8825DFE  ___PoseData1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_738 (RuntimeObject * __this, UICharInfo_tB4C92043A686A600D36A92E3108F173C499E318A  ___UICharInfo1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_739 (RuntimeObject * __this, UILineInfo_t0AF27251CA07CEE2BC0C1FEF752245596B8033E6  ___UILineInfo1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_740 (RuntimeObject * __this, UIVertex_t0583C35B730B218B542E80203F5F4BC6F1E9E577  ___UIVertex1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_741 (RuntimeObject * __this, WorkRequest_t0247B62D135204EAA95FC0B2EC829CB27B433F94  ___WorkRequest1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_742 (RuntimeObject * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___Vector21, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_743 (RuntimeObject * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___Vector31, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_744 (RuntimeObject * __this, Vector4_tD148D6428C3F8FF6CD998F82090113C2B490B76E  ___Vector41, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_745 (RuntimeObject * __this, TextureInfo_t807CD9BFEB4F3B2F68C1B8123F3151A93505FD08  ___TextureInfo1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_746 (RuntimeObject * __this, ARRaycastHit_t509D3DB25CAC944ED3D3092C0A6096F85DDDD1BC  ___ARRaycastHit1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_747 (RuntimeObject * __this, XRReferenceImage_t5A53387AC6253D5D3DFD62BC583A45BBDFC1347E  ___XRReferenceImage1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_748 (RuntimeObject * __this, MeshInfo_t4B920031BA3C7DD11936A8CCA4F0763BE6CAF7E3  ___MeshInfo1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  int8_t UnresolvedVirtualCall_749 (RuntimeObject * __this, XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A  ___XRNodeState1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  void UnresolvedVirtualCall_750 (RuntimeObject * __this, RuntimeObject * ___Object1, intptr_t ___IntPtr2, intptr_t ___IntPtr3, RuntimeObject * ___Object4, int32_t ___Int325, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  AsyncOperationHandle_1_tA3D61DC158CEEADB7D17CA260C0AF36D84E79632  UnresolvedVirtualCall_751 (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  void UnresolvedVirtualCall_752 (RuntimeObject * __this, Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2  ___Scene1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  void UnresolvedVirtualCall_753 (RuntimeObject * __this, Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2  ___Scene1, int32_t ___Int322, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  void UnresolvedVirtualCall_754 (RuntimeObject * __this, Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2  ___Scene1, Scene_t942E023788C2BC9FBB7EC8356B4FB0088B2CFED2  ___Scene2, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  void UnresolvedVirtualCall_755 (RuntimeObject * __this, ProvideHandle_tD4ED678FA81595AAE488308DDA1D2E8DA1D716B9  ___ProvideHandle1, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  TrackableChanges_1_t58DA4DDCECFD0F3DF5CFA68485A8D322B2D83CAE  UnresolvedVirtualCall_756 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  void UnresolvedVirtualCall_757 (RuntimeObject * __this, RuntimeObject * ___Object1, BoundedPlane_t5FBCC289E172852D4A9C51F6581B3C7EEE17A227  ___BoundedPlane2, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  TrackableChanges_1_t5B1E235F751BB96851611F0EE82810617DA588C7  UnresolvedVirtualCall_758 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  void UnresolvedVirtualCall_759 (RuntimeObject * __this, RuntimeObject * ___Object1, XREnvironmentProbe_tDB5526F4BBECB568A61BB4E0BD38612DE053C5A2  ___XREnvironmentProbe2, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  TrackableChanges_1_t316F273AB927198D6305E965CDB7B0ED758920E6  UnresolvedVirtualCall_760 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  void UnresolvedVirtualCall_761 (RuntimeObject * __this, RuntimeObject * ___Object1, XRFace_tF2B2E9B06813BA74F5DAFD527FD249DD1002B7C7  ___XRFace2, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  TrackableChanges_1_t67F5E50C0B7A063774AEC211C4C81BA7679876BB  UnresolvedVirtualCall_762 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  void UnresolvedVirtualCall_763 (RuntimeObject * __this, RuntimeObject * ___Object1, XRPointCloud_tA4A412DE503530E1B2953919F1463B9B48504ED0  ___XRPointCloud2, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  TrackableChanges_1_t5C8C3FBA23E5BBC147A6991B68520A756EF54FDF  UnresolvedVirtualCall_764 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  void UnresolvedVirtualCall_765 (RuntimeObject * __this, RuntimeObject * ___Object1, XRReferencePoint_tA8592C08A27EC91D9B1FB3B083C95C5D372FF1F9  ___XRReferencePoint2, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  TrackableChanges_1_tE90399F00562881A054A3592F7AF134BA053AF4F  UnresolvedVirtualCall_766 (RuntimeObject * __this, int32_t ___Int321, const RuntimeMethod* method)
+{
+	il2cpp_codegen_raise_execution_engine_exception(method);
+	il2cpp_codegen_no_return();
+}
+
+static  void UnresolvedVirtualCall_767 (RuntimeObject * __this, RuntimeObject * ___Object1, XRTrackedImage_t178EACF5BFA4228DF4EB1899685C533F3F296AA8  ___XRTrackedImage2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
 extern const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[];
-const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[660] = 
+const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[768] = 
 {
 	(const Il2CppMethodPointer) UnresolvedVirtualCall_0,
 	(const Il2CppMethodPointer) UnresolvedVirtualCall_1,
@@ -13446,4 +15599,112 @@ const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[660] =
 	(const Il2CppMethodPointer) UnresolvedVirtualCall_657,
 	(const Il2CppMethodPointer) UnresolvedVirtualCall_658,
 	(const Il2CppMethodPointer) UnresolvedVirtualCall_659,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_660,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_661,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_662,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_663,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_664,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_665,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_666,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_667,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_668,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_669,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_670,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_671,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_672,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_673,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_674,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_675,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_676,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_677,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_678,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_679,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_680,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_681,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_682,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_683,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_684,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_685,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_686,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_687,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_688,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_689,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_690,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_691,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_692,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_693,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_694,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_695,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_696,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_697,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_698,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_699,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_700,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_701,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_702,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_703,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_704,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_705,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_706,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_707,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_708,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_709,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_710,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_711,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_712,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_713,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_714,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_715,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_716,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_717,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_718,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_719,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_720,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_721,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_722,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_723,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_724,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_725,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_726,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_727,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_728,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_729,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_730,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_731,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_732,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_733,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_734,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_735,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_736,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_737,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_738,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_739,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_740,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_741,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_742,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_743,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_744,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_745,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_746,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_747,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_748,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_749,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_750,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_751,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_752,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_753,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_754,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_755,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_756,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_757,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_758,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_759,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_760,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_761,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_762,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_763,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_764,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_765,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_766,
+	(const Il2CppMethodPointer) UnresolvedVirtualCall_767,
 };

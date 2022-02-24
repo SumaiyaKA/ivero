@@ -72,10 +72,16 @@ struct GenericInterfaceActionInvoker0
 	}
 };
 
+// System.ArgumentNullException
+struct ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD;
+// System.ArgumentOutOfRangeException
+struct ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA;
 // System.AsyncCallback
 struct AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4;
 // System.Char[]
 struct CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2;
+// System.Collections.Generic.List`1<UnityEngine.Animations.ConstraintSource>
+struct List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630;
 // System.Collections.IDictionary
 struct IDictionary_t1BD5C1546718A374EA8122FBD6C6EE45331E8CE7;
 // System.Delegate
@@ -106,18 +112,26 @@ struct Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017;
 struct AnimationEvent_tEDD4E45FEA5CA4657CBBF1E0CFF657191D90673F;
 // UnityEngine.AnimationState
 struct AnimationState_t48FF4D41FEF3492F8286100BE3758CE3A4656386;
+// UnityEngine.Animations.ConstraintSource[]
+struct ConstraintSourceU5BU5D_t4F199DA485A53982B75512962E433EE1A536AD56;
+// UnityEngine.Animations.LookAtConstraint
+struct LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC;
 // UnityEngine.Animator
 struct Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A;
 // UnityEngine.AnimatorOverrideController
 struct AnimatorOverrideController_t130F04B57E753FD4288EF3235699ABE7C88FF312;
 // UnityEngine.AnimatorOverrideController/OnOverrideControllerDirtyCallback
 struct OnOverrideControllerDirtyCallback_t73560E6E30067C09BC58A15F9D2726051B077E2E;
+// UnityEngine.Behaviour
+struct Behaviour_tBDC7E9C3C898AD8348891B82D3E345801D920CA8;
 // UnityEngine.Object
 struct Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0;
 // UnityEngine.ScriptableObject
 struct ScriptableObject_tAB015486CEAB714DA0D5C1BA389B84FB90427734;
 // UnityEngine.StateMachineBehaviour
 struct StateMachineBehaviour_t698612ED92024B087045C388731B7673550C786C;
+// UnityEngine.Transform
+struct Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA;
 
 IL2CPP_EXTERN_C RuntimeClass* AnimationLayerMixerPlayable_t699CCDE32ABD6FC79BFC09064E473D785D9F9371_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AnimationMixerPlayable_tA71C834654979CF92B034B537EE5A3DA9713030A_il2cpp_TypeInfo_var;
@@ -127,6 +141,9 @@ IL2CPP_EXTERN_C RuntimeClass* AnimationPosePlayable_t92EAB5BB4093D236F90ED024248
 IL2CPP_EXTERN_C RuntimeClass* AnimationRemoveScalePlayable_t02381EE856ADF73C82C1EA6D2AD1878EC5879A7B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AnimationScriptPlayable_t1EDF8E51A9ED180BB012656916323FA4F68CA27E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AnimatorControllerPlayable_t352C2C3D059CFC0404FF4FBBA302F16C5966F44B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InvalidCastException_t91DF9E7D7FCCDA6C562CB4A9A18903E016680FDA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PlayableHandle_t9D3B4E540D4413CED81DDD6A24C5373BEFA1D182_il2cpp_TypeInfo_var;
@@ -138,7 +155,11 @@ IL2CPP_EXTERN_C String_t* _stringLiteral6502516F734DD885173E353D47AAEB82BC7070A9
 IL2CPP_EXTERN_C String_t* _stringLiteral7E3996230D9AF0349B43FF7B536FC25AF0C19C71;
 IL2CPP_EXTERN_C String_t* _stringLiteralB47C26932C83DD7E0C54FC87EDDE2F3B50E5104C;
 IL2CPP_EXTERN_C String_t* _stringLiteralB9DF0CBB713EC6E9DFD70C9BFB0B820148433428;
+IL2CPP_EXTERN_C String_t* _stringLiteralBCE16DD0260827ECF338C787F1206F77860CACC5;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralDDC5A4B3534F774B56C091E9BF80F98F60E4C0AA;
+IL2CPP_EXTERN_C String_t* _stringLiteralE540CDD1328B2B21E29A95405C301B9313B7C346;
+IL2CPP_EXTERN_C String_t* _stringLiteralEC13DC1FAE9C030013DF8540DB031786F0461924;
 IL2CPP_EXTERN_C String_t* _stringLiteralFCF5307272E4A4426DDA9E4E6930E2B834B95B2C;
 IL2CPP_EXTERN_C const RuntimeMethod* AnimationLayerMixerPlayable__ctor_mA2156DFDEA435F14446528098837ED3FF6B7147C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AnimationMixerPlayable__ctor_mD446E3257F803A3D4C04D394A75AA5376533CF43_RuntimeMethod_var;
@@ -148,6 +169,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* AnimationPosePlayable__ctor_mF02468DCD2C8C0
 IL2CPP_EXTERN_C const RuntimeMethod* AnimationRemoveScalePlayable__ctor_mB06216973E6B635E7F4A3C8E372E5F7E89D327E1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AnimationScriptPlayable__ctor_mDA5EA55852F0A1079954B2DCB90398C4D7FFC412_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AnimatorControllerPlayable_SetHandle_m2CAE8DABC4B19AB6BD90249D0D7FC7A9E07C3A96_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LookAtConstraint_SetSources_mDC34E30E3BE74E9E9651683A2F5D9067CA476221_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* LookAtConstraint_ValidateSourceIndex_m6E7BEDE9E9EB58AB3E49D09E664FF2B10DFAF6FB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PlayableHandle_IsPlayableOfType_TisAnimationLayerMixerPlayable_t699CCDE32ABD6FC79BFC09064E473D785D9F9371_mC3942EB4B00EAC10035AA7EBE23CA679C8790D20_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PlayableHandle_IsPlayableOfType_TisAnimationMixerPlayable_tA71C834654979CF92B034B537EE5A3DA9713030A_m172B8D6DA48AD49F0740833F7D18CD468B072E5E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* PlayableHandle_IsPlayableOfType_TisAnimationMotionXToDeltaPlayable_tA5F0BE3BA966E1A6661311F185C1544F90302CDC_mCC63F3E0D55A21A9E56D80D26150AD2B78C6EC50_RuntimeMethod_var;
@@ -183,6 +206,8 @@ IL2CPP_EXTERN_C const uint32_t AnimatorControllerPlayable_Equals_m04685CCA5A5FC3
 IL2CPP_EXTERN_C const uint32_t AnimatorControllerPlayable_SetHandle_m2CAE8DABC4B19AB6BD90249D0D7FC7A9E07C3A96_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AnimatorControllerPlayable__cctor_m6FCC197F3BF33EAFC37D5217617FCDC64E8B304E_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AnimatorControllerPlayable__ctor_m739B1BFC592B6C160410141057F1B2BA1B971897_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t LookAtConstraint_SetSources_mDC34E30E3BE74E9E9651683A2F5D9067CA476221_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t LookAtConstraint_ValidateSourceIndex_m6E7BEDE9E9EB58AB3E49D09E664FF2B10DFAF6FB_MetadataUsageId;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -226,6 +251,73 @@ struct Attribute_tF048C13FB3C8CFCC53F82290E4A3F621089F9A74  : public RuntimeObje
 public:
 
 public:
+};
+
+
+// System.Collections.Generic.List`1<UnityEngine.Animations.ConstraintSource>
+struct List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630  : public RuntimeObject
+{
+public:
+	// T[] System.Collections.Generic.List`1::_items
+	ConstraintSourceU5BU5D_t4F199DA485A53982B75512962E433EE1A536AD56* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1::_size
+	int32_t ____size_2;
+	// System.Int32 System.Collections.Generic.List`1::_version
+	int32_t ____version_3;
+	// System.Object System.Collections.Generic.List`1::_syncRoot
+	RuntimeObject * ____syncRoot_4;
+
+public:
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630, ____items_1)); }
+	inline ConstraintSourceU5BU5D_t4F199DA485A53982B75512962E433EE1A536AD56* get__items_1() const { return ____items_1; }
+	inline ConstraintSourceU5BU5D_t4F199DA485A53982B75512962E433EE1A536AD56** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(ConstraintSourceU5BU5D_t4F199DA485A53982B75512962E433EE1A536AD56* value)
+	{
+		____items_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____items_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630, ____size_2)); }
+	inline int32_t get__size_2() const { return ____size_2; }
+	inline int32_t* get_address_of__size_2() { return &____size_2; }
+	inline void set__size_2(int32_t value)
+	{
+		____size_2 = value;
+	}
+
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630, ____version_3)); }
+	inline int32_t get__version_3() const { return ____version_3; }
+	inline int32_t* get_address_of__version_3() { return &____version_3; }
+	inline void set__version_3(int32_t value)
+	{
+		____version_3 = value;
+	}
+
+	inline static int32_t get_offset_of__syncRoot_4() { return static_cast<int32_t>(offsetof(List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630, ____syncRoot_4)); }
+	inline RuntimeObject * get__syncRoot_4() const { return ____syncRoot_4; }
+	inline RuntimeObject ** get_address_of__syncRoot_4() { return &____syncRoot_4; }
+	inline void set__syncRoot_4(RuntimeObject * value)
+	{
+		____syncRoot_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____syncRoot_4), (void*)value);
+	}
+};
+
+struct List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630_StaticFields
+{
+public:
+	// T[] System.Collections.Generic.List`1::_emptyArray
+	ConstraintSourceU5BU5D_t4F199DA485A53982B75512962E433EE1A536AD56* ____emptyArray_5;
+
+public:
+	inline static int32_t get_offset_of__emptyArray_5() { return static_cast<int32_t>(offsetof(List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630_StaticFields, ____emptyArray_5)); }
+	inline ConstraintSourceU5BU5D_t4F199DA485A53982B75512962E433EE1A536AD56* get__emptyArray_5() const { return ____emptyArray_5; }
+	inline ConstraintSourceU5BU5D_t4F199DA485A53982B75512962E433EE1A536AD56** get_address_of__emptyArray_5() { return &____emptyArray_5; }
+	inline void set__emptyArray_5(ConstraintSourceU5BU5D_t4F199DA485A53982B75512962E433EE1A536AD56* value)
+	{
+		____emptyArray_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____emptyArray_5), (void*)value);
+	}
 };
 
 
@@ -456,6 +548,47 @@ public:
 public:
 };
 
+
+// UnityEngine.Animations.ConstraintSource
+struct ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994 
+{
+public:
+	// UnityEngine.Transform UnityEngine.Animations.ConstraintSource::m_SourceTransform
+	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___m_SourceTransform_0;
+	// System.Single UnityEngine.Animations.ConstraintSource::m_Weight
+	float ___m_Weight_1;
+
+public:
+	inline static int32_t get_offset_of_m_SourceTransform_0() { return static_cast<int32_t>(offsetof(ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994, ___m_SourceTransform_0)); }
+	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * get_m_SourceTransform_0() const { return ___m_SourceTransform_0; }
+	inline Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA ** get_address_of_m_SourceTransform_0() { return &___m_SourceTransform_0; }
+	inline void set_m_SourceTransform_0(Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * value)
+	{
+		___m_SourceTransform_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_SourceTransform_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_m_Weight_1() { return static_cast<int32_t>(offsetof(ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994, ___m_Weight_1)); }
+	inline float get_m_Weight_1() const { return ___m_Weight_1; }
+	inline float* get_address_of_m_Weight_1() { return &___m_Weight_1; }
+	inline void set_m_Weight_1(float value)
+	{
+		___m_Weight_1 = value;
+	}
+};
+
+// Native definition for P/Invoke marshalling of UnityEngine.Animations.ConstraintSource
+struct ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshaled_pinvoke
+{
+	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___m_SourceTransform_0;
+	float ___m_Weight_1;
+};
+// Native definition for COM marshalling of UnityEngine.Animations.ConstraintSource
+struct ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshaled_com
+{
+	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___m_SourceTransform_0;
+	float ___m_Weight_1;
+};
 
 // UnityEngine.Animations.NotKeyableAttribute
 struct NotKeyableAttribute_tC0F8DAA85C33BBE045EFE59BB65D9A060D4282BE  : public Attribute_tF048C13FB3C8CFCC53F82290E4A3F621089F9A74
@@ -2305,6 +2438,25 @@ struct ScriptableObject_tAB015486CEAB714DA0D5C1BA389B84FB90427734_marshaled_com 
 {
 };
 
+// System.ArgumentException
+struct ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1  : public SystemException_t5380468142AA850BE4A341D7AF3EAB9C78746782
+{
+public:
+	// System.String System.ArgumentException::m_paramName
+	String_t* ___m_paramName_17;
+
+public:
+	inline static int32_t get_offset_of_m_paramName_17() { return static_cast<int32_t>(offsetof(ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1, ___m_paramName_17)); }
+	inline String_t* get_m_paramName_17() const { return ___m_paramName_17; }
+	inline String_t** get_address_of_m_paramName_17() { return &___m_paramName_17; }
+	inline void set_m_paramName_17(String_t* value)
+	{
+		___m_paramName_17 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_paramName_17), (void*)value);
+	}
+};
+
+
 // System.AsyncCallback
 struct AsyncCallback_t3F3DA3BEDAEE81DD1D24125DF8EB30E85EE14DA4  : public MulticastDelegate_t
 {
@@ -2371,6 +2523,69 @@ public:
 
 // UnityEngine.StateMachineBehaviour
 struct StateMachineBehaviour_t698612ED92024B087045C388731B7673550C786C  : public ScriptableObject_tAB015486CEAB714DA0D5C1BA389B84FB90427734
+{
+public:
+
+public:
+};
+
+
+// UnityEngine.Transform
+struct Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA  : public Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621
+{
+public:
+
+public:
+};
+
+
+// System.ArgumentNullException
+struct ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD  : public ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1
+{
+public:
+
+public:
+};
+
+
+// System.ArgumentOutOfRangeException
+struct ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA  : public ArgumentException_tEDCD16F20A09ECE461C3DA766C16EDA8864057D1
+{
+public:
+	// System.Object System.ArgumentOutOfRangeException::m_actualValue
+	RuntimeObject * ___m_actualValue_19;
+
+public:
+	inline static int32_t get_offset_of_m_actualValue_19() { return static_cast<int32_t>(offsetof(ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA, ___m_actualValue_19)); }
+	inline RuntimeObject * get_m_actualValue_19() const { return ___m_actualValue_19; }
+	inline RuntimeObject ** get_address_of_m_actualValue_19() { return &___m_actualValue_19; }
+	inline void set_m_actualValue_19(RuntimeObject * value)
+	{
+		___m_actualValue_19 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___m_actualValue_19), (void*)value);
+	}
+};
+
+struct ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA_StaticFields
+{
+public:
+	// System.String modreq(System.Runtime.CompilerServices.IsVolatile) System.ArgumentOutOfRangeException::_rangeMessage
+	String_t* ____rangeMessage_18;
+
+public:
+	inline static int32_t get_offset_of__rangeMessage_18() { return static_cast<int32_t>(offsetof(ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA_StaticFields, ____rangeMessage_18)); }
+	inline String_t* get__rangeMessage_18() const { return ____rangeMessage_18; }
+	inline String_t** get_address_of__rangeMessage_18() { return &____rangeMessage_18; }
+	inline void set__rangeMessage_18(String_t* value)
+	{
+		____rangeMessage_18 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____rangeMessage_18), (void*)value);
+	}
+};
+
+
+// UnityEngine.Animations.LookAtConstraint
+struct LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC  : public Behaviour_tBDC7E9C3C898AD8348891B82D3E345801D920CA8
 {
 public:
 
@@ -2557,6 +2772,44 @@ inline bool PlayableHandle_IsPlayableOfType_TisAnimatorControllerPlayable_t352C2
 }
 // System.Boolean UnityEngine.Animations.AnimatorControllerPlayable::Equals(UnityEngine.Animations.AnimatorControllerPlayable)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AnimatorControllerPlayable_Equals_m04685CCA5A5FC388A0387D3453A677C0CB47D173 (AnimatorControllerPlayable_t352C2C3D059CFC0404FF4FBBA302F16C5966F44B * __this, AnimatorControllerPlayable_t352C2C3D059CFC0404FF4FBBA302F16C5966F44B  ___other0, const RuntimeMethod* method);
+// System.Void UnityEngine.Behaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour__ctor_m409AEC21511ACF9A4CC0654DF4B8253E0D81D22C (Behaviour_tBDC7E9C3C898AD8348891B82D3E345801D920CA8 * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.Animations.LookAtConstraint::Internal_Create(UnityEngine.Animations.LookAtConstraint)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_Internal_Create_m919DDEB17DB7DCF7452E4322E594264D76BA60E0 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * ___self0, const RuntimeMethod* method);
+// System.Void UnityEngine.Animations.LookAtConstraint::get_rotationAtRest_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_get_rotationAtRest_Injected_m9A5BA940934689A3AADAA2FC371691198FDE2440 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___ret0, const RuntimeMethod* method);
+// System.Void UnityEngine.Animations.LookAtConstraint::set_rotationAtRest_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_set_rotationAtRest_Injected_m5C7CE65A4FA240A73B455ECB4DA0BE0A4262C63C (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___value0, const RuntimeMethod* method);
+// System.Void UnityEngine.Animations.LookAtConstraint::get_rotationOffset_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_get_rotationOffset_Injected_m57501573B794BC8AF2AD634D9516F723C4907D6F (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___ret0, const RuntimeMethod* method);
+// System.Void UnityEngine.Animations.LookAtConstraint::set_rotationOffset_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_set_rotationOffset_Injected_m72255DE6AC378649273E1245C0B5E7AEF14DB6FB (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___value0, const RuntimeMethod* method);
+// System.Int32 UnityEngine.Animations.LookAtConstraint::GetSourceCountInternal(UnityEngine.Animations.LookAtConstraint)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LookAtConstraint_GetSourceCountInternal_m087C3BBB088140CCFAEB20C6BC7BFD03BD683784 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * ___self0, const RuntimeMethod* method);
+// System.Void System.ArgumentNullException::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_mEE0C0D6FCB2D08CD7967DBB1329A0854BBED49ED (ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD * __this, String_t* ___paramName0, const RuntimeMethod* method);
+// System.Void UnityEngine.Animations.LookAtConstraint::SetSourcesInternal(UnityEngine.Animations.LookAtConstraint,System.Collections.Generic.List`1<UnityEngine.Animations.ConstraintSource>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_SetSourcesInternal_m425BC21117905979EFE816EB70C1986A532B7451 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * ___self0, List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630 * ___sources1, const RuntimeMethod* method);
+// System.Int32 UnityEngine.Animations.LookAtConstraint::AddSource_Injected(UnityEngine.Animations.ConstraintSource&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LookAtConstraint_AddSource_Injected_m6351A79E741F198B0E512BAD64E33E7EBD31264D (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994 * ___source0, const RuntimeMethod* method);
+// System.Void UnityEngine.Animations.LookAtConstraint::ValidateSourceIndex(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_ValidateSourceIndex_m6E7BEDE9E9EB58AB3E49D09E664FF2B10DFAF6FB (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, const RuntimeMethod* method);
+// System.Void UnityEngine.Animations.LookAtConstraint::RemoveSourceInternal(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_RemoveSourceInternal_mBBBC4EEDE1E7660F60FFD4F99D412E0AD2082382 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, const RuntimeMethod* method);
+// UnityEngine.Animations.ConstraintSource UnityEngine.Animations.LookAtConstraint::GetSourceInternal(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  LookAtConstraint_GetSourceInternal_m9C7A2756DD2EF99BE998A451FC3EC8D3845F8ACE (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, const RuntimeMethod* method);
+// System.Void UnityEngine.Animations.LookAtConstraint::GetSourceInternal_Injected(System.Int32,UnityEngine.Animations.ConstraintSource&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_GetSourceInternal_Injected_m1EE9CE5AC78CA01B14B3B818A4947E4EE15BE4E7 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994 * ___ret1, const RuntimeMethod* method);
+// System.Void UnityEngine.Animations.LookAtConstraint::SetSourceInternal(System.Int32,UnityEngine.Animations.ConstraintSource)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_SetSourceInternal_m21E34F86D3118A2E9AB2C116F083EEFB65F42C36 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  ___source1, const RuntimeMethod* method);
+// System.Void UnityEngine.Animations.LookAtConstraint::SetSourceInternal_Injected(System.Int32,UnityEngine.Animations.ConstraintSource&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_SetSourceInternal_Injected_mB58B79CE35404347B3BB2C12656FCF6BD71F200B (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994 * ___source1, const RuntimeMethod* method);
+// System.Int32 UnityEngine.Animations.LookAtConstraint::get_sourceCount()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LookAtConstraint_get_sourceCount_m241C8E363DA6E86EE9D60A9E65913F221A23E272 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, const RuntimeMethod* method);
+// System.String System.String::Format(System.String,System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m19325298DBC61AAC016C16F7B3CF97A8A3DEA34A (String_t* ___format0, RuntimeObject * ___arg01, RuntimeObject * ___arg12, const RuntimeMethod* method);
+// System.Void System.ArgumentOutOfRangeException::.ctor(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_m300CE4D04A068C209FD858101AC361C1B600B5AE (ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA * __this, String_t* ___paramName0, String_t* ___message1, const RuntimeMethod* method);
 // System.Void UnityEngine.Animator::SetTriggerString(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetTriggerString_m77CE57996467D0C973FA2D0CB4DF87BD062C8A1E (Animator_tF1A88E66B3B731DDA75A066DBAE9C55837660F5A * __this, String_t* ___name0, const RuntimeMethod* method);
 // System.Void UnityEngine.Animator::ResetTriggerString(System.String)
@@ -3851,6 +4104,517 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AnimatorControllerPlayable__cctor_m6FCC1
 		((AnimatorControllerPlayable_t352C2C3D059CFC0404FF4FBBA302F16C5966F44B_StaticFields*)il2cpp_codegen_static_fields_for(AnimatorControllerPlayable_t352C2C3D059CFC0404FF4FBBA302F16C5966F44B_il2cpp_TypeInfo_var))->set_m_NullPlayable_1(L_1);
 		return;
 	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: UnityEngine.Animations.ConstraintSource
+IL2CPP_EXTERN_C void ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshal_pinvoke(const ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994& unmarshaled, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshaled_pinvoke& marshaled)
+{
+	Exception_t* ___m_SourceTransform_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SourceTransform' of type 'ConstraintSource': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SourceTransform_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshal_pinvoke_back(const ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshaled_pinvoke& marshaled, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994& unmarshaled)
+{
+	Exception_t* ___m_SourceTransform_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SourceTransform' of type 'ConstraintSource': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SourceTransform_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.Animations.ConstraintSource
+IL2CPP_EXTERN_C void ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshal_pinvoke_cleanup(ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.Animations.ConstraintSource
+IL2CPP_EXTERN_C void ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshal_com(const ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994& unmarshaled, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshaled_com& marshaled)
+{
+	Exception_t* ___m_SourceTransform_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SourceTransform' of type 'ConstraintSource': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SourceTransform_0Exception, NULL);
+}
+IL2CPP_EXTERN_C void ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshal_com_back(const ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshaled_com& marshaled, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994& unmarshaled)
+{
+	Exception_t* ___m_SourceTransform_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SourceTransform' of type 'ConstraintSource': Reference type field marshaling is not supported.");
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SourceTransform_0Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.Animations.ConstraintSource
+IL2CPP_EXTERN_C void ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshal_com_cleanup(ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994_marshaled_com& marshaled)
+{
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.Animations.LookAtConstraint::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint__ctor_m671F59134B713B32A83EB4B475314C3FCF76E2EE (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, const RuntimeMethod* method)
+{
+	{
+		Behaviour__ctor_m409AEC21511ACF9A4CC0654DF4B8253E0D81D22C(__this, /*hidden argument*/NULL);
+		LookAtConstraint_Internal_Create_m919DDEB17DB7DCF7452E4322E594264D76BA60E0(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::Internal_Create(UnityEngine.Animations.LookAtConstraint)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_Internal_Create_m919DDEB17DB7DCF7452E4322E594264D76BA60E0 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * ___self0, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_Internal_Create_m919DDEB17DB7DCF7452E4322E594264D76BA60E0_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *);
+	static LookAtConstraint_Internal_Create_m919DDEB17DB7DCF7452E4322E594264D76BA60E0_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_Internal_Create_m919DDEB17DB7DCF7452E4322E594264D76BA60E0_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::Internal_Create(UnityEngine.Animations.LookAtConstraint)");
+	_il2cpp_icall_func(___self0);
+}
+// System.Single UnityEngine.Animations.LookAtConstraint::get_weight()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LookAtConstraint_get_weight_mD4B8A23C64802866E20F780240F3B967C12F636C (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, const RuntimeMethod* method)
+{
+	typedef float (*LookAtConstraint_get_weight_mD4B8A23C64802866E20F780240F3B967C12F636C_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *);
+	static LookAtConstraint_get_weight_mD4B8A23C64802866E20F780240F3B967C12F636C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_get_weight_mD4B8A23C64802866E20F780240F3B967C12F636C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::get_weight()");
+	float retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::set_weight(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_set_weight_mE59314EE64C8FD2931073CDB0C77E8D34DEFDCB7 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, float ___value0, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_set_weight_mE59314EE64C8FD2931073CDB0C77E8D34DEFDCB7_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, float);
+	static LookAtConstraint_set_weight_mE59314EE64C8FD2931073CDB0C77E8D34DEFDCB7_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_set_weight_mE59314EE64C8FD2931073CDB0C77E8D34DEFDCB7_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::set_weight(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Single UnityEngine.Animations.LookAtConstraint::get_roll()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float LookAtConstraint_get_roll_m5D09C6729EB4550B31ACA5B0E7D29A1EAB262292 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, const RuntimeMethod* method)
+{
+	typedef float (*LookAtConstraint_get_roll_m5D09C6729EB4550B31ACA5B0E7D29A1EAB262292_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *);
+	static LookAtConstraint_get_roll_m5D09C6729EB4550B31ACA5B0E7D29A1EAB262292_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_get_roll_m5D09C6729EB4550B31ACA5B0E7D29A1EAB262292_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::get_roll()");
+	float retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::set_roll(System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_set_roll_m3FE33CAD8FD8B5A9260351149B80FBF982F5B5B5 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, float ___value0, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_set_roll_m3FE33CAD8FD8B5A9260351149B80FBF982F5B5B5_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, float);
+	static LookAtConstraint_set_roll_m3FE33CAD8FD8B5A9260351149B80FBF982F5B5B5_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_set_roll_m3FE33CAD8FD8B5A9260351149B80FBF982F5B5B5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::set_roll(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Boolean UnityEngine.Animations.LookAtConstraint::get_constraintActive()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LookAtConstraint_get_constraintActive_m17AC92E3BF7A29D80DD622A1C4CF1744665D0111 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, const RuntimeMethod* method)
+{
+	typedef bool (*LookAtConstraint_get_constraintActive_m17AC92E3BF7A29D80DD622A1C4CF1744665D0111_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *);
+	static LookAtConstraint_get_constraintActive_m17AC92E3BF7A29D80DD622A1C4CF1744665D0111_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_get_constraintActive_m17AC92E3BF7A29D80DD622A1C4CF1744665D0111_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::get_constraintActive()");
+	bool retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::set_constraintActive(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_set_constraintActive_mDC246E7D0DE915B084EDD7E08897632D8CE22AEA (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, bool ___value0, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_set_constraintActive_mDC246E7D0DE915B084EDD7E08897632D8CE22AEA_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, bool);
+	static LookAtConstraint_set_constraintActive_mDC246E7D0DE915B084EDD7E08897632D8CE22AEA_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_set_constraintActive_mDC246E7D0DE915B084EDD7E08897632D8CE22AEA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::set_constraintActive(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Boolean UnityEngine.Animations.LookAtConstraint::get_locked()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LookAtConstraint_get_locked_mAA1B3E1EFB274B76E804BCF39B2F7EAD8A8F0C33 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, const RuntimeMethod* method)
+{
+	typedef bool (*LookAtConstraint_get_locked_mAA1B3E1EFB274B76E804BCF39B2F7EAD8A8F0C33_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *);
+	static LookAtConstraint_get_locked_mAA1B3E1EFB274B76E804BCF39B2F7EAD8A8F0C33_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_get_locked_mAA1B3E1EFB274B76E804BCF39B2F7EAD8A8F0C33_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::get_locked()");
+	bool retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::set_locked(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_set_locked_m322E534FD8B34C397C7F891EB1C73EF7863DEF10 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, bool ___value0, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_set_locked_m322E534FD8B34C397C7F891EB1C73EF7863DEF10_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, bool);
+	static LookAtConstraint_set_locked_m322E534FD8B34C397C7F891EB1C73EF7863DEF10_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_set_locked_m322E534FD8B34C397C7F891EB1C73EF7863DEF10_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::set_locked(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// UnityEngine.Vector3 UnityEngine.Animations.LookAtConstraint::get_rotationAtRest()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  LookAtConstraint_get_rotationAtRest_m45DE358A28175D54CBE36D7D5F6BAAB9B673CC58 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, const RuntimeMethod* method)
+{
+	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		LookAtConstraint_get_rotationAtRest_Injected_m9A5BA940934689A3AADAA2FC371691198FDE2440(__this, (Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 *)(&V_0), /*hidden argument*/NULL);
+		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::set_rotationAtRest(UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_set_rotationAtRest_m3EDBDFE191BCFE04EF486325BDBA19F6AA4D0FC7 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___value0, const RuntimeMethod* method)
+{
+	{
+		LookAtConstraint_set_rotationAtRest_Injected_m5C7CE65A4FA240A73B455ECB4DA0BE0A4262C63C(__this, (Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 *)(&___value0), /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Vector3 UnityEngine.Animations.LookAtConstraint::get_rotationOffset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  LookAtConstraint_get_rotationOffset_m1429039C62E152503F72EDB7EFC96B5CB69C95AC (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, const RuntimeMethod* method)
+{
+	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		LookAtConstraint_get_rotationOffset_Injected_m57501573B794BC8AF2AD634D9516F723C4907D6F(__this, (Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 *)(&V_0), /*hidden argument*/NULL);
+		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::set_rotationOffset(UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_set_rotationOffset_mB6528ABEEC6611F55FE56EA61AA223E900BE426E (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___value0, const RuntimeMethod* method)
+{
+	{
+		LookAtConstraint_set_rotationOffset_Injected_m72255DE6AC378649273E1245C0B5E7AEF14DB6FB(__this, (Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 *)(&___value0), /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.Transform UnityEngine.Animations.LookAtConstraint::get_worldUpObject()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * LookAtConstraint_get_worldUpObject_m828E4BAE315F17535D10A89E594811CCC0791DB6 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, const RuntimeMethod* method)
+{
+	typedef Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * (*LookAtConstraint_get_worldUpObject_m828E4BAE315F17535D10A89E594811CCC0791DB6_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *);
+	static LookAtConstraint_get_worldUpObject_m828E4BAE315F17535D10A89E594811CCC0791DB6_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_get_worldUpObject_m828E4BAE315F17535D10A89E594811CCC0791DB6_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::get_worldUpObject()");
+	Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::set_worldUpObject(UnityEngine.Transform)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_set_worldUpObject_mAB021AC5AFB93349559B9BD0A58B3D7E25AB1CE4 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * ___value0, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_set_worldUpObject_mAB021AC5AFB93349559B9BD0A58B3D7E25AB1CE4_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA *);
+	static LookAtConstraint_set_worldUpObject_mAB021AC5AFB93349559B9BD0A58B3D7E25AB1CE4_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_set_worldUpObject_mAB021AC5AFB93349559B9BD0A58B3D7E25AB1CE4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::set_worldUpObject(UnityEngine.Transform)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Boolean UnityEngine.Animations.LookAtConstraint::get_useUpObject()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LookAtConstraint_get_useUpObject_m495960B2B6E4BEB9732E3609C2375642BCA28D40 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, const RuntimeMethod* method)
+{
+	typedef bool (*LookAtConstraint_get_useUpObject_m495960B2B6E4BEB9732E3609C2375642BCA28D40_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *);
+	static LookAtConstraint_get_useUpObject_m495960B2B6E4BEB9732E3609C2375642BCA28D40_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_get_useUpObject_m495960B2B6E4BEB9732E3609C2375642BCA28D40_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::get_useUpObject()");
+	bool retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::set_useUpObject(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_set_useUpObject_m2AF0804B763E9AECF9F97330847080F1C08A274B (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, bool ___value0, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_set_useUpObject_m2AF0804B763E9AECF9F97330847080F1C08A274B_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, bool);
+	static LookAtConstraint_set_useUpObject_m2AF0804B763E9AECF9F97330847080F1C08A274B_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_set_useUpObject_m2AF0804B763E9AECF9F97330847080F1C08A274B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::set_useUpObject(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Int32 UnityEngine.Animations.LookAtConstraint::get_sourceCount()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LookAtConstraint_get_sourceCount_m241C8E363DA6E86EE9D60A9E65913F221A23E272 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = LookAtConstraint_GetSourceCountInternal_m087C3BBB088140CCFAEB20C6BC7BFD03BD683784(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		int32_t L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Int32 UnityEngine.Animations.LookAtConstraint::GetSourceCountInternal(UnityEngine.Animations.LookAtConstraint)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LookAtConstraint_GetSourceCountInternal_m087C3BBB088140CCFAEB20C6BC7BFD03BD683784 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * ___self0, const RuntimeMethod* method)
+{
+	typedef int32_t (*LookAtConstraint_GetSourceCountInternal_m087C3BBB088140CCFAEB20C6BC7BFD03BD683784_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *);
+	static LookAtConstraint_GetSourceCountInternal_m087C3BBB088140CCFAEB20C6BC7BFD03BD683784_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_GetSourceCountInternal_m087C3BBB088140CCFAEB20C6BC7BFD03BD683784_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::GetSourceCountInternal(UnityEngine.Animations.LookAtConstraint)");
+	int32_t retVal = _il2cpp_icall_func(___self0);
+	return retVal;
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::GetSources(System.Collections.Generic.List`1<UnityEngine.Animations.ConstraintSource>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_GetSources_m905F0D9B4BB58573FF1B9A4BBBCCD3D19127FD78 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630 * ___sources0, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_GetSources_m905F0D9B4BB58573FF1B9A4BBBCCD3D19127FD78_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630 *);
+	static LookAtConstraint_GetSources_m905F0D9B4BB58573FF1B9A4BBBCCD3D19127FD78_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_GetSources_m905F0D9B4BB58573FF1B9A4BBBCCD3D19127FD78_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::GetSources(System.Collections.Generic.List`1<UnityEngine.Animations.ConstraintSource>)");
+	_il2cpp_icall_func(__this, ___sources0);
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::SetSources(System.Collections.Generic.List`1<UnityEngine.Animations.ConstraintSource>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_SetSources_mDC34E30E3BE74E9E9651683A2F5D9067CA476221 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630 * ___sources0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LookAtConstraint_SetSources_mDC34E30E3BE74E9E9651683A2F5D9067CA476221_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630 * L_0 = ___sources0;
+		V_0 = (bool)((((RuntimeObject*)(List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630 *)L_0) == ((RuntimeObject*)(RuntimeObject *)NULL))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD * L_2 = (ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD *)il2cpp_codegen_object_new(ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_mEE0C0D6FCB2D08CD7967DBB1329A0854BBED49ED(L_2, _stringLiteralBCE16DD0260827ECF338C787F1206F77860CACC5, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, LookAtConstraint_SetSources_mDC34E30E3BE74E9E9651683A2F5D9067CA476221_RuntimeMethod_var);
+	}
+
+IL_0014:
+	{
+		List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630 * L_3 = ___sources0;
+		LookAtConstraint_SetSourcesInternal_m425BC21117905979EFE816EB70C1986A532B7451(__this, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::SetSourcesInternal(UnityEngine.Animations.LookAtConstraint,System.Collections.Generic.List`1<UnityEngine.Animations.ConstraintSource>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_SetSourcesInternal_m425BC21117905979EFE816EB70C1986A532B7451 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * ___self0, List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630 * ___sources1, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_SetSourcesInternal_m425BC21117905979EFE816EB70C1986A532B7451_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, List_1_t09FCE348A4E5E52E266CCC1DE562EFC20187B630 *);
+	static LookAtConstraint_SetSourcesInternal_m425BC21117905979EFE816EB70C1986A532B7451_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_SetSourcesInternal_m425BC21117905979EFE816EB70C1986A532B7451_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::SetSourcesInternal(UnityEngine.Animations.LookAtConstraint,System.Collections.Generic.List`1<UnityEngine.Animations.ConstraintSource>)");
+	_il2cpp_icall_func(___self0, ___sources1);
+}
+// System.Int32 UnityEngine.Animations.LookAtConstraint::AddSource(UnityEngine.Animations.ConstraintSource)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LookAtConstraint_AddSource_mA5C27DF59A59783E411898E21494847B79AD27C2 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  ___source0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = LookAtConstraint_AddSource_Injected_m6351A79E741F198B0E512BAD64E33E7EBD31264D(__this, (ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994 *)(&___source0), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::RemoveSource(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_RemoveSource_m6CB3567D1A7362D28A6F67F8ABB6891E8D76F098 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		LookAtConstraint_ValidateSourceIndex_m6E7BEDE9E9EB58AB3E49D09E664FF2B10DFAF6FB(__this, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = ___index0;
+		LookAtConstraint_RemoveSourceInternal_mBBBC4EEDE1E7660F60FFD4F99D412E0AD2082382(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::RemoveSourceInternal(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_RemoveSourceInternal_mBBBC4EEDE1E7660F60FFD4F99D412E0AD2082382 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_RemoveSourceInternal_mBBBC4EEDE1E7660F60FFD4F99D412E0AD2082382_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, int32_t);
+	static LookAtConstraint_RemoveSourceInternal_mBBBC4EEDE1E7660F60FFD4F99D412E0AD2082382_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_RemoveSourceInternal_mBBBC4EEDE1E7660F60FFD4F99D412E0AD2082382_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::RemoveSourceInternal(System.Int32)");
+	_il2cpp_icall_func(__this, ___index0);
+}
+// UnityEngine.Animations.ConstraintSource UnityEngine.Animations.LookAtConstraint::GetSource(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  LookAtConstraint_GetSource_m92C92C8A2688F31B56EFFFC5034EAA794DA8F7B0 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int32_t L_0 = ___index0;
+		LookAtConstraint_ValidateSourceIndex_m6E7BEDE9E9EB58AB3E49D09E664FF2B10DFAF6FB(__this, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = ___index0;
+		ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  L_2 = LookAtConstraint_GetSourceInternal_m9C7A2756DD2EF99BE998A451FC3EC8D3845F8ACE(__this, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_0013;
+	}
+
+IL_0013:
+	{
+		ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  L_3 = V_0;
+		return L_3;
+	}
+}
+// UnityEngine.Animations.ConstraintSource UnityEngine.Animations.LookAtConstraint::GetSourceInternal(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  LookAtConstraint_GetSourceInternal_m9C7A2756DD2EF99BE998A451FC3EC8D3845F8ACE (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int32_t L_0 = ___index0;
+		LookAtConstraint_GetSourceInternal_Injected_m1EE9CE5AC78CA01B14B3B818A4947E4EE15BE4E7(__this, L_0, (ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994 *)(&V_0), /*hidden argument*/NULL);
+		ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  L_1 = V_0;
+		return L_1;
+	}
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::SetSource(System.Int32,UnityEngine.Animations.ConstraintSource)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_SetSource_m1B3476FB9B2E71BC65B10019E4B0E2CF08D5648A (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  ___source1, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		LookAtConstraint_ValidateSourceIndex_m6E7BEDE9E9EB58AB3E49D09E664FF2B10DFAF6FB(__this, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = ___index0;
+		ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  L_2 = ___source1;
+		LookAtConstraint_SetSourceInternal_m21E34F86D3118A2E9AB2C116F083EEFB65F42C36(__this, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::SetSourceInternal(System.Int32,UnityEngine.Animations.ConstraintSource)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_SetSourceInternal_m21E34F86D3118A2E9AB2C116F083EEFB65F42C36 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994  ___source1, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		LookAtConstraint_SetSourceInternal_Injected_mB58B79CE35404347B3BB2C12656FCF6BD71F200B(__this, L_0, (ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994 *)(&___source1), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::ValidateSourceIndex(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_ValidateSourceIndex_m6E7BEDE9E9EB58AB3E49D09E664FF2B10DFAF6FB (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (LookAtConstraint_ValidateSourceIndex_m6E7BEDE9E9EB58AB3E49D09E664FF2B10DFAF6FB_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	int32_t G_B5_0 = 0;
+	{
+		int32_t L_0 = LookAtConstraint_get_sourceCount_m241C8E363DA6E86EE9D60A9E65913F221A23E272(__this, /*hidden argument*/NULL);
+		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 * L_2 = (InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1 *)il2cpp_codegen_object_new(InvalidOperationException_t0530E734D823F78310CAFAFA424CA5164D93A1F1_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m72027D5F1D513C25C05137E203EEED8FD8297706(L_2, _stringLiteralEC13DC1FAE9C030013DF8540DB031786F0461924, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, LookAtConstraint_ValidateSourceIndex_m6E7BEDE9E9EB58AB3E49D09E664FF2B10DFAF6FB_RuntimeMethod_var);
+	}
+
+IL_001a:
+	{
+		int32_t L_3 = ___index0;
+		if ((((int32_t)L_3) < ((int32_t)0)))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		int32_t L_4 = ___index0;
+		int32_t L_5 = LookAtConstraint_get_sourceCount_m241C8E363DA6E86EE9D60A9E65913F221A23E272(__this, /*hidden argument*/NULL);
+		G_B5_0 = ((((int32_t)((((int32_t)L_4) < ((int32_t)L_5))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_002d;
+	}
+
+IL_002c:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_002d:
+	{
+		V_1 = (bool)G_B5_0;
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		int32_t L_7 = ___index0;
+		int32_t L_8 = L_7;
+		RuntimeObject * L_9 = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &L_8);
+		int32_t L_10 = LookAtConstraint_get_sourceCount_m241C8E363DA6E86EE9D60A9E65913F221A23E272(__this, /*hidden argument*/NULL);
+		int32_t L_11 = L_10;
+		RuntimeObject * L_12 = Box(Int32_t585191389E07734F19F3156FF88FB3EF4800D102_il2cpp_TypeInfo_var, &L_11);
+		String_t* L_13 = String_Format_m19325298DBC61AAC016C16F7B3CF97A8A3DEA34A(_stringLiteralDDC5A4B3534F774B56C091E9BF80F98F60E4C0AA, L_9, L_12, /*hidden argument*/NULL);
+		ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA * L_14 = (ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m300CE4D04A068C209FD858101AC361C1B600B5AE(L_14, _stringLiteralE540CDD1328B2B21E29A95405C301B9313B7C346, L_13, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_14, LookAtConstraint_ValidateSourceIndex_m6E7BEDE9E9EB58AB3E49D09E664FF2B10DFAF6FB_RuntimeMethod_var);
+	}
+
+IL_0058:
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::get_rotationAtRest_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_get_rotationAtRest_Injected_m9A5BA940934689A3AADAA2FC371691198FDE2440 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___ret0, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_get_rotationAtRest_Injected_m9A5BA940934689A3AADAA2FC371691198FDE2440_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 *);
+	static LookAtConstraint_get_rotationAtRest_Injected_m9A5BA940934689A3AADAA2FC371691198FDE2440_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_get_rotationAtRest_Injected_m9A5BA940934689A3AADAA2FC371691198FDE2440_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::get_rotationAtRest_Injected(UnityEngine.Vector3&)");
+	_il2cpp_icall_func(__this, ___ret0);
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::set_rotationAtRest_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_set_rotationAtRest_Injected_m5C7CE65A4FA240A73B455ECB4DA0BE0A4262C63C (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___value0, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_set_rotationAtRest_Injected_m5C7CE65A4FA240A73B455ECB4DA0BE0A4262C63C_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 *);
+	static LookAtConstraint_set_rotationAtRest_Injected_m5C7CE65A4FA240A73B455ECB4DA0BE0A4262C63C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_set_rotationAtRest_Injected_m5C7CE65A4FA240A73B455ECB4DA0BE0A4262C63C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::set_rotationAtRest_Injected(UnityEngine.Vector3&)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::get_rotationOffset_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_get_rotationOffset_Injected_m57501573B794BC8AF2AD634D9516F723C4907D6F (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___ret0, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_get_rotationOffset_Injected_m57501573B794BC8AF2AD634D9516F723C4907D6F_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 *);
+	static LookAtConstraint_get_rotationOffset_Injected_m57501573B794BC8AF2AD634D9516F723C4907D6F_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_get_rotationOffset_Injected_m57501573B794BC8AF2AD634D9516F723C4907D6F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::get_rotationOffset_Injected(UnityEngine.Vector3&)");
+	_il2cpp_icall_func(__this, ___ret0);
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::set_rotationOffset_Injected(UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_set_rotationOffset_Injected_m72255DE6AC378649273E1245C0B5E7AEF14DB6FB (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * ___value0, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_set_rotationOffset_Injected_m72255DE6AC378649273E1245C0B5E7AEF14DB6FB_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 *);
+	static LookAtConstraint_set_rotationOffset_Injected_m72255DE6AC378649273E1245C0B5E7AEF14DB6FB_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_set_rotationOffset_Injected_m72255DE6AC378649273E1245C0B5E7AEF14DB6FB_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::set_rotationOffset_Injected(UnityEngine.Vector3&)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Int32 UnityEngine.Animations.LookAtConstraint::AddSource_Injected(UnityEngine.Animations.ConstraintSource&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LookAtConstraint_AddSource_Injected_m6351A79E741F198B0E512BAD64E33E7EBD31264D (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994 * ___source0, const RuntimeMethod* method)
+{
+	typedef int32_t (*LookAtConstraint_AddSource_Injected_m6351A79E741F198B0E512BAD64E33E7EBD31264D_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994 *);
+	static LookAtConstraint_AddSource_Injected_m6351A79E741F198B0E512BAD64E33E7EBD31264D_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_AddSource_Injected_m6351A79E741F198B0E512BAD64E33E7EBD31264D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::AddSource_Injected(UnityEngine.Animations.ConstraintSource&)");
+	int32_t retVal = _il2cpp_icall_func(__this, ___source0);
+	return retVal;
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::GetSourceInternal_Injected(System.Int32,UnityEngine.Animations.ConstraintSource&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_GetSourceInternal_Injected_m1EE9CE5AC78CA01B14B3B818A4947E4EE15BE4E7 (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994 * ___ret1, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_GetSourceInternal_Injected_m1EE9CE5AC78CA01B14B3B818A4947E4EE15BE4E7_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, int32_t, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994 *);
+	static LookAtConstraint_GetSourceInternal_Injected_m1EE9CE5AC78CA01B14B3B818A4947E4EE15BE4E7_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_GetSourceInternal_Injected_m1EE9CE5AC78CA01B14B3B818A4947E4EE15BE4E7_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::GetSourceInternal_Injected(System.Int32,UnityEngine.Animations.ConstraintSource&)");
+	_il2cpp_icall_func(__this, ___index0, ___ret1);
+}
+// System.Void UnityEngine.Animations.LookAtConstraint::SetSourceInternal_Injected(System.Int32,UnityEngine.Animations.ConstraintSource&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtConstraint_SetSourceInternal_Injected_mB58B79CE35404347B3BB2C12656FCF6BD71F200B (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC * __this, int32_t ___index0, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994 * ___source1, const RuntimeMethod* method)
+{
+	typedef void (*LookAtConstraint_SetSourceInternal_Injected_mB58B79CE35404347B3BB2C12656FCF6BD71F200B_ftn) (LookAtConstraint_t21565CB52914267484967D0205012FD17E3717CC *, int32_t, ConstraintSource_t63B0D0146AE7F080F4801408E83F82D7FD12B994 *);
+	static LookAtConstraint_SetSourceInternal_Injected_mB58B79CE35404347B3BB2C12656FCF6BD71F200B_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (LookAtConstraint_SetSourceInternal_Injected_mB58B79CE35404347B3BB2C12656FCF6BD71F200B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Animations.LookAtConstraint::SetSourceInternal_Injected(System.Int32,UnityEngine.Animations.ConstraintSource&)");
+	_il2cpp_icall_func(__this, ___index0, ___source1);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

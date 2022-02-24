@@ -25669,7 +25669,7 @@ IL_0000:
 		Type_t * L_1 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_0, /*hidden argument*/NULL);
 		TypeInfo_t9D6F65801A41B97F36138B15FD270A1550DBB3FC * L_2 = IntrospectionExtensions_GetTypeInfo_mB8CD288832A36F852B99899A8506689F9B0D8D09(L_1, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		Assembly_t * L_3 = VirtFuncInvoker0< Assembly_t * >::Invoke(24 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_2);
+		Assembly_t * L_3 = VirtFuncInvoker0< Assembly_t * >::Invoke(25 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_2);
 		NullCheck(L_3);
 		Type_t * L_4 = VirtFuncInvoker2< Type_t *, String_t*, bool >::Invoke(18 /* System.Type System.Reflection.Assembly::GetType(System.String,System.Boolean) */, L_3, _stringLiteralFC0DB13E29AF24DE714EBA3ECB2C32ADFE28278F, (bool)0);
 		V_0 = L_4;

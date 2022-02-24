@@ -34480,7 +34480,7 @@ IL_0039:
 	{
 		Type_t * L_8 = ___type0;
 		NullCheck(L_8);
-		Type_t * L_9 = VirtFuncInvoker0< Type_t * >::Invoke(107 /* System.Type System.Type::get_UnderlyingSystemType() */, L_8);
+		Type_t * L_9 = VirtFuncInvoker0< Type_t * >::Invoke(108 /* System.Type System.Type::get_UnderlyingSystemType() */, L_8);
 		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_10 = ((RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)IsInstClass((RuntimeObject*)L_9, RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var));
 		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
 		bool L_11 = RuntimeType_op_Equality_mB551059029FC92ABEFC75A240B80302BE8302CA4(L_10, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)NULL, /*hidden argument*/NULL);
@@ -34559,7 +34559,7 @@ IL_000e:
 	{
 		Type_t * L_2 = ___type0;
 		NullCheck(L_2);
-		Type_t * L_3 = VirtFuncInvoker0< Type_t * >::Invoke(107 /* System.Type System.Type::get_UnderlyingSystemType() */, L_2);
+		Type_t * L_3 = VirtFuncInvoker0< Type_t * >::Invoke(108 /* System.Type System.Type::get_UnderlyingSystemType() */, L_2);
 		RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F * L_4 = ((RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)IsInstClass((RuntimeObject*)L_3, RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var));
 		IL2CPP_RUNTIME_CLASS_INIT(RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var);
 		bool L_5 = RuntimeType_op_Equality_mB551059029FC92ABEFC75A240B80302BE8302CA4(L_4, (RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)NULL, /*hidden argument*/NULL);

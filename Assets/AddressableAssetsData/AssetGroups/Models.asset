@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Models
+  m_EditorClassIdentifier: 
+  m_GroupName: Models
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b79c18c92a55a4cf3adddc1f60cac204
+  m_SerializeEntries:
+  - m_GUID: da07cfadb4af54231a70f70de5a6f794
+    m_Address: Assets/AddressablesAssets/Items/a001.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  - m_GUID: 35d04db19490a433c9255f794bea8e75
+    m_Address: Assets/AddressablesAssets/Items/a002.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  - m_GUID: d09e24838a72a4d6899fc28adb45789e
+    m_Address: Assets/AddressablesAssets/Items/a003.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  - m_GUID: acd88a2cc4e00420499f5d1f48f58abd
+    m_Address: Assets/AddressablesAssets/Items/a004.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  - m_GUID: 6ea255f62491b4008a6766553a9439f7
+    m_Address: Assets/AddressablesAssets/Items/a006.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  - m_GUID: d85f5b26774e1475f9cc7048a25e0a3f
+    m_Address: Assets/AddressablesAssets/Items/a007.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  - m_GUID: 76dee94028b0548d793aa81d6fb2842c
+    m_Address: Assets/AddressablesAssets/Items/a008.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  - m_GUID: 2661dd4f119a24548ad4973f4c5b2b1d
+    m_Address: Assets/AddressablesAssets/Items/a010.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  - m_GUID: bb285c4b7a5724dab8702e96527be359
+    m_Address: Assets/AddressablesAssets/Items/a011.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  - m_GUID: 1b7c7871bc3d44e9d9c93ca3796ea512
+    m_Address: Assets/AddressablesAssets/Items/a012.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  - m_GUID: 0a9c12dc34f75486f962ed55b48d6b95
+    m_Address: Assets/AddressablesAssets/Items/a014.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  - m_GUID: 5ce9e937ae7d942aebdcbc174a88abea
+    m_Address: Assets/AddressablesAssets/Items/a015.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  - m_GUID: c7faa7343a5bb49d49d0ad95962ec23c
+    m_Address: Assets/AddressablesAssets/Items/a016.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  - m_GUID: 112b9043e5dfb4ab2b80173a0fb4fdb1
+    m_Address: Assets/AddressablesAssets/Items/a017.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  - m_GUID: c3e4d6a880c8346699a2d357e1bbfc7a
+    m_Address: Assets/AddressablesAssets/Items/a019.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Furniture
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 1be063e84cd7046d3a54ef33ca87b7bf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8e6f027f7f383440184d4d0ec2de5172, type: 2}
+    - {fileID: 11400000, guid: cdd9af5361b924cda915a9e01fba3f18, type: 2}
