@@ -23536,7 +23536,7 @@ IL_000d:
 	{
 		Type_t * L_3 = ___derivedType0;
 		NullCheck(L_3);
-		Type_t * L_4 = VirtFuncInvoker0< Type_t * >::Invoke(30 /* System.Type System.Type::get_BaseType() */, L_3);
+		Type_t * L_4 = VirtFuncInvoker0< Type_t * >::Invoke(31 /* System.Type System.Type::get_BaseType() */, L_3);
 		___derivedType0 = L_4;
 	}
 
@@ -27859,7 +27859,7 @@ IL_007b:
 	{
 		Type_t * L_29 = ___destinationType1;
 		NullCheck(L_29);
-		Type_t * L_30 = VirtFuncInvoker0< Type_t * >::Invoke(98 /* System.Type System.Type::GetElementType() */, L_29);
+		Type_t * L_30 = VirtFuncInvoker0< Type_t * >::Invoke(99 /* System.Type System.Type::GetElementType() */, L_29);
 		V_1 = L_30;
 		Type_t * L_31 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(XmlBaseConverter_t2E1FE7137987814D59918B27A1807DAE7E78CFD8_il2cpp_TypeInfo_var);

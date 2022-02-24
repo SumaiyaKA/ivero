@@ -210,66 +210,171 @@ extern void AesTransform__cctor_mDEA197C50BA055FF76B7ECFEB5C1FD7900CE4325 (void)
 extern void Error_ArgumentNull_mCA126ED8F4F3B343A70E201C44B3A509690F1EA7 (void);
 // 0x0000005F System.Exception System.Linq.Error::MoreThanOneMatch()
 extern void Error_MoreThanOneMatch_m85C3617F782E9F2333FC1FDF42821BE069F24623 (void);
-// 0x00000060 System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::Where(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
-// 0x00000061 System.Func`2<TSource,System.Boolean> System.Linq.Enumerable::CombinePredicates(System.Func`2<TSource,System.Boolean>,System.Func`2<TSource,System.Boolean>)
-// 0x00000062 TSource System.Linq.Enumerable::SingleOrDefault(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
-// 0x00000063 System.Boolean System.Linq.Enumerable::Any(System.Collections.Generic.IEnumerable`1<TSource>)
-// 0x00000064 System.Boolean System.Linq.Enumerable::Any(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
-// 0x00000065 System.Void System.Linq.Enumerable/Iterator`1::.ctor()
-// 0x00000066 TSource System.Linq.Enumerable/Iterator`1::get_Current()
-// 0x00000067 System.Linq.Enumerable/Iterator`1<TSource> System.Linq.Enumerable/Iterator`1::Clone()
-// 0x00000068 System.Void System.Linq.Enumerable/Iterator`1::Dispose()
-// 0x00000069 System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/Iterator`1::GetEnumerator()
-// 0x0000006A System.Boolean System.Linq.Enumerable/Iterator`1::MoveNext()
-// 0x0000006B System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/Iterator`1::Where(System.Func`2<TSource,System.Boolean>)
-// 0x0000006C System.Object System.Linq.Enumerable/Iterator`1::System.Collections.IEnumerator.get_Current()
-// 0x0000006D System.Collections.IEnumerator System.Linq.Enumerable/Iterator`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x0000006E System.Void System.Linq.Enumerable/Iterator`1::System.Collections.IEnumerator.Reset()
-// 0x0000006F System.Void System.Linq.Enumerable/WhereEnumerableIterator`1::.ctor(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
-// 0x00000070 System.Linq.Enumerable/Iterator`1<TSource> System.Linq.Enumerable/WhereEnumerableIterator`1::Clone()
-// 0x00000071 System.Void System.Linq.Enumerable/WhereEnumerableIterator`1::Dispose()
-// 0x00000072 System.Boolean System.Linq.Enumerable/WhereEnumerableIterator`1::MoveNext()
-// 0x00000073 System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/WhereEnumerableIterator`1::Where(System.Func`2<TSource,System.Boolean>)
-// 0x00000074 System.Void System.Linq.Enumerable/WhereArrayIterator`1::.ctor(TSource[],System.Func`2<TSource,System.Boolean>)
-// 0x00000075 System.Linq.Enumerable/Iterator`1<TSource> System.Linq.Enumerable/WhereArrayIterator`1::Clone()
-// 0x00000076 System.Boolean System.Linq.Enumerable/WhereArrayIterator`1::MoveNext()
-// 0x00000077 System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/WhereArrayIterator`1::Where(System.Func`2<TSource,System.Boolean>)
-// 0x00000078 System.Void System.Linq.Enumerable/WhereListIterator`1::.ctor(System.Collections.Generic.List`1<TSource>,System.Func`2<TSource,System.Boolean>)
-// 0x00000079 System.Linq.Enumerable/Iterator`1<TSource> System.Linq.Enumerable/WhereListIterator`1::Clone()
-// 0x0000007A System.Boolean System.Linq.Enumerable/WhereListIterator`1::MoveNext()
-// 0x0000007B System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/WhereListIterator`1::Where(System.Func`2<TSource,System.Boolean>)
-// 0x0000007C System.Void System.Linq.Enumerable/<>c__DisplayClass6_0`1::.ctor()
-// 0x0000007D System.Boolean System.Linq.Enumerable/<>c__DisplayClass6_0`1::<CombinePredicates>b__0(TSource)
-// 0x0000007E System.Void System.Collections.Generic.HashSet`1::.ctor()
-// 0x0000007F System.Void System.Collections.Generic.HashSet`1::.ctor(System.Collections.Generic.IEqualityComparer`1<T>)
-// 0x00000080 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-// 0x00000081 System.Void System.Collections.Generic.HashSet`1::System.Collections.Generic.ICollection<T>.Add(T)
-// 0x00000082 System.Void System.Collections.Generic.HashSet`1::Clear()
-// 0x00000083 System.Boolean System.Collections.Generic.HashSet`1::Contains(T)
-// 0x00000084 System.Void System.Collections.Generic.HashSet`1::CopyTo(T[],System.Int32)
-// 0x00000085 System.Boolean System.Collections.Generic.HashSet`1::Remove(T)
-// 0x00000086 System.Int32 System.Collections.Generic.HashSet`1::get_Count()
-// 0x00000087 System.Boolean System.Collections.Generic.HashSet`1::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-// 0x00000088 System.Collections.Generic.HashSet`1/Enumerator<T> System.Collections.Generic.HashSet`1::GetEnumerator()
-// 0x00000089 System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.HashSet`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-// 0x0000008A System.Collections.IEnumerator System.Collections.Generic.HashSet`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x0000008B System.Void System.Collections.Generic.HashSet`1::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-// 0x0000008C System.Void System.Collections.Generic.HashSet`1::OnDeserialization(System.Object)
-// 0x0000008D System.Boolean System.Collections.Generic.HashSet`1::Add(T)
-// 0x0000008E System.Void System.Collections.Generic.HashSet`1::CopyTo(T[])
-// 0x0000008F System.Void System.Collections.Generic.HashSet`1::CopyTo(T[],System.Int32,System.Int32)
-// 0x00000090 System.Void System.Collections.Generic.HashSet`1::Initialize(System.Int32)
-// 0x00000091 System.Void System.Collections.Generic.HashSet`1::IncreaseCapacity()
-// 0x00000092 System.Void System.Collections.Generic.HashSet`1::SetCapacity(System.Int32)
-// 0x00000093 System.Boolean System.Collections.Generic.HashSet`1::AddIfNotPresent(T)
-// 0x00000094 System.Int32 System.Collections.Generic.HashSet`1::InternalGetHashCode(T)
-// 0x00000095 System.Void System.Collections.Generic.HashSet`1/Enumerator::.ctor(System.Collections.Generic.HashSet`1<T>)
-// 0x00000096 System.Void System.Collections.Generic.HashSet`1/Enumerator::Dispose()
-// 0x00000097 System.Boolean System.Collections.Generic.HashSet`1/Enumerator::MoveNext()
-// 0x00000098 T System.Collections.Generic.HashSet`1/Enumerator::get_Current()
-// 0x00000099 System.Object System.Collections.Generic.HashSet`1/Enumerator::System.Collections.IEnumerator.get_Current()
-// 0x0000009A System.Void System.Collections.Generic.HashSet`1/Enumerator::System.Collections.IEnumerator.Reset()
-static Il2CppMethodPointer s_methodPointers[154] = 
+// 0x00000060 System.Exception System.Linq.Error::NoElements()
+extern void Error_NoElements_m17188AC2CF25EB359A4E1DDE9518A98598791136 (void);
+// 0x00000061 System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::Where(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+// 0x00000062 System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
+// 0x00000063 System.Func`2<TSource,System.Boolean> System.Linq.Enumerable::CombinePredicates(System.Func`2<TSource,System.Boolean>,System.Func`2<TSource,System.Boolean>)
+// 0x00000064 System.Func`2<TSource,TResult> System.Linq.Enumerable::CombineSelectors(System.Func`2<TSource,TMiddle>,System.Func`2<TMiddle,TResult>)
+// 0x00000065 System.Linq.IOrderedEnumerable`1<TSource> System.Linq.Enumerable::OrderBy(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TKey>)
+// 0x00000066 System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::Concat(System.Collections.Generic.IEnumerable`1<TSource>,System.Collections.Generic.IEnumerable`1<TSource>)
+// 0x00000067 System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::ConcatIterator(System.Collections.Generic.IEnumerable`1<TSource>,System.Collections.Generic.IEnumerable`1<TSource>)
+// 0x00000068 System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::Distinct(System.Collections.Generic.IEnumerable`1<TSource>)
+// 0x00000069 System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable::DistinctIterator(System.Collections.Generic.IEnumerable`1<TSource>,System.Collections.Generic.IEqualityComparer`1<TSource>)
+// 0x0000006A TSource[] System.Linq.Enumerable::ToArray(System.Collections.Generic.IEnumerable`1<TSource>)
+// 0x0000006B TSource System.Linq.Enumerable::First(System.Collections.Generic.IEnumerable`1<TSource>)
+// 0x0000006C TSource System.Linq.Enumerable::FirstOrDefault(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+// 0x0000006D TSource System.Linq.Enumerable::SingleOrDefault(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+// 0x0000006E System.Boolean System.Linq.Enumerable::Any(System.Collections.Generic.IEnumerable`1<TSource>)
+// 0x0000006F System.Boolean System.Linq.Enumerable::Any(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+// 0x00000070 System.Void System.Linq.Enumerable/Iterator`1::.ctor()
+// 0x00000071 TSource System.Linq.Enumerable/Iterator`1::get_Current()
+// 0x00000072 System.Linq.Enumerable/Iterator`1<TSource> System.Linq.Enumerable/Iterator`1::Clone()
+// 0x00000073 System.Void System.Linq.Enumerable/Iterator`1::Dispose()
+// 0x00000074 System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/Iterator`1::GetEnumerator()
+// 0x00000075 System.Boolean System.Linq.Enumerable/Iterator`1::MoveNext()
+// 0x00000076 System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable/Iterator`1::Select(System.Func`2<TSource,TResult>)
+// 0x00000077 System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/Iterator`1::Where(System.Func`2<TSource,System.Boolean>)
+// 0x00000078 System.Object System.Linq.Enumerable/Iterator`1::System.Collections.IEnumerator.get_Current()
+// 0x00000079 System.Collections.IEnumerator System.Linq.Enumerable/Iterator`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x0000007A System.Void System.Linq.Enumerable/Iterator`1::System.Collections.IEnumerator.Reset()
+// 0x0000007B System.Void System.Linq.Enumerable/WhereEnumerableIterator`1::.ctor(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>)
+// 0x0000007C System.Linq.Enumerable/Iterator`1<TSource> System.Linq.Enumerable/WhereEnumerableIterator`1::Clone()
+// 0x0000007D System.Void System.Linq.Enumerable/WhereEnumerableIterator`1::Dispose()
+// 0x0000007E System.Boolean System.Linq.Enumerable/WhereEnumerableIterator`1::MoveNext()
+// 0x0000007F System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable/WhereEnumerableIterator`1::Select(System.Func`2<TSource,TResult>)
+// 0x00000080 System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/WhereEnumerableIterator`1::Where(System.Func`2<TSource,System.Boolean>)
+// 0x00000081 System.Void System.Linq.Enumerable/WhereArrayIterator`1::.ctor(TSource[],System.Func`2<TSource,System.Boolean>)
+// 0x00000082 System.Linq.Enumerable/Iterator`1<TSource> System.Linq.Enumerable/WhereArrayIterator`1::Clone()
+// 0x00000083 System.Boolean System.Linq.Enumerable/WhereArrayIterator`1::MoveNext()
+// 0x00000084 System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable/WhereArrayIterator`1::Select(System.Func`2<TSource,TResult>)
+// 0x00000085 System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/WhereArrayIterator`1::Where(System.Func`2<TSource,System.Boolean>)
+// 0x00000086 System.Void System.Linq.Enumerable/WhereListIterator`1::.ctor(System.Collections.Generic.List`1<TSource>,System.Func`2<TSource,System.Boolean>)
+// 0x00000087 System.Linq.Enumerable/Iterator`1<TSource> System.Linq.Enumerable/WhereListIterator`1::Clone()
+// 0x00000088 System.Boolean System.Linq.Enumerable/WhereListIterator`1::MoveNext()
+// 0x00000089 System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable/WhereListIterator`1::Select(System.Func`2<TSource,TResult>)
+// 0x0000008A System.Collections.Generic.IEnumerable`1<TSource> System.Linq.Enumerable/WhereListIterator`1::Where(System.Func`2<TSource,System.Boolean>)
+// 0x0000008B System.Void System.Linq.Enumerable/WhereSelectEnumerableIterator`2::.ctor(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Boolean>,System.Func`2<TSource,TResult>)
+// 0x0000008C System.Linq.Enumerable/Iterator`1<TResult> System.Linq.Enumerable/WhereSelectEnumerableIterator`2::Clone()
+// 0x0000008D System.Void System.Linq.Enumerable/WhereSelectEnumerableIterator`2::Dispose()
+// 0x0000008E System.Boolean System.Linq.Enumerable/WhereSelectEnumerableIterator`2::MoveNext()
+// 0x0000008F System.Collections.Generic.IEnumerable`1<TResult2> System.Linq.Enumerable/WhereSelectEnumerableIterator`2::Select(System.Func`2<TResult,TResult2>)
+// 0x00000090 System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable/WhereSelectEnumerableIterator`2::Where(System.Func`2<TResult,System.Boolean>)
+// 0x00000091 System.Void System.Linq.Enumerable/WhereSelectArrayIterator`2::.ctor(TSource[],System.Func`2<TSource,System.Boolean>,System.Func`2<TSource,TResult>)
+// 0x00000092 System.Linq.Enumerable/Iterator`1<TResult> System.Linq.Enumerable/WhereSelectArrayIterator`2::Clone()
+// 0x00000093 System.Boolean System.Linq.Enumerable/WhereSelectArrayIterator`2::MoveNext()
+// 0x00000094 System.Collections.Generic.IEnumerable`1<TResult2> System.Linq.Enumerable/WhereSelectArrayIterator`2::Select(System.Func`2<TResult,TResult2>)
+// 0x00000095 System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable/WhereSelectArrayIterator`2::Where(System.Func`2<TResult,System.Boolean>)
+// 0x00000096 System.Void System.Linq.Enumerable/WhereSelectListIterator`2::.ctor(System.Collections.Generic.List`1<TSource>,System.Func`2<TSource,System.Boolean>,System.Func`2<TSource,TResult>)
+// 0x00000097 System.Linq.Enumerable/Iterator`1<TResult> System.Linq.Enumerable/WhereSelectListIterator`2::Clone()
+// 0x00000098 System.Boolean System.Linq.Enumerable/WhereSelectListIterator`2::MoveNext()
+// 0x00000099 System.Collections.Generic.IEnumerable`1<TResult2> System.Linq.Enumerable/WhereSelectListIterator`2::Select(System.Func`2<TResult,TResult2>)
+// 0x0000009A System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable/WhereSelectListIterator`2::Where(System.Func`2<TResult,System.Boolean>)
+// 0x0000009B System.Void System.Linq.Enumerable/<>c__DisplayClass6_0`1::.ctor()
+// 0x0000009C System.Boolean System.Linq.Enumerable/<>c__DisplayClass6_0`1::<CombinePredicates>b__0(TSource)
+// 0x0000009D System.Void System.Linq.Enumerable/<>c__DisplayClass7_0`3::.ctor()
+// 0x0000009E TResult System.Linq.Enumerable/<>c__DisplayClass7_0`3::<CombineSelectors>b__0(TSource)
+// 0x0000009F System.Void System.Linq.Enumerable/<ConcatIterator>d__59`1::.ctor(System.Int32)
+// 0x000000A0 System.Void System.Linq.Enumerable/<ConcatIterator>d__59`1::System.IDisposable.Dispose()
+// 0x000000A1 System.Boolean System.Linq.Enumerable/<ConcatIterator>d__59`1::MoveNext()
+// 0x000000A2 System.Void System.Linq.Enumerable/<ConcatIterator>d__59`1::<>m__Finally1()
+// 0x000000A3 System.Void System.Linq.Enumerable/<ConcatIterator>d__59`1::<>m__Finally2()
+// 0x000000A4 TSource System.Linq.Enumerable/<ConcatIterator>d__59`1::System.Collections.Generic.IEnumerator<TSource>.get_Current()
+// 0x000000A5 System.Void System.Linq.Enumerable/<ConcatIterator>d__59`1::System.Collections.IEnumerator.Reset()
+// 0x000000A6 System.Object System.Linq.Enumerable/<ConcatIterator>d__59`1::System.Collections.IEnumerator.get_Current()
+// 0x000000A7 System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<ConcatIterator>d__59`1::System.Collections.Generic.IEnumerable<TSource>.GetEnumerator()
+// 0x000000A8 System.Collections.IEnumerator System.Linq.Enumerable/<ConcatIterator>d__59`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x000000A9 System.Void System.Linq.Enumerable/<DistinctIterator>d__68`1::.ctor(System.Int32)
+// 0x000000AA System.Void System.Linq.Enumerable/<DistinctIterator>d__68`1::System.IDisposable.Dispose()
+// 0x000000AB System.Boolean System.Linq.Enumerable/<DistinctIterator>d__68`1::MoveNext()
+// 0x000000AC System.Void System.Linq.Enumerable/<DistinctIterator>d__68`1::<>m__Finally1()
+// 0x000000AD TSource System.Linq.Enumerable/<DistinctIterator>d__68`1::System.Collections.Generic.IEnumerator<TSource>.get_Current()
+// 0x000000AE System.Void System.Linq.Enumerable/<DistinctIterator>d__68`1::System.Collections.IEnumerator.Reset()
+// 0x000000AF System.Object System.Linq.Enumerable/<DistinctIterator>d__68`1::System.Collections.IEnumerator.get_Current()
+// 0x000000B0 System.Collections.Generic.IEnumerator`1<TSource> System.Linq.Enumerable/<DistinctIterator>d__68`1::System.Collections.Generic.IEnumerable<TSource>.GetEnumerator()
+// 0x000000B1 System.Collections.IEnumerator System.Linq.Enumerable/<DistinctIterator>d__68`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x000000B2 System.Void System.Linq.Set`1::.ctor(System.Collections.Generic.IEqualityComparer`1<TElement>)
+// 0x000000B3 System.Boolean System.Linq.Set`1::Add(TElement)
+// 0x000000B4 System.Boolean System.Linq.Set`1::Find(TElement,System.Boolean)
+// 0x000000B5 System.Void System.Linq.Set`1::Resize()
+// 0x000000B6 System.Int32 System.Linq.Set`1::InternalGetHashCode(TElement)
+// 0x000000B7 System.Collections.Generic.IEnumerator`1<TElement> System.Linq.OrderedEnumerable`1::GetEnumerator()
+// 0x000000B8 System.Linq.EnumerableSorter`1<TElement> System.Linq.OrderedEnumerable`1::GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement>)
+// 0x000000B9 System.Collections.IEnumerator System.Linq.OrderedEnumerable`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x000000BA System.Void System.Linq.OrderedEnumerable`1::.ctor()
+// 0x000000BB System.Void System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::.ctor(System.Int32)
+// 0x000000BC System.Void System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::System.IDisposable.Dispose()
+// 0x000000BD System.Boolean System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::MoveNext()
+// 0x000000BE TElement System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::System.Collections.Generic.IEnumerator<TElement>.get_Current()
+// 0x000000BF System.Void System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::System.Collections.IEnumerator.Reset()
+// 0x000000C0 System.Object System.Linq.OrderedEnumerable`1/<GetEnumerator>d__1::System.Collections.IEnumerator.get_Current()
+// 0x000000C1 System.Void System.Linq.OrderedEnumerable`2::.ctor(System.Collections.Generic.IEnumerable`1<TElement>,System.Func`2<TElement,TKey>,System.Collections.Generic.IComparer`1<TKey>,System.Boolean)
+// 0x000000C2 System.Linq.EnumerableSorter`1<TElement> System.Linq.OrderedEnumerable`2::GetEnumerableSorter(System.Linq.EnumerableSorter`1<TElement>)
+// 0x000000C3 System.Void System.Linq.EnumerableSorter`1::ComputeKeys(TElement[],System.Int32)
+// 0x000000C4 System.Int32 System.Linq.EnumerableSorter`1::CompareKeys(System.Int32,System.Int32)
+// 0x000000C5 System.Int32[] System.Linq.EnumerableSorter`1::Sort(TElement[],System.Int32)
+// 0x000000C6 System.Void System.Linq.EnumerableSorter`1::QuickSort(System.Int32[],System.Int32,System.Int32)
+// 0x000000C7 System.Void System.Linq.EnumerableSorter`1::.ctor()
+// 0x000000C8 System.Void System.Linq.EnumerableSorter`2::.ctor(System.Func`2<TElement,TKey>,System.Collections.Generic.IComparer`1<TKey>,System.Boolean,System.Linq.EnumerableSorter`1<TElement>)
+// 0x000000C9 System.Void System.Linq.EnumerableSorter`2::ComputeKeys(TElement[],System.Int32)
+// 0x000000CA System.Int32 System.Linq.EnumerableSorter`2::CompareKeys(System.Int32,System.Int32)
+// 0x000000CB System.Void System.Linq.Buffer`1::.ctor(System.Collections.Generic.IEnumerable`1<TElement>)
+// 0x000000CC TElement[] System.Linq.Buffer`1::ToArray()
+// 0x000000CD System.Void System.Collections.Generic.BitHelper::.ctor(System.Int32*,System.Int32)
+extern void BitHelper__ctor_m7D010B426005B48D8C03139EB9248E927293BF3F (void);
+// 0x000000CE System.Void System.Collections.Generic.BitHelper::.ctor(System.Int32[],System.Int32)
+extern void BitHelper__ctor_m8F1FB12BE0C611E499E3E03A151A52FE02A468C5 (void);
+// 0x000000CF System.Void System.Collections.Generic.BitHelper::MarkBit(System.Int32)
+extern void BitHelper_MarkBit_mADF9FABA576B57C4BB5BD616ACAA28C613045802 (void);
+// 0x000000D0 System.Boolean System.Collections.Generic.BitHelper::IsMarked(System.Int32)
+extern void BitHelper_IsMarked_m2DB877B8A728264DE8A02E20BDFA4C886CAB4345 (void);
+// 0x000000D1 System.Int32 System.Collections.Generic.BitHelper::ToIntArrayLength(System.Int32)
+extern void BitHelper_ToIntArrayLength_mAFCF611F107D1DDA8FA965FA24A027715E1D3991 (void);
+// 0x000000D2 System.Void System.Collections.Generic.HashSet`1::.ctor()
+// 0x000000D3 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Collections.Generic.IEqualityComparer`1<T>)
+// 0x000000D4 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000D5 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Collections.Generic.IEnumerable`1<T>,System.Collections.Generic.IEqualityComparer`1<T>)
+// 0x000000D6 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x000000D7 System.Void System.Collections.Generic.HashSet`1::CopyFrom(System.Collections.Generic.HashSet`1<T>)
+// 0x000000D8 System.Void System.Collections.Generic.HashSet`1::System.Collections.Generic.ICollection<T>.Add(T)
+// 0x000000D9 System.Void System.Collections.Generic.HashSet`1::Clear()
+// 0x000000DA System.Boolean System.Collections.Generic.HashSet`1::Contains(T)
+// 0x000000DB System.Void System.Collections.Generic.HashSet`1::CopyTo(T[],System.Int32)
+// 0x000000DC System.Boolean System.Collections.Generic.HashSet`1::Remove(T)
+// 0x000000DD System.Int32 System.Collections.Generic.HashSet`1::get_Count()
+// 0x000000DE System.Boolean System.Collections.Generic.HashSet`1::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+// 0x000000DF System.Collections.Generic.HashSet`1/Enumerator<T> System.Collections.Generic.HashSet`1::GetEnumerator()
+// 0x000000E0 System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.HashSet`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x000000E1 System.Collections.IEnumerator System.Collections.Generic.HashSet`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x000000E2 System.Void System.Collections.Generic.HashSet`1::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x000000E3 System.Void System.Collections.Generic.HashSet`1::OnDeserialization(System.Object)
+// 0x000000E4 System.Boolean System.Collections.Generic.HashSet`1::Add(T)
+// 0x000000E5 System.Void System.Collections.Generic.HashSet`1::UnionWith(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000E6 System.Void System.Collections.Generic.HashSet`1::IntersectWith(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000E7 System.Boolean System.Collections.Generic.HashSet`1::SetEquals(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000E8 System.Void System.Collections.Generic.HashSet`1::CopyTo(T[])
+// 0x000000E9 System.Void System.Collections.Generic.HashSet`1::CopyTo(T[],System.Int32,System.Int32)
+// 0x000000EA System.Collections.Generic.IEqualityComparer`1<T> System.Collections.Generic.HashSet`1::get_Comparer()
+// 0x000000EB System.Void System.Collections.Generic.HashSet`1::TrimExcess()
+// 0x000000EC System.Void System.Collections.Generic.HashSet`1::Initialize(System.Int32)
+// 0x000000ED System.Void System.Collections.Generic.HashSet`1::IncreaseCapacity()
+// 0x000000EE System.Void System.Collections.Generic.HashSet`1::SetCapacity(System.Int32)
+// 0x000000EF System.Boolean System.Collections.Generic.HashSet`1::AddIfNotPresent(T)
+// 0x000000F0 System.Void System.Collections.Generic.HashSet`1::AddValue(System.Int32,System.Int32,T)
+// 0x000000F1 System.Boolean System.Collections.Generic.HashSet`1::ContainsAllElements(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000F2 System.Void System.Collections.Generic.HashSet`1::IntersectWithHashSetWithSameEC(System.Collections.Generic.HashSet`1<T>)
+// 0x000000F3 System.Void System.Collections.Generic.HashSet`1::IntersectWithEnumerable(System.Collections.Generic.IEnumerable`1<T>)
+// 0x000000F4 System.Int32 System.Collections.Generic.HashSet`1::InternalIndexOf(T)
+// 0x000000F5 System.Collections.Generic.HashSet`1/ElementCount<T> System.Collections.Generic.HashSet`1::CheckUniqueAndUnfoundElements(System.Collections.Generic.IEnumerable`1<T>,System.Boolean)
+// 0x000000F6 System.Boolean System.Collections.Generic.HashSet`1::AreEqualityComparersEqual(System.Collections.Generic.HashSet`1<T>,System.Collections.Generic.HashSet`1<T>)
+// 0x000000F7 System.Int32 System.Collections.Generic.HashSet`1::InternalGetHashCode(T)
+// 0x000000F8 System.Void System.Collections.Generic.HashSet`1/Enumerator::.ctor(System.Collections.Generic.HashSet`1<T>)
+// 0x000000F9 System.Void System.Collections.Generic.HashSet`1/Enumerator::Dispose()
+// 0x000000FA System.Boolean System.Collections.Generic.HashSet`1/Enumerator::MoveNext()
+// 0x000000FB T System.Collections.Generic.HashSet`1/Enumerator::get_Current()
+// 0x000000FC System.Object System.Collections.Generic.HashSet`1/Enumerator::System.Collections.IEnumerator.get_Current()
+// 0x000000FD System.Void System.Collections.Generic.HashSet`1/Enumerator::System.Collections.IEnumerator.Reset()
+static Il2CppMethodPointer s_methodPointers[253] = 
 {
 	SR_GetString_m0D34A4798D653D11FFC8F27A24C741A83A3DA90B,
 	ReaderWriterCount__ctor_m1BBD3EB1DFD5837AE05A5B72DB01657C1546C0EF,
@@ -366,6 +471,7 @@ static Il2CppMethodPointer s_methodPointers[154] =
 	AesTransform__cctor_mDEA197C50BA055FF76B7ECFEB5C1FD7900CE4325,
 	Error_ArgumentNull_mCA126ED8F4F3B343A70E201C44B3A509690F1EA7,
 	Error_MoreThanOneMatch_m85C3617F782E9F2333FC1FDF42821BE069F24623,
+	Error_NoElements_m17188AC2CF25EB359A4E1DDE9518A98598791136,
 	NULL,
 	NULL,
 	NULL,
@@ -381,6 +487,104 @@ static Il2CppMethodPointer s_methodPointers[154] =
 	NULL,
 	NULL,
 	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	BitHelper__ctor_m7D010B426005B48D8C03139EB9248E927293BF3F,
+	BitHelper__ctor_m8F1FB12BE0C611E499E3E03A151A52FE02A468C5,
+	BitHelper_MarkBit_mADF9FABA576B57C4BB5BD616ACAA28C613045802,
+	BitHelper_IsMarked_m2DB877B8A728264DE8A02E20BDFA4C886CAB4345,
+	BitHelper_ToIntArrayLength_mAFCF611F107D1DDA8FA965FA24A027715E1D3991,
 	NULL,
 	NULL,
 	NULL,
@@ -435,7 +639,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[3] =
 	{ 0x06000030, TimeoutTracker_get_RemainingMilliseconds_mAF2F88DCCD1A056E00EF12AA334C9561D962A17C_AdjustorThunk },
 	{ 0x06000031, TimeoutTracker_get_IsExpired_m3A2BF7A380901450677142E2863EB14A28B3EE85_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[154] = 
+static const int32_t s_InvokerIndices[253] = 
 {
 	0,
 	23,
@@ -447,16 +651,16 @@ static const int32_t s_InvokerIndices[154] =
 	123,
 	23,
 	30,
-	1465,
-	1465,
+	1468,
+	1468,
 	23,
 	30,
-	1465,
-	1465,
+	1468,
+	1468,
 	23,
 	23,
-	1466,
-	1467,
+	1469,
+	1470,
 	23,
 	23,
 	23,
@@ -524,13 +728,14 @@ static const int32_t s_InvokerIndices[154] =
 	14,
 	14,
 	31,
-	927,
+	930,
 	27,
 	37,
 	197,
 	197,
 	3,
 	0,
+	4,
 	4,
 	-1,
 	-1,
@@ -591,115 +796,403 @@ static const int32_t s_InvokerIndices[154] =
 	-1,
 	-1,
 	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	64,
+	130,
+	32,
+	30,
+	21,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
 };
-static const Il2CppTokenRangePair s_rgctxIndices[12] = 
+static const Il2CppTokenRangePair s_rgctxIndices[41] = 
 {
-	{ 0x0200000C, { 22, 4 } },
-	{ 0x0200000D, { 26, 9 } },
-	{ 0x0200000E, { 35, 7 } },
-	{ 0x0200000F, { 42, 10 } },
-	{ 0x02000010, { 52, 1 } },
-	{ 0x02000012, { 53, 21 } },
-	{ 0x02000014, { 74, 2 } },
-	{ 0x06000060, { 0, 10 } },
-	{ 0x06000061, { 10, 5 } },
-	{ 0x06000062, { 15, 3 } },
-	{ 0x06000063, { 18, 1 } },
-	{ 0x06000064, { 19, 3 } },
+	{ 0x0200000C, { 55, 4 } },
+	{ 0x0200000D, { 59, 9 } },
+	{ 0x0200000E, { 70, 7 } },
+	{ 0x0200000F, { 79, 10 } },
+	{ 0x02000010, { 91, 11 } },
+	{ 0x02000011, { 105, 9 } },
+	{ 0x02000012, { 117, 12 } },
+	{ 0x02000013, { 132, 1 } },
+	{ 0x02000014, { 133, 2 } },
+	{ 0x02000015, { 135, 9 } },
+	{ 0x02000016, { 144, 11 } },
+	{ 0x02000018, { 155, 8 } },
+	{ 0x0200001A, { 163, 3 } },
+	{ 0x0200001B, { 166, 5 } },
+	{ 0x0200001C, { 171, 7 } },
+	{ 0x0200001D, { 178, 3 } },
+	{ 0x0200001E, { 181, 7 } },
+	{ 0x0200001F, { 188, 4 } },
+	{ 0x02000022, { 192, 43 } },
+	{ 0x02000025, { 235, 2 } },
+	{ 0x06000061, { 0, 10 } },
+	{ 0x06000062, { 10, 10 } },
+	{ 0x06000063, { 20, 5 } },
+	{ 0x06000064, { 25, 5 } },
+	{ 0x06000065, { 30, 2 } },
+	{ 0x06000066, { 32, 1 } },
+	{ 0x06000067, { 33, 2 } },
+	{ 0x06000068, { 35, 1 } },
+	{ 0x06000069, { 36, 2 } },
+	{ 0x0600006A, { 38, 3 } },
+	{ 0x0600006B, { 41, 4 } },
+	{ 0x0600006C, { 45, 3 } },
+	{ 0x0600006D, { 48, 3 } },
+	{ 0x0600006E, { 51, 1 } },
+	{ 0x0600006F, { 52, 3 } },
+	{ 0x0600007F, { 68, 2 } },
+	{ 0x06000084, { 77, 2 } },
+	{ 0x06000089, { 89, 2 } },
+	{ 0x0600008F, { 102, 3 } },
+	{ 0x06000094, { 114, 3 } },
+	{ 0x06000099, { 129, 3 } },
 };
-static const Il2CppRGCTXDefinition s_rgctxValues[76] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[237] = 
 {
-	{ (Il2CppRGCTXDataType)2, 23516 },
-	{ (Il2CppRGCTXDataType)3, 15709 },
-	{ (Il2CppRGCTXDataType)2, 23517 },
-	{ (Il2CppRGCTXDataType)2, 23518 },
-	{ (Il2CppRGCTXDataType)3, 15710 },
-	{ (Il2CppRGCTXDataType)2, 23519 },
-	{ (Il2CppRGCTXDataType)2, 23520 },
-	{ (Il2CppRGCTXDataType)3, 15711 },
-	{ (Il2CppRGCTXDataType)2, 23521 },
-	{ (Il2CppRGCTXDataType)3, 15712 },
-	{ (Il2CppRGCTXDataType)2, 23522 },
-	{ (Il2CppRGCTXDataType)3, 15713 },
-	{ (Il2CppRGCTXDataType)3, 15714 },
-	{ (Il2CppRGCTXDataType)2, 18245 },
-	{ (Il2CppRGCTXDataType)3, 15715 },
-	{ (Il2CppRGCTXDataType)2, 18247 },
-	{ (Il2CppRGCTXDataType)2, 23523 },
-	{ (Il2CppRGCTXDataType)3, 15716 },
-	{ (Il2CppRGCTXDataType)2, 18250 },
-	{ (Il2CppRGCTXDataType)2, 18252 },
-	{ (Il2CppRGCTXDataType)2, 23524 },
-	{ (Il2CppRGCTXDataType)3, 15717 },
-	{ (Il2CppRGCTXDataType)3, 15718 },
-	{ (Il2CppRGCTXDataType)3, 15719 },
-	{ (Il2CppRGCTXDataType)2, 18257 },
-	{ (Il2CppRGCTXDataType)3, 15720 },
-	{ (Il2CppRGCTXDataType)3, 15721 },
-	{ (Il2CppRGCTXDataType)2, 18266 },
-	{ (Il2CppRGCTXDataType)2, 23525 },
-	{ (Il2CppRGCTXDataType)3, 15722 },
-	{ (Il2CppRGCTXDataType)3, 15723 },
-	{ (Il2CppRGCTXDataType)2, 18268 },
-	{ (Il2CppRGCTXDataType)2, 23413 },
-	{ (Il2CppRGCTXDataType)3, 15724 },
-	{ (Il2CppRGCTXDataType)3, 15725 },
-	{ (Il2CppRGCTXDataType)3, 15726 },
-	{ (Il2CppRGCTXDataType)2, 18275 },
-	{ (Il2CppRGCTXDataType)2, 23526 },
-	{ (Il2CppRGCTXDataType)3, 15727 },
-	{ (Il2CppRGCTXDataType)3, 15728 },
-	{ (Il2CppRGCTXDataType)3, 15193 },
-	{ (Il2CppRGCTXDataType)3, 15729 },
-	{ (Il2CppRGCTXDataType)3, 15730 },
-	{ (Il2CppRGCTXDataType)2, 18284 },
-	{ (Il2CppRGCTXDataType)2, 23527 },
-	{ (Il2CppRGCTXDataType)3, 15731 },
-	{ (Il2CppRGCTXDataType)3, 15732 },
-	{ (Il2CppRGCTXDataType)3, 15733 },
-	{ (Il2CppRGCTXDataType)3, 15734 },
-	{ (Il2CppRGCTXDataType)3, 15735 },
-	{ (Il2CppRGCTXDataType)3, 15199 },
-	{ (Il2CppRGCTXDataType)3, 15736 },
-	{ (Il2CppRGCTXDataType)3, 15737 },
-	{ (Il2CppRGCTXDataType)3, 15738 },
-	{ (Il2CppRGCTXDataType)2, 23528 },
-	{ (Il2CppRGCTXDataType)3, 15739 },
-	{ (Il2CppRGCTXDataType)3, 15740 },
-	{ (Il2CppRGCTXDataType)3, 15741 },
-	{ (Il2CppRGCTXDataType)2, 18299 },
-	{ (Il2CppRGCTXDataType)3, 15742 },
-	{ (Il2CppRGCTXDataType)3, 15743 },
-	{ (Il2CppRGCTXDataType)2, 18302 },
-	{ (Il2CppRGCTXDataType)3, 15744 },
-	{ (Il2CppRGCTXDataType)1, 23529 },
-	{ (Il2CppRGCTXDataType)2, 18301 },
-	{ (Il2CppRGCTXDataType)3, 15745 },
-	{ (Il2CppRGCTXDataType)1, 18301 },
-	{ (Il2CppRGCTXDataType)1, 18299 },
-	{ (Il2CppRGCTXDataType)2, 23530 },
-	{ (Il2CppRGCTXDataType)2, 18301 },
-	{ (Il2CppRGCTXDataType)3, 15746 },
-	{ (Il2CppRGCTXDataType)3, 15747 },
-	{ (Il2CppRGCTXDataType)3, 15748 },
-	{ (Il2CppRGCTXDataType)2, 18300 },
-	{ (Il2CppRGCTXDataType)3, 15749 },
-	{ (Il2CppRGCTXDataType)2, 18313 },
+	{ (Il2CppRGCTXDataType)2, 26677 },
+	{ (Il2CppRGCTXDataType)3, 20086 },
+	{ (Il2CppRGCTXDataType)2, 26678 },
+	{ (Il2CppRGCTXDataType)2, 26679 },
+	{ (Il2CppRGCTXDataType)3, 20087 },
+	{ (Il2CppRGCTXDataType)2, 26680 },
+	{ (Il2CppRGCTXDataType)2, 26681 },
+	{ (Il2CppRGCTXDataType)3, 20088 },
+	{ (Il2CppRGCTXDataType)2, 26682 },
+	{ (Il2CppRGCTXDataType)3, 20089 },
+	{ (Il2CppRGCTXDataType)2, 26683 },
+	{ (Il2CppRGCTXDataType)3, 20090 },
+	{ (Il2CppRGCTXDataType)2, 26684 },
+	{ (Il2CppRGCTXDataType)2, 26685 },
+	{ (Il2CppRGCTXDataType)3, 20091 },
+	{ (Il2CppRGCTXDataType)2, 26686 },
+	{ (Il2CppRGCTXDataType)2, 26687 },
+	{ (Il2CppRGCTXDataType)3, 20092 },
+	{ (Il2CppRGCTXDataType)2, 26688 },
+	{ (Il2CppRGCTXDataType)3, 20093 },
+	{ (Il2CppRGCTXDataType)2, 26689 },
+	{ (Il2CppRGCTXDataType)3, 20094 },
+	{ (Il2CppRGCTXDataType)3, 20095 },
+	{ (Il2CppRGCTXDataType)2, 20162 },
+	{ (Il2CppRGCTXDataType)3, 20096 },
+	{ (Il2CppRGCTXDataType)2, 26690 },
+	{ (Il2CppRGCTXDataType)3, 20097 },
+	{ (Il2CppRGCTXDataType)3, 20098 },
+	{ (Il2CppRGCTXDataType)2, 20169 },
+	{ (Il2CppRGCTXDataType)3, 20099 },
+	{ (Il2CppRGCTXDataType)2, 26691 },
+	{ (Il2CppRGCTXDataType)3, 20100 },
+	{ (Il2CppRGCTXDataType)3, 20101 },
+	{ (Il2CppRGCTXDataType)2, 26692 },
+	{ (Il2CppRGCTXDataType)3, 20102 },
+	{ (Il2CppRGCTXDataType)3, 20103 },
+	{ (Il2CppRGCTXDataType)2, 26693 },
+	{ (Il2CppRGCTXDataType)3, 20104 },
+	{ (Il2CppRGCTXDataType)2, 26694 },
+	{ (Il2CppRGCTXDataType)3, 20105 },
+	{ (Il2CppRGCTXDataType)3, 20106 },
+	{ (Il2CppRGCTXDataType)2, 26695 },
+	{ (Il2CppRGCTXDataType)2, 26696 },
+	{ (Il2CppRGCTXDataType)2, 20187 },
+	{ (Il2CppRGCTXDataType)2, 26697 },
+	{ (Il2CppRGCTXDataType)2, 20189 },
+	{ (Il2CppRGCTXDataType)2, 26698 },
+	{ (Il2CppRGCTXDataType)3, 20107 },
+	{ (Il2CppRGCTXDataType)2, 20192 },
+	{ (Il2CppRGCTXDataType)2, 26699 },
+	{ (Il2CppRGCTXDataType)3, 20108 },
+	{ (Il2CppRGCTXDataType)2, 20195 },
+	{ (Il2CppRGCTXDataType)2, 20197 },
+	{ (Il2CppRGCTXDataType)2, 26700 },
+	{ (Il2CppRGCTXDataType)3, 20109 },
+	{ (Il2CppRGCTXDataType)3, 20110 },
+	{ (Il2CppRGCTXDataType)3, 20111 },
+	{ (Il2CppRGCTXDataType)2, 20202 },
+	{ (Il2CppRGCTXDataType)3, 20112 },
+	{ (Il2CppRGCTXDataType)3, 20113 },
+	{ (Il2CppRGCTXDataType)2, 20214 },
+	{ (Il2CppRGCTXDataType)2, 26701 },
+	{ (Il2CppRGCTXDataType)3, 20114 },
+	{ (Il2CppRGCTXDataType)3, 20115 },
+	{ (Il2CppRGCTXDataType)2, 20216 },
+	{ (Il2CppRGCTXDataType)2, 26566 },
+	{ (Il2CppRGCTXDataType)3, 20116 },
+	{ (Il2CppRGCTXDataType)3, 20117 },
+	{ (Il2CppRGCTXDataType)2, 26702 },
+	{ (Il2CppRGCTXDataType)3, 20118 },
+	{ (Il2CppRGCTXDataType)3, 20119 },
+	{ (Il2CppRGCTXDataType)2, 20226 },
+	{ (Il2CppRGCTXDataType)2, 26703 },
+	{ (Il2CppRGCTXDataType)3, 20120 },
+	{ (Il2CppRGCTXDataType)3, 20121 },
+	{ (Il2CppRGCTXDataType)3, 19258 },
+	{ (Il2CppRGCTXDataType)3, 20122 },
+	{ (Il2CppRGCTXDataType)2, 26704 },
+	{ (Il2CppRGCTXDataType)3, 20123 },
+	{ (Il2CppRGCTXDataType)3, 20124 },
+	{ (Il2CppRGCTXDataType)2, 20238 },
+	{ (Il2CppRGCTXDataType)2, 26705 },
+	{ (Il2CppRGCTXDataType)3, 20125 },
+	{ (Il2CppRGCTXDataType)3, 20126 },
+	{ (Il2CppRGCTXDataType)3, 20127 },
+	{ (Il2CppRGCTXDataType)3, 20128 },
+	{ (Il2CppRGCTXDataType)3, 20129 },
+	{ (Il2CppRGCTXDataType)3, 19264 },
+	{ (Il2CppRGCTXDataType)3, 20130 },
+	{ (Il2CppRGCTXDataType)2, 26706 },
+	{ (Il2CppRGCTXDataType)3, 20131 },
+	{ (Il2CppRGCTXDataType)3, 20132 },
+	{ (Il2CppRGCTXDataType)2, 20251 },
+	{ (Il2CppRGCTXDataType)2, 26707 },
+	{ (Il2CppRGCTXDataType)3, 20133 },
+	{ (Il2CppRGCTXDataType)3, 20134 },
+	{ (Il2CppRGCTXDataType)2, 20253 },
+	{ (Il2CppRGCTXDataType)2, 26708 },
+	{ (Il2CppRGCTXDataType)3, 20135 },
+	{ (Il2CppRGCTXDataType)3, 20136 },
+	{ (Il2CppRGCTXDataType)2, 26709 },
+	{ (Il2CppRGCTXDataType)3, 20137 },
+	{ (Il2CppRGCTXDataType)3, 20138 },
+	{ (Il2CppRGCTXDataType)2, 26710 },
+	{ (Il2CppRGCTXDataType)3, 20139 },
+	{ (Il2CppRGCTXDataType)3, 20140 },
+	{ (Il2CppRGCTXDataType)2, 20268 },
+	{ (Il2CppRGCTXDataType)2, 26711 },
+	{ (Il2CppRGCTXDataType)3, 20141 },
+	{ (Il2CppRGCTXDataType)3, 20142 },
+	{ (Il2CppRGCTXDataType)3, 20143 },
+	{ (Il2CppRGCTXDataType)3, 19275 },
+	{ (Il2CppRGCTXDataType)2, 26712 },
+	{ (Il2CppRGCTXDataType)3, 20144 },
+	{ (Il2CppRGCTXDataType)3, 20145 },
+	{ (Il2CppRGCTXDataType)2, 26713 },
+	{ (Il2CppRGCTXDataType)3, 20146 },
+	{ (Il2CppRGCTXDataType)3, 20147 },
+	{ (Il2CppRGCTXDataType)2, 20284 },
+	{ (Il2CppRGCTXDataType)2, 26714 },
+	{ (Il2CppRGCTXDataType)3, 20148 },
+	{ (Il2CppRGCTXDataType)3, 20149 },
+	{ (Il2CppRGCTXDataType)3, 20150 },
+	{ (Il2CppRGCTXDataType)3, 20151 },
+	{ (Il2CppRGCTXDataType)3, 20152 },
+	{ (Il2CppRGCTXDataType)3, 20153 },
+	{ (Il2CppRGCTXDataType)3, 19281 },
+	{ (Il2CppRGCTXDataType)2, 26715 },
+	{ (Il2CppRGCTXDataType)3, 20154 },
+	{ (Il2CppRGCTXDataType)3, 20155 },
+	{ (Il2CppRGCTXDataType)2, 26716 },
+	{ (Il2CppRGCTXDataType)3, 20156 },
+	{ (Il2CppRGCTXDataType)3, 20157 },
+	{ (Il2CppRGCTXDataType)3, 20158 },
+	{ (Il2CppRGCTXDataType)3, 20159 },
+	{ (Il2CppRGCTXDataType)3, 20160 },
+	{ (Il2CppRGCTXDataType)3, 20161 },
+	{ (Il2CppRGCTXDataType)2, 20318 },
+	{ (Il2CppRGCTXDataType)2, 20313 },
+	{ (Il2CppRGCTXDataType)3, 20162 },
+	{ (Il2CppRGCTXDataType)2, 20312 },
+	{ (Il2CppRGCTXDataType)2, 26717 },
+	{ (Il2CppRGCTXDataType)3, 20163 },
+	{ (Il2CppRGCTXDataType)3, 20164 },
+	{ (Il2CppRGCTXDataType)3, 20165 },
+	{ (Il2CppRGCTXDataType)2, 26718 },
+	{ (Il2CppRGCTXDataType)3, 20166 },
+	{ (Il2CppRGCTXDataType)2, 20331 },
+	{ (Il2CppRGCTXDataType)2, 20323 },
+	{ (Il2CppRGCTXDataType)3, 20167 },
+	{ (Il2CppRGCTXDataType)3, 20168 },
+	{ (Il2CppRGCTXDataType)2, 20322 },
+	{ (Il2CppRGCTXDataType)2, 26719 },
+	{ (Il2CppRGCTXDataType)3, 20169 },
+	{ (Il2CppRGCTXDataType)3, 20170 },
+	{ (Il2CppRGCTXDataType)3, 20171 },
+	{ (Il2CppRGCTXDataType)2, 26720 },
+	{ (Il2CppRGCTXDataType)2, 26721 },
+	{ (Il2CppRGCTXDataType)3, 20172 },
+	{ (Il2CppRGCTXDataType)3, 20173 },
+	{ (Il2CppRGCTXDataType)2, 20339 },
+	{ (Il2CppRGCTXDataType)3, 20174 },
+	{ (Il2CppRGCTXDataType)2, 20340 },
+	{ (Il2CppRGCTXDataType)2, 26722 },
+	{ (Il2CppRGCTXDataType)3, 20175 },
+	{ (Il2CppRGCTXDataType)3, 20176 },
+	{ (Il2CppRGCTXDataType)2, 26723 },
+	{ (Il2CppRGCTXDataType)3, 20177 },
+	{ (Il2CppRGCTXDataType)3, 20178 },
+	{ (Il2CppRGCTXDataType)3, 20179 },
+	{ (Il2CppRGCTXDataType)2, 20355 },
+	{ (Il2CppRGCTXDataType)3, 20180 },
+	{ (Il2CppRGCTXDataType)2, 20364 },
+	{ (Il2CppRGCTXDataType)3, 20181 },
+	{ (Il2CppRGCTXDataType)2, 26724 },
+	{ (Il2CppRGCTXDataType)2, 26725 },
+	{ (Il2CppRGCTXDataType)3, 20182 },
+	{ (Il2CppRGCTXDataType)3, 20183 },
+	{ (Il2CppRGCTXDataType)3, 20184 },
+	{ (Il2CppRGCTXDataType)3, 20185 },
+	{ (Il2CppRGCTXDataType)3, 20186 },
+	{ (Il2CppRGCTXDataType)3, 20187 },
+	{ (Il2CppRGCTXDataType)2, 20380 },
+	{ (Il2CppRGCTXDataType)2, 26726 },
+	{ (Il2CppRGCTXDataType)3, 20188 },
+	{ (Il2CppRGCTXDataType)3, 20189 },
+	{ (Il2CppRGCTXDataType)2, 20384 },
+	{ (Il2CppRGCTXDataType)3, 20190 },
+	{ (Il2CppRGCTXDataType)2, 26727 },
+	{ (Il2CppRGCTXDataType)2, 20394 },
+	{ (Il2CppRGCTXDataType)2, 20392 },
+	{ (Il2CppRGCTXDataType)2, 26728 },
+	{ (Il2CppRGCTXDataType)3, 20191 },
+	{ (Il2CppRGCTXDataType)2, 26729 },
+	{ (Il2CppRGCTXDataType)3, 20192 },
+	{ (Il2CppRGCTXDataType)3, 20193 },
+	{ (Il2CppRGCTXDataType)2, 20406 },
+	{ (Il2CppRGCTXDataType)3, 20194 },
+	{ (Il2CppRGCTXDataType)2, 20406 },
+	{ (Il2CppRGCTXDataType)3, 20195 },
+	{ (Il2CppRGCTXDataType)2, 20426 },
+	{ (Il2CppRGCTXDataType)3, 20196 },
+	{ (Il2CppRGCTXDataType)3, 20197 },
+	{ (Il2CppRGCTXDataType)3, 20198 },
+	{ (Il2CppRGCTXDataType)2, 26730 },
+	{ (Il2CppRGCTXDataType)3, 20199 },
+	{ (Il2CppRGCTXDataType)3, 20200 },
+	{ (Il2CppRGCTXDataType)3, 20201 },
+	{ (Il2CppRGCTXDataType)2, 20403 },
+	{ (Il2CppRGCTXDataType)3, 20202 },
+	{ (Il2CppRGCTXDataType)3, 20203 },
+	{ (Il2CppRGCTXDataType)2, 20408 },
+	{ (Il2CppRGCTXDataType)3, 20204 },
+	{ (Il2CppRGCTXDataType)1, 26731 },
+	{ (Il2CppRGCTXDataType)2, 20407 },
+	{ (Il2CppRGCTXDataType)3, 20205 },
+	{ (Il2CppRGCTXDataType)1, 20407 },
+	{ (Il2CppRGCTXDataType)1, 20403 },
+	{ (Il2CppRGCTXDataType)2, 26730 },
+	{ (Il2CppRGCTXDataType)2, 20407 },
+	{ (Il2CppRGCTXDataType)2, 20405 },
+	{ (Il2CppRGCTXDataType)2, 20409 },
+	{ (Il2CppRGCTXDataType)3, 20206 },
+	{ (Il2CppRGCTXDataType)3, 20207 },
+	{ (Il2CppRGCTXDataType)3, 20208 },
+	{ (Il2CppRGCTXDataType)3, 20209 },
+	{ (Il2CppRGCTXDataType)3, 20210 },
+	{ (Il2CppRGCTXDataType)3, 20211 },
+	{ (Il2CppRGCTXDataType)3, 20212 },
+	{ (Il2CppRGCTXDataType)3, 20213 },
+	{ (Il2CppRGCTXDataType)3, 20214 },
+	{ (Il2CppRGCTXDataType)3, 20215 },
+	{ (Il2CppRGCTXDataType)3, 20216 },
+	{ (Il2CppRGCTXDataType)3, 20217 },
+	{ (Il2CppRGCTXDataType)2, 20404 },
+	{ (Il2CppRGCTXDataType)3, 20218 },
+	{ (Il2CppRGCTXDataType)2, 20422 },
 };
 extern const Il2CppCodeGenModule g_System_CoreCodeGenModule;
 const Il2CppCodeGenModule g_System_CoreCodeGenModule = 
 {
 	"System.Core.dll",
-	154,
+	253,
 	s_methodPointers,
 	3,
 	s_adjustorThunks,
 	s_InvokerIndices,
 	0,
 	NULL,
-	12,
+	41,
 	s_rgctxIndices,
-	76,
+	237,
 	s_rgctxValues,
 	NULL,
 };

@@ -33353,7 +33353,7 @@ CATCH_02fb:
 		String_t* L_140 = V_7;
 		Type_t * L_141 = V_2;
 		NullCheck(L_141);
-		String_t* L_142 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_141);
+		String_t* L_142 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_141);
 		Exception_t * L_143 = ExceptionBuilder_CannotConvert_m841898DF870267F3F8559253876778D960EEC502(L_140, L_142, /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_143, XDRSchema_HandleColumn_m09250A2F746EF9AF62680A7B2BC1F069EC303145_RuntimeMethod_var);
 	} // end catch (depth: 1)
@@ -36798,7 +36798,7 @@ IL_00f1:
 		String_t* L_48 = V_2;
 		Type_t * L_49 = V_4;
 		NullCheck(L_49);
-		String_t* L_50 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_49);
+		String_t* L_50 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_49);
 		Exception_t * L_51 = ExceptionBuilder_CannotConvert_m841898DF870267F3F8559253876778D960EEC502(L_48, L_50, /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_51, XMLSchema_SetProperties_m0E3457FC406DE0695445BC1717D7C603EA5CC176_RuntimeMethod_var);
 	}
@@ -37817,7 +37817,7 @@ IL_0137:
 		String_t* L_63 = V_2;
 		Type_t * L_64 = V_5;
 		NullCheck(L_64);
-		String_t* L_65 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_64);
+		String_t* L_65 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_64);
 		Exception_t * L_66 = ExceptionBuilder_CannotConvert_m841898DF870267F3F8559253876778D960EEC502(L_63, L_65, /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_66, XSDSchema_SetProperties_mC93B84D4B4E99101A3BEA02E13111F1813339104_RuntimeMethod_var);
 	}
@@ -46865,7 +46865,7 @@ CATCH_0358:
 		String_t* L_191 = V_7;
 		Type_t * L_192 = V_0;
 		NullCheck(L_192);
-		String_t* L_193 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_192);
+		String_t* L_193 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_192);
 		Exception_t * L_194 = ExceptionBuilder_CannotConvert_m841898DF870267F3F8559253876778D960EEC502(L_191, L_193, /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_194, XSDSchema_HandleSimpleTypeSimpleContentColumn_mF550F3BC155DFA5A11D6E5773F5AB6E5CC2A0489_RuntimeMethod_var);
 	} // end catch (depth: 1)
@@ -47373,7 +47373,7 @@ CATCH_026c:
 		String_t* L_142 = V_6;
 		Type_t * L_143 = V_0;
 		NullCheck(L_143);
-		String_t* L_144 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_143);
+		String_t* L_144 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_143);
 		Exception_t * L_145 = ExceptionBuilder_CannotConvert_m841898DF870267F3F8559253876778D960EEC502(L_142, L_144, /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_145, XSDSchema_HandleSimpleContentColumn_mCEFC9C9C4F71D68F9B84161771CF2794EF394392_RuntimeMethod_var);
 	} // end catch (depth: 1)
@@ -48014,7 +48014,7 @@ CATCH_03a1:
 		String_t* L_181 = V_10;
 		Type_t * L_182 = V_0;
 		NullCheck(L_182);
-		String_t* L_183 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_182);
+		String_t* L_183 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_182);
 		Exception_t * L_184 = ExceptionBuilder_CannotConvert_m841898DF870267F3F8559253876778D960EEC502(L_181, L_183, /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_184, XSDSchema_HandleAttributeColumn_m3209BFDCB4147387CBEE9C353C8DC5F825C22D48_RuntimeMethod_var);
 	} // end catch (depth: 1)
@@ -48104,7 +48104,7 @@ CATCH_03f9:
 		String_t* L_201 = V_8;
 		Type_t * L_202 = V_0;
 		NullCheck(L_202);
-		String_t* L_203 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_202);
+		String_t* L_203 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_202);
 		Exception_t * L_204 = ExceptionBuilder_CannotConvert_m841898DF870267F3F8559253876778D960EEC502(L_201, L_203, /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_204, XSDSchema_HandleAttributeColumn_m3209BFDCB4147387CBEE9C353C8DC5F825C22D48_RuntimeMethod_var);
 	} // end catch (depth: 1)
@@ -49067,7 +49067,7 @@ CATCH_0543:
 		String_t* L_255 = V_9;
 		Type_t * L_256 = V_0;
 		NullCheck(L_256);
-		String_t* L_257 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_256);
+		String_t* L_257 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_256);
 		Exception_t * L_258 = ExceptionBuilder_CannotConvert_m841898DF870267F3F8559253876778D960EEC502(L_255, L_257, /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_258, XSDSchema_HandleElementColumn_mE7F35DEAB28105C980F748BBBFF488FD37E26913_RuntimeMethod_var);
 	} // end catch (depth: 1)

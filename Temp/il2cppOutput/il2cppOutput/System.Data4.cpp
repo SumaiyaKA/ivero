@@ -22796,10 +22796,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t * ExceptionBuilder_DefaultValueDa
 		String_t* L_2 = ___column0;
 		Type_t * L_3 = ___defaultType1;
 		NullCheck(L_3);
-		String_t* L_4 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_3);
+		String_t* L_4 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_3);
 		Type_t * L_5 = ___columnType2;
 		NullCheck(L_5);
-		String_t* L_6 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_5);
+		String_t* L_6 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_5);
 		String_t* L_7 = SR_Format_m9FE5F7DD4A2091B2C11CE65BECB38A2FC1494DE6(_stringLiteral5851CD4CAC6AB657B060FD17CE8CED1913CAA8B1, L_2, L_4, L_6, /*hidden argument*/NULL);
 		Exception_t * L_8 = ___inner3;
 		Exception_t * L_9 = ExceptionBuilder__Argument_m5681EDE81DF4785CE3B3BDDC6096440A55822404(L_7, L_8, /*hidden argument*/NULL);
@@ -22810,10 +22810,10 @@ IL_0026:
 	{
 		Type_t * L_10 = ___defaultType1;
 		NullCheck(L_10);
-		String_t* L_11 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_10);
+		String_t* L_11 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_10);
 		Type_t * L_12 = ___columnType2;
 		NullCheck(L_12);
-		String_t* L_13 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_12);
+		String_t* L_13 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_12);
 		String_t* L_14 = SR_Format_mB8E6371BC5BD4993B31D93DCF9453AB52AD98BD6(_stringLiteral36FB157A63E2E759CEB38F3570E5B2019FDA498E, L_11, L_13, /*hidden argument*/NULL);
 		Exception_t * L_15 = ___inner3;
 		Exception_t * L_16 = ExceptionBuilder__Argument_m5681EDE81DF4785CE3B3BDDC6096440A55822404(L_14, L_15, /*hidden argument*/NULL);
@@ -22833,10 +22833,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t * ExceptionBuilder_DefaultValueCo
 		String_t* L_0 = ___column0;
 		Type_t * L_1 = ___defaultType1;
 		NullCheck(L_1);
-		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_1);
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_1);
 		Type_t * L_3 = ___columnType2;
 		NullCheck(L_3);
-		String_t* L_4 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_3);
+		String_t* L_4 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_3);
 		String_t* L_5 = SR_Format_m9FE5F7DD4A2091B2C11CE65BECB38A2FC1494DE6(_stringLiteralBCB49B0CAE55331F9B59B1DC5B6E250F9AE5F104, L_0, L_2, L_4, /*hidden argument*/NULL);
 		Exception_t * L_6 = ___inner3;
 		Exception_t * L_7 = ExceptionBuilder__Argument_m5681EDE81DF4785CE3B3BDDC6096440A55822404(L_5, L_6, /*hidden argument*/NULL);
@@ -23264,7 +23264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t * ExceptionBuilder_InvalidDataCol
 	{
 		Type_t * L_0 = ___type0;
 		NullCheck(L_0);
-		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_0);
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(29 /* System.String System.Type::get_AssemblyQualifiedName() */, L_0);
 		String_t* L_2 = SR_Format_mA7FB8FB74D625B03991A898285538F1429E0E326(_stringLiteralC3305B35DAA6EFE5C41ABE5A081C258F0B91A362, L_1, /*hidden argument*/NULL);
 		Exception_t * L_3 = ExceptionBuilder__Argument_m6BF083E944D1A60D4D9D7B4AA9720EE3D6C64E8D(L_2, /*hidden argument*/NULL);
 		return L_3;
@@ -25607,10 +25607,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t * ExceptionBuilder_ConvertFailed_
 	{
 		Type_t * L_0 = ___type10;
 		NullCheck(L_0);
-		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_0);
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_0);
 		Type_t * L_2 = ___type21;
 		NullCheck(L_2);
-		String_t* L_3 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_2);
+		String_t* L_3 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_2);
 		String_t* L_4 = SR_Format_mB8E6371BC5BD4993B31D93DCF9453AB52AD98BD6(_stringLiteralBF8B22B3723D001DC61463357819AC4F4D29840D, L_1, L_3, /*hidden argument*/NULL);
 		Exception_t * L_5 = ExceptionBuilder__Data_mCC4921EF05BA995EF6587772648164ADABA1691F(L_4, /*hidden argument*/NULL);
 		return L_5;
@@ -26554,7 +26554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t * ExprException_UnsupportedDataTy
 	{
 		Type_t * L_0 = ___type0;
 		NullCheck(L_0);
-		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_0);
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_0);
 		String_t* L_2 = SR_Format_mA7FB8FB74D625B03991A898285538F1429E0E326(_stringLiteralD160A1C2A53C04334CCDFFA59012658222E2630C, L_1, /*hidden argument*/NULL);
 		Exception_t * L_3 = ExceptionBuilder__Argument_m6BF083E944D1A60D4D9D7B4AA9720EE3D6C64E8D(L_2, /*hidden argument*/NULL);
 		return L_3;

@@ -142,7 +142,83 @@ extern void AnimatorControllerPlayable_SetHandle_m2CAE8DABC4B19AB6BD90249D0D7FC7
 extern void AnimatorControllerPlayable_Equals_m04685CCA5A5FC388A0387D3453A677C0CB47D173 (void);
 // 0x0000003D System.Void UnityEngine.Animations.AnimatorControllerPlayable::.cctor()
 extern void AnimatorControllerPlayable__cctor_m6FCC197F3BF33EAFC37D5217617FCDC64E8B304E (void);
-static Il2CppMethodPointer s_methodPointers[61] = 
+// 0x0000003E System.Void UnityEngine.Animations.LookAtConstraint::.ctor()
+extern void LookAtConstraint__ctor_m671F59134B713B32A83EB4B475314C3FCF76E2EE (void);
+// 0x0000003F System.Void UnityEngine.Animations.LookAtConstraint::Internal_Create(UnityEngine.Animations.LookAtConstraint)
+extern void LookAtConstraint_Internal_Create_m919DDEB17DB7DCF7452E4322E594264D76BA60E0 (void);
+// 0x00000040 System.Single UnityEngine.Animations.LookAtConstraint::get_weight()
+extern void LookAtConstraint_get_weight_mD4B8A23C64802866E20F780240F3B967C12F636C (void);
+// 0x00000041 System.Void UnityEngine.Animations.LookAtConstraint::set_weight(System.Single)
+extern void LookAtConstraint_set_weight_mE59314EE64C8FD2931073CDB0C77E8D34DEFDCB7 (void);
+// 0x00000042 System.Single UnityEngine.Animations.LookAtConstraint::get_roll()
+extern void LookAtConstraint_get_roll_m5D09C6729EB4550B31ACA5B0E7D29A1EAB262292 (void);
+// 0x00000043 System.Void UnityEngine.Animations.LookAtConstraint::set_roll(System.Single)
+extern void LookAtConstraint_set_roll_m3FE33CAD8FD8B5A9260351149B80FBF982F5B5B5 (void);
+// 0x00000044 System.Boolean UnityEngine.Animations.LookAtConstraint::get_constraintActive()
+extern void LookAtConstraint_get_constraintActive_m17AC92E3BF7A29D80DD622A1C4CF1744665D0111 (void);
+// 0x00000045 System.Void UnityEngine.Animations.LookAtConstraint::set_constraintActive(System.Boolean)
+extern void LookAtConstraint_set_constraintActive_mDC246E7D0DE915B084EDD7E08897632D8CE22AEA (void);
+// 0x00000046 System.Boolean UnityEngine.Animations.LookAtConstraint::get_locked()
+extern void LookAtConstraint_get_locked_mAA1B3E1EFB274B76E804BCF39B2F7EAD8A8F0C33 (void);
+// 0x00000047 System.Void UnityEngine.Animations.LookAtConstraint::set_locked(System.Boolean)
+extern void LookAtConstraint_set_locked_m322E534FD8B34C397C7F891EB1C73EF7863DEF10 (void);
+// 0x00000048 UnityEngine.Vector3 UnityEngine.Animations.LookAtConstraint::get_rotationAtRest()
+extern void LookAtConstraint_get_rotationAtRest_m45DE358A28175D54CBE36D7D5F6BAAB9B673CC58 (void);
+// 0x00000049 System.Void UnityEngine.Animations.LookAtConstraint::set_rotationAtRest(UnityEngine.Vector3)
+extern void LookAtConstraint_set_rotationAtRest_m3EDBDFE191BCFE04EF486325BDBA19F6AA4D0FC7 (void);
+// 0x0000004A UnityEngine.Vector3 UnityEngine.Animations.LookAtConstraint::get_rotationOffset()
+extern void LookAtConstraint_get_rotationOffset_m1429039C62E152503F72EDB7EFC96B5CB69C95AC (void);
+// 0x0000004B System.Void UnityEngine.Animations.LookAtConstraint::set_rotationOffset(UnityEngine.Vector3)
+extern void LookAtConstraint_set_rotationOffset_mB6528ABEEC6611F55FE56EA61AA223E900BE426E (void);
+// 0x0000004C UnityEngine.Transform UnityEngine.Animations.LookAtConstraint::get_worldUpObject()
+extern void LookAtConstraint_get_worldUpObject_m828E4BAE315F17535D10A89E594811CCC0791DB6 (void);
+// 0x0000004D System.Void UnityEngine.Animations.LookAtConstraint::set_worldUpObject(UnityEngine.Transform)
+extern void LookAtConstraint_set_worldUpObject_mAB021AC5AFB93349559B9BD0A58B3D7E25AB1CE4 (void);
+// 0x0000004E System.Boolean UnityEngine.Animations.LookAtConstraint::get_useUpObject()
+extern void LookAtConstraint_get_useUpObject_m495960B2B6E4BEB9732E3609C2375642BCA28D40 (void);
+// 0x0000004F System.Void UnityEngine.Animations.LookAtConstraint::set_useUpObject(System.Boolean)
+extern void LookAtConstraint_set_useUpObject_m2AF0804B763E9AECF9F97330847080F1C08A274B (void);
+// 0x00000050 System.Int32 UnityEngine.Animations.LookAtConstraint::get_sourceCount()
+extern void LookAtConstraint_get_sourceCount_m241C8E363DA6E86EE9D60A9E65913F221A23E272 (void);
+// 0x00000051 System.Int32 UnityEngine.Animations.LookAtConstraint::GetSourceCountInternal(UnityEngine.Animations.LookAtConstraint)
+extern void LookAtConstraint_GetSourceCountInternal_m087C3BBB088140CCFAEB20C6BC7BFD03BD683784 (void);
+// 0x00000052 System.Void UnityEngine.Animations.LookAtConstraint::GetSources(System.Collections.Generic.List`1<UnityEngine.Animations.ConstraintSource>)
+extern void LookAtConstraint_GetSources_m905F0D9B4BB58573FF1B9A4BBBCCD3D19127FD78 (void);
+// 0x00000053 System.Void UnityEngine.Animations.LookAtConstraint::SetSources(System.Collections.Generic.List`1<UnityEngine.Animations.ConstraintSource>)
+extern void LookAtConstraint_SetSources_mDC34E30E3BE74E9E9651683A2F5D9067CA476221 (void);
+// 0x00000054 System.Void UnityEngine.Animations.LookAtConstraint::SetSourcesInternal(UnityEngine.Animations.LookAtConstraint,System.Collections.Generic.List`1<UnityEngine.Animations.ConstraintSource>)
+extern void LookAtConstraint_SetSourcesInternal_m425BC21117905979EFE816EB70C1986A532B7451 (void);
+// 0x00000055 System.Int32 UnityEngine.Animations.LookAtConstraint::AddSource(UnityEngine.Animations.ConstraintSource)
+extern void LookAtConstraint_AddSource_mA5C27DF59A59783E411898E21494847B79AD27C2 (void);
+// 0x00000056 System.Void UnityEngine.Animations.LookAtConstraint::RemoveSource(System.Int32)
+extern void LookAtConstraint_RemoveSource_m6CB3567D1A7362D28A6F67F8ABB6891E8D76F098 (void);
+// 0x00000057 System.Void UnityEngine.Animations.LookAtConstraint::RemoveSourceInternal(System.Int32)
+extern void LookAtConstraint_RemoveSourceInternal_mBBBC4EEDE1E7660F60FFD4F99D412E0AD2082382 (void);
+// 0x00000058 UnityEngine.Animations.ConstraintSource UnityEngine.Animations.LookAtConstraint::GetSource(System.Int32)
+extern void LookAtConstraint_GetSource_m92C92C8A2688F31B56EFFFC5034EAA794DA8F7B0 (void);
+// 0x00000059 UnityEngine.Animations.ConstraintSource UnityEngine.Animations.LookAtConstraint::GetSourceInternal(System.Int32)
+extern void LookAtConstraint_GetSourceInternal_m9C7A2756DD2EF99BE998A451FC3EC8D3845F8ACE (void);
+// 0x0000005A System.Void UnityEngine.Animations.LookAtConstraint::SetSource(System.Int32,UnityEngine.Animations.ConstraintSource)
+extern void LookAtConstraint_SetSource_m1B3476FB9B2E71BC65B10019E4B0E2CF08D5648A (void);
+// 0x0000005B System.Void UnityEngine.Animations.LookAtConstraint::SetSourceInternal(System.Int32,UnityEngine.Animations.ConstraintSource)
+extern void LookAtConstraint_SetSourceInternal_m21E34F86D3118A2E9AB2C116F083EEFB65F42C36 (void);
+// 0x0000005C System.Void UnityEngine.Animations.LookAtConstraint::ValidateSourceIndex(System.Int32)
+extern void LookAtConstraint_ValidateSourceIndex_m6E7BEDE9E9EB58AB3E49D09E664FF2B10DFAF6FB (void);
+// 0x0000005D System.Void UnityEngine.Animations.LookAtConstraint::get_rotationAtRest_Injected(UnityEngine.Vector3&)
+extern void LookAtConstraint_get_rotationAtRest_Injected_m9A5BA940934689A3AADAA2FC371691198FDE2440 (void);
+// 0x0000005E System.Void UnityEngine.Animations.LookAtConstraint::set_rotationAtRest_Injected(UnityEngine.Vector3&)
+extern void LookAtConstraint_set_rotationAtRest_Injected_m5C7CE65A4FA240A73B455ECB4DA0BE0A4262C63C (void);
+// 0x0000005F System.Void UnityEngine.Animations.LookAtConstraint::get_rotationOffset_Injected(UnityEngine.Vector3&)
+extern void LookAtConstraint_get_rotationOffset_Injected_m57501573B794BC8AF2AD634D9516F723C4907D6F (void);
+// 0x00000060 System.Void UnityEngine.Animations.LookAtConstraint::set_rotationOffset_Injected(UnityEngine.Vector3&)
+extern void LookAtConstraint_set_rotationOffset_Injected_m72255DE6AC378649273E1245C0B5E7AEF14DB6FB (void);
+// 0x00000061 System.Int32 UnityEngine.Animations.LookAtConstraint::AddSource_Injected(UnityEngine.Animations.ConstraintSource&)
+extern void LookAtConstraint_AddSource_Injected_m6351A79E741F198B0E512BAD64E33E7EBD31264D (void);
+// 0x00000062 System.Void UnityEngine.Animations.LookAtConstraint::GetSourceInternal_Injected(System.Int32,UnityEngine.Animations.ConstraintSource&)
+extern void LookAtConstraint_GetSourceInternal_Injected_m1EE9CE5AC78CA01B14B3B818A4947E4EE15BE4E7 (void);
+// 0x00000063 System.Void UnityEngine.Animations.LookAtConstraint::SetSourceInternal_Injected(System.Int32,UnityEngine.Animations.ConstraintSource&)
+extern void LookAtConstraint_SetSourceInternal_Injected_mB58B79CE35404347B3BB2C12656FCF6BD71F200B (void);
+static Il2CppMethodPointer s_methodPointers[99] = 
 {
 	StateMachineBehaviour_OnStateEnter_mAB25325C96611ADDF93038EC6792EC4F76AEF4EE,
 	StateMachineBehaviour_OnStateUpdate_mE12079F72B209DDFFAB4088B2B210EA20C2C4266,
@@ -205,6 +281,44 @@ static Il2CppMethodPointer s_methodPointers[61] =
 	AnimatorControllerPlayable_SetHandle_m2CAE8DABC4B19AB6BD90249D0D7FC7A9E07C3A96,
 	AnimatorControllerPlayable_Equals_m04685CCA5A5FC388A0387D3453A677C0CB47D173,
 	AnimatorControllerPlayable__cctor_m6FCC197F3BF33EAFC37D5217617FCDC64E8B304E,
+	LookAtConstraint__ctor_m671F59134B713B32A83EB4B475314C3FCF76E2EE,
+	LookAtConstraint_Internal_Create_m919DDEB17DB7DCF7452E4322E594264D76BA60E0,
+	LookAtConstraint_get_weight_mD4B8A23C64802866E20F780240F3B967C12F636C,
+	LookAtConstraint_set_weight_mE59314EE64C8FD2931073CDB0C77E8D34DEFDCB7,
+	LookAtConstraint_get_roll_m5D09C6729EB4550B31ACA5B0E7D29A1EAB262292,
+	LookAtConstraint_set_roll_m3FE33CAD8FD8B5A9260351149B80FBF982F5B5B5,
+	LookAtConstraint_get_constraintActive_m17AC92E3BF7A29D80DD622A1C4CF1744665D0111,
+	LookAtConstraint_set_constraintActive_mDC246E7D0DE915B084EDD7E08897632D8CE22AEA,
+	LookAtConstraint_get_locked_mAA1B3E1EFB274B76E804BCF39B2F7EAD8A8F0C33,
+	LookAtConstraint_set_locked_m322E534FD8B34C397C7F891EB1C73EF7863DEF10,
+	LookAtConstraint_get_rotationAtRest_m45DE358A28175D54CBE36D7D5F6BAAB9B673CC58,
+	LookAtConstraint_set_rotationAtRest_m3EDBDFE191BCFE04EF486325BDBA19F6AA4D0FC7,
+	LookAtConstraint_get_rotationOffset_m1429039C62E152503F72EDB7EFC96B5CB69C95AC,
+	LookAtConstraint_set_rotationOffset_mB6528ABEEC6611F55FE56EA61AA223E900BE426E,
+	LookAtConstraint_get_worldUpObject_m828E4BAE315F17535D10A89E594811CCC0791DB6,
+	LookAtConstraint_set_worldUpObject_mAB021AC5AFB93349559B9BD0A58B3D7E25AB1CE4,
+	LookAtConstraint_get_useUpObject_m495960B2B6E4BEB9732E3609C2375642BCA28D40,
+	LookAtConstraint_set_useUpObject_m2AF0804B763E9AECF9F97330847080F1C08A274B,
+	LookAtConstraint_get_sourceCount_m241C8E363DA6E86EE9D60A9E65913F221A23E272,
+	LookAtConstraint_GetSourceCountInternal_m087C3BBB088140CCFAEB20C6BC7BFD03BD683784,
+	LookAtConstraint_GetSources_m905F0D9B4BB58573FF1B9A4BBBCCD3D19127FD78,
+	LookAtConstraint_SetSources_mDC34E30E3BE74E9E9651683A2F5D9067CA476221,
+	LookAtConstraint_SetSourcesInternal_m425BC21117905979EFE816EB70C1986A532B7451,
+	LookAtConstraint_AddSource_mA5C27DF59A59783E411898E21494847B79AD27C2,
+	LookAtConstraint_RemoveSource_m6CB3567D1A7362D28A6F67F8ABB6891E8D76F098,
+	LookAtConstraint_RemoveSourceInternal_mBBBC4EEDE1E7660F60FFD4F99D412E0AD2082382,
+	LookAtConstraint_GetSource_m92C92C8A2688F31B56EFFFC5034EAA794DA8F7B0,
+	LookAtConstraint_GetSourceInternal_m9C7A2756DD2EF99BE998A451FC3EC8D3845F8ACE,
+	LookAtConstraint_SetSource_m1B3476FB9B2E71BC65B10019E4B0E2CF08D5648A,
+	LookAtConstraint_SetSourceInternal_m21E34F86D3118A2E9AB2C116F083EEFB65F42C36,
+	LookAtConstraint_ValidateSourceIndex_m6E7BEDE9E9EB58AB3E49D09E664FF2B10DFAF6FB,
+	LookAtConstraint_get_rotationAtRest_Injected_m9A5BA940934689A3AADAA2FC371691198FDE2440,
+	LookAtConstraint_set_rotationAtRest_Injected_m5C7CE65A4FA240A73B455ECB4DA0BE0A4262C63C,
+	LookAtConstraint_get_rotationOffset_Injected_m57501573B794BC8AF2AD634D9516F723C4907D6F,
+	LookAtConstraint_set_rotationOffset_Injected_m72255DE6AC378649273E1245C0B5E7AEF14DB6FB,
+	LookAtConstraint_AddSource_Injected_m6351A79E741F198B0E512BAD64E33E7EBD31264D,
+	LookAtConstraint_GetSourceInternal_Injected_m1EE9CE5AC78CA01B14B3B818A4947E4EE15BE4E7,
+	LookAtConstraint_SetSourceInternal_Injected_mB58B79CE35404347B3BB2C12656FCF6BD71F200B,
 };
 extern void AnimationClipPlayable_GetHandle_mB1B706B9ADB194766DC938C332469AC698AD0D9E_AdjustorThunk (void);
 extern void AnimationClipPlayable_Equals_m06BA3E1C3AE0CC205C8531CCF6596C99C8D927EE_AdjustorThunk (void);
@@ -263,22 +377,22 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[27] =
 	{ 0x0600003B, AnimatorControllerPlayable_SetHandle_m2CAE8DABC4B19AB6BD90249D0D7FC7A9E07C3A96_AdjustorThunk },
 	{ 0x0600003C, AnimatorControllerPlayable_Equals_m04685CCA5A5FC388A0387D3453A677C0CB47D173_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[61] = 
+static const int32_t s_InvokerIndices[99] = 
 {
-	1819,
-	1819,
-	1819,
-	1819,
-	1819,
+	1956,
+	1956,
+	1956,
+	1956,
+	1956,
 	130,
 	130,
-	1820,
-	1820,
-	1820,
-	1820,
-	1820,
-	1821,
-	1821,
+	1957,
+	1957,
+	1957,
+	1957,
+	1957,
+	1958,
+	1958,
 	23,
 	26,
 	26,
@@ -291,47 +405,85 @@ static const int32_t s_InvokerIndices[61] =
 	105,
 	26,
 	23,
-	1691,
-	1822,
-	1690,
-	1691,
-	1823,
-	3,
-	1690,
-	1691,
-	1824,
-	3,
-	1690,
-	1691,
-	1825,
-	3,
-	1690,
-	1691,
-	1826,
-	3,
-	1690,
-	1691,
 	1827,
+	1959,
+	1826,
+	1827,
+	1960,
 	3,
-	1690,
-	1691,
-	1828,
+	1826,
+	1827,
+	1961,
 	3,
-	1690,
-	1691,
-	1829,
+	1826,
+	1827,
+	1962,
 	3,
-	1690,
-	1691,
-	1690,
-	1830,
+	1826,
+	1827,
+	1963,
 	3,
+	1826,
+	1827,
+	1964,
+	3,
+	1826,
+	1827,
+	1965,
+	3,
+	1826,
+	1827,
+	1966,
+	3,
+	1826,
+	1827,
+	1826,
+	1967,
+	3,
+	23,
+	154,
+	737,
+	335,
+	737,
+	335,
+	89,
+	31,
+	89,
+	31,
+	1499,
+	1500,
+	1499,
+	1500,
+	14,
+	26,
+	89,
+	31,
+	10,
+	94,
+	26,
+	26,
+	137,
+	1968,
+	32,
+	32,
+	1969,
+	1969,
+	1970,
+	1970,
+	32,
+	6,
+	6,
+	6,
+	6,
+	1050,
+	842,
+	842,
 };
 extern const Il2CppCodeGenModule g_UnityEngine_AnimationModuleCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AnimationModuleCodeGenModule = 
 {
 	"UnityEngine.AnimationModule.dll",
-	61,
+	99,
 	s_methodPointers,
 	27,
 	s_adjustorThunks,

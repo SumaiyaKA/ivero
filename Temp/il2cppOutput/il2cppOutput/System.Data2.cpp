@@ -17724,7 +17724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage__ctor_m14EF488B99484C9C394
 		Type_t * L_5 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_4, /*hidden argument*/NULL);
 		Type_t * L_6 = ___type1;
 		NullCheck(L_5);
-		bool L_7 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_5, L_6);
+		bool L_7 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_5, L_6);
 		Type_t * L_8 = ___type1;
 		IL2CPP_RUNTIME_CLASS_INIT(DataStorage_t48039E31DBE91E7C82D0DB461ABEDD50C6C017A6_il2cpp_TypeInfo_var);
 		int32_t L_9 = DataStorage_GetStorageType_mC6B5ED2EF82B62158EF99062E9850282FC434912(L_8, /*hidden argument*/NULL);
@@ -17733,13 +17733,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlUdtStorage__ctor_m14EF488B99484C9C394
 		Type_t * L_11 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_10, /*hidden argument*/NULL);
 		Type_t * L_12 = ___type1;
 		NullCheck(L_11);
-		bool L_13 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_11, L_12);
+		bool L_13 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_11, L_12);
 		__this->set__implementsIXmlSerializable_15(L_13);
 		RuntimeTypeHandle_t7B542280A22F0EC4EAC2061C29178845847A8B2D  L_14 = { reinterpret_cast<intptr_t> (IComparable_tF58875555EC83AB78FA9E958C48803C6AF9FB5D9_0_0_0_var) };
 		Type_t * L_15 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_14, /*hidden argument*/NULL);
 		Type_t * L_16 = ___type1;
 		NullCheck(L_15);
-		bool L_17 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_15, L_16);
+		bool L_17 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_15, L_16);
 		__this->set__implementsIComparable_16(L_17);
 		return;
 	}
@@ -17800,7 +17800,7 @@ IL_0031:
 	{
 		Type_t * L_9 = ___type0;
 		NullCheck(L_9);
-		FieldInfo_t * L_10 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(43 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_9, _stringLiteral109085BEAAA80AC89858B283A64F7C75D7E5BB12, ((int32_t)24));
+		FieldInfo_t * L_10 = VirtFuncInvoker2< FieldInfo_t *, String_t*, int32_t >::Invoke(44 /* System.Reflection.FieldInfo System.Type::GetField(System.String,System.Reflection.BindingFlags) */, L_9, _stringLiteral109085BEAAA80AC89858B283A64F7C75D7E5BB12, ((int32_t)24));
 		V_2 = L_10;
 		FieldInfo_t * L_11 = V_2;
 		bool L_12 = FieldInfo_op_Inequality_mB88B704E9238C7A9FD42274FCFEFA7CFABBF16EE(L_11, (FieldInfo_t *)NULL, /*hidden argument*/NULL);
@@ -17821,7 +17821,7 @@ IL_0052:
 	{
 		Type_t * L_15 = ___type0;
 		NullCheck(L_15);
-		String_t* L_16 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_15);
+		String_t* L_16 = VirtFuncInvoker0< String_t* >::Invoke(29 /* System.String System.Type::get_AssemblyQualifiedName() */, L_15);
 		Exception_t * L_17 = ExceptionBuilder_INullableUDTwithoutStaticNull_mF9ED5679D6A7B458E9B136677F7B76EE10683B07(L_16, /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_17, SqlUdtStorage_GetStaticNullForUdtType_m933D15A17B60373D97F0956F31D3731F3E51D1B9_RuntimeMethod_var);
 	}
@@ -18014,7 +18014,7 @@ IL_004d:
 	{
 		Type_t * L_17 = ((DataStorage_t48039E31DBE91E7C82D0DB461ABEDD50C6C017A6 *)__this)->get__dataType_3();
 		NullCheck(L_17);
-		String_t* L_18 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_17);
+		String_t* L_18 = VirtFuncInvoker0< String_t* >::Invoke(29 /* System.String System.Type::get_AssemblyQualifiedName() */, L_17);
 		Exception_t * L_19 = ExceptionBuilder_IComparableNotImplemented_mED5CB10F570479B57C9A091109E59B8FC98EA91B(L_18, /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_19, SqlUdtStorage_CompareValueTo_m841082EB97736D7329728C2FAC1113D9FF74FAFE_RuntimeMethod_var);
 	}
@@ -18119,7 +18119,7 @@ IL_0047:
 		Type_t * L_13 = ((DataStorage_t48039E31DBE91E7C82D0DB461ABEDD50C6C017A6 *)__this)->get__dataType_3();
 		RuntimeObject * L_14 = ___value1;
 		NullCheck(L_13);
-		bool L_15 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(109 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_13, L_14);
+		bool L_15 = VirtFuncInvoker1< bool, RuntimeObject * >::Invoke(110 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_13, L_14);
 		if (L_15)
 		{
 			goto IL_005b;
@@ -18332,7 +18332,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR RuntimeObject * SqlUdtStorag
 		IL2CPP_RUNTIME_CLASS_INIT(XSDSchema_t693FB7FE958A7B8260D7BE81562C0CBE0EFE42A7_il2cpp_TypeInfo_var);
 		Type_t * L_8 = XSDSchema_XsdtoClr_m3568A719B23E5BE55143B5E645208AF9003444A6(L_7, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		String_t* L_9 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_8);
+		String_t* L_9 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_8);
 		V_0 = L_9;
 	}
 
@@ -37109,7 +37109,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AttributeCollection_tBE6941BB802EDE34B7F986C1
 		Type_t * L_1 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_0, /*hidden argument*/NULL);
 		Type_t * L_2 = VirtFuncInvoker0< Type_t * >::Invoke(16 /* System.Type System.ComponentModel.PropertyDescriptor::get_PropertyType() */, __this);
 		NullCheck(L_1);
-		bool L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
+		bool L_3 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_1, L_2);
 		if (!L_3)
 		{
 			goto IL_004b;

@@ -265,7 +265,7 @@ struct SlotU5BU5D_t78CB84B59870A0DD259F0A73E107A9B68BA53B91;
 // System.Collections.Generic.HashSet`1/Slot<UnityEngine.UI.MaskableGraphic>[]
 struct SlotU5BU5D_t31DFEA45DB9C8050F3EDA63CCF32210FD5F6392B;
 // System.Collections.Generic.HashSet`1<System.Object>
-struct HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3;
+struct HashSet_1_t5C091FE05728B3E5BE3A7B748395C8E3AD64B376;
 // System.Collections.Generic.HashSet`1<UnityEngine.UI.IClippable>
 struct HashSet_1_tAAE962DCA7E1BD56AD7B2C079CD4DBA3D0B231AD;
 // System.Collections.Generic.HashSet`1<UnityEngine.UI.MaskableGraphic>
@@ -2775,7 +2775,7 @@ struct Enumerator_t16164AEE5BCAD6A8A04C21F32E9D949BE1CA0133
 {
 public:
 	// System.Collections.Generic.HashSet`1<T> System.Collections.Generic.HashSet`1/Enumerator::_set
-	HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * ____set_0;
+	HashSet_1_t5C091FE05728B3E5BE3A7B748395C8E3AD64B376 * ____set_0;
 	// System.Int32 System.Collections.Generic.HashSet`1/Enumerator::_index
 	int32_t ____index_1;
 	// System.Int32 System.Collections.Generic.HashSet`1/Enumerator::_version
@@ -2785,9 +2785,9 @@ public:
 
 public:
 	inline static int32_t get_offset_of__set_0() { return static_cast<int32_t>(offsetof(Enumerator_t16164AEE5BCAD6A8A04C21F32E9D949BE1CA0133, ____set_0)); }
-	inline HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * get__set_0() const { return ____set_0; }
-	inline HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 ** get_address_of__set_0() { return &____set_0; }
-	inline void set__set_0(HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * value)
+	inline HashSet_1_t5C091FE05728B3E5BE3A7B748395C8E3AD64B376 * get__set_0() const { return ____set_0; }
+	inline HashSet_1_t5C091FE05728B3E5BE3A7B748395C8E3AD64B376 ** get_address_of__set_0() { return &____set_0; }
+	inline void set__set_0(HashSet_1_t5C091FE05728B3E5BE3A7B748395C8E3AD64B376 * value)
 	{
 		____set_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&____set_0), (void*)value);
@@ -9982,11 +9982,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_set_Capacity_m73036AD35E3DFD02D9F
 // System.Void UnityEngine.UI.ListPool`1<UnityEngine.UIVertex>::Release(System.Collections.Generic.List`1<T>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListPool_1_Release_m8B379A7621039BF3ABE82280D6ABD4606F3459F9_gshared (List_1_t4CE16E1B496C9FE941554BB47727DFDD7C3D9554 * ___toRelease0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_m8A209D312FD08A21AFB5551881E7A6946A07C0D5_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_m84BE641CF1EEEED5502AF42082957B2B9C6299D6_gshared (HashSet_1_t5C091FE05728B3E5BE3A7B748395C8E3AD64B376 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::Clear()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1_Clear_m388A2F05FCB0FA0E03CFC7FB5F3A8DF69B2D4D5A_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1_Clear_m388A2F05FCB0FA0E03CFC7FB5F3A8DF69B2D4D5A_gshared (HashSet_1_t5C091FE05728B3E5BE3A7B748395C8E3AD64B376 * __this, const RuntimeMethod* method);
 // System.Collections.Generic.HashSet`1/Enumerator<!0> System.Collections.Generic.HashSet`1<System.Object>::GetEnumerator()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t16164AEE5BCAD6A8A04C21F32E9D949BE1CA0133  HashSet_1_GetEnumerator_m874F2BBF69C804D425AFCF30B376C9718AA298B5_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t16164AEE5BCAD6A8A04C21F32E9D949BE1CA0133  HashSet_1_GetEnumerator_m874F2BBF69C804D425AFCF30B376C9718AA298B5_gshared (HashSet_1_t5C091FE05728B3E5BE3A7B748395C8E3AD64B376 * __this, const RuntimeMethod* method);
 // !0 System.Collections.Generic.HashSet`1/Enumerator<System.Object>::get_Current()
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR RuntimeObject * Enumerator_get_Current_m1499866DFEFE1948C928A86AC372B4F9E04D1A5F_gshared_inline (Enumerator_t16164AEE5BCAD6A8A04C21F32E9D949BE1CA0133 * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1/Enumerator<System.Object>::MoveNext()
@@ -9994,9 +9994,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m3C52626EAD0998616A6
 // System.Void System.Collections.Generic.HashSet`1/Enumerator<System.Object>::Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mE2BD5476A999119F49555D958386A0688E9C0C01_gshared (Enumerator_t16164AEE5BCAD6A8A04C21F32E9D949BE1CA0133 * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Add(!0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m91C02F120E47946E978515CDAF67DA4867A244C4_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m7ECB323A0EE88B43F0CCCF402D23CCFE74624F25_gshared (HashSet_1_t5C091FE05728B3E5BE3A7B748395C8E3AD64B376 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Remove(!0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m7682B86D551DE9273BDB73DD727BC7744F78B143_gshared (HashSet_1_t297CD7F944846107B388993164FCD9E317A338A3 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Remove_m7682B86D551DE9273BDB73DD727BC7744F78B143_gshared (HashSet_1_t5C091FE05728B3E5BE3A7B748395C8E3AD64B376 * __this, RuntimeObject * ___item0, const RuntimeMethod* method);
 // System.Void UnityEngine.Events.UnityAction`1<System.Single>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m4A0C4C988C2B9F801D155D22295CF4DA2DBFDC0D_gshared (UnityAction_1_t0064196FB7635B812E65BA9FD08D39F68C75DCD9 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void UnityEngine.Events.UnityEvent`1<System.Single>::RemoveListener(UnityEngine.Events.UnityAction`1<!0>)
@@ -10723,12 +10723,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectangularVertexClipper__ctor_mEE973977
 // System.Void System.Collections.Generic.HashSet`1<UnityEngine.UI.MaskableGraphic>::.ctor()
 inline void HashSet_1__ctor_m8F9C5B5B2A37723AC5051F964AF3362217F78281 (HashSet_1_tF035B0C2C7E1925B6966D73DB277DF70D4C48408 * __this, const RuntimeMethod* method)
 {
-	((  void (*) (HashSet_1_tF035B0C2C7E1925B6966D73DB277DF70D4C48408 *, const RuntimeMethod*))HashSet_1__ctor_m8A209D312FD08A21AFB5551881E7A6946A07C0D5_gshared)(__this, method);
+	((  void (*) (HashSet_1_tF035B0C2C7E1925B6966D73DB277DF70D4C48408 *, const RuntimeMethod*))HashSet_1__ctor_m84BE641CF1EEEED5502AF42082957B2B9C6299D6_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.HashSet`1<UnityEngine.UI.IClippable>::.ctor()
 inline void HashSet_1__ctor_m23C56AEC8A58FD09371F16115B9938D882EEFF4E (HashSet_1_tAAE962DCA7E1BD56AD7B2C079CD4DBA3D0B231AD * __this, const RuntimeMethod* method)
 {
-	((  void (*) (HashSet_1_tAAE962DCA7E1BD56AD7B2C079CD4DBA3D0B231AD *, const RuntimeMethod*))HashSet_1__ctor_m8A209D312FD08A21AFB5551881E7A6946A07C0D5_gshared)(__this, method);
+	((  void (*) (HashSet_1_tAAE962DCA7E1BD56AD7B2C079CD4DBA3D0B231AD *, const RuntimeMethod*))HashSet_1__ctor_m84BE641CF1EEEED5502AF42082957B2B9C6299D6_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::.ctor()
 inline void List_1__ctor_mCB2E4D69A086D733B83D7D9F786E368132BD027C (List_1_t2BA894CDA977BF8C8AC7BD397B1F6602A63B92C4 * __this, const RuntimeMethod* method)
@@ -10812,12 +10812,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_tA85D2DD88578276CA8A8796756458277E72D
 // System.Boolean System.Collections.Generic.HashSet`1<UnityEngine.UI.IClippable>::Add(!0)
 inline bool HashSet_1_Add_m3B6423874AF6729AFC89F112A9961763EA43876C (HashSet_1_tAAE962DCA7E1BD56AD7B2C079CD4DBA3D0B231AD * __this, RuntimeObject* ___item0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_tAAE962DCA7E1BD56AD7B2C079CD4DBA3D0B231AD *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Add_m91C02F120E47946E978515CDAF67DA4867A244C4_gshared)(__this, ___item0, method);
+	return ((  bool (*) (HashSet_1_tAAE962DCA7E1BD56AD7B2C079CD4DBA3D0B231AD *, RuntimeObject*, const RuntimeMethod*))HashSet_1_Add_m7ECB323A0EE88B43F0CCCF402D23CCFE74624F25_gshared)(__this, ___item0, method);
 }
 // System.Boolean System.Collections.Generic.HashSet`1<UnityEngine.UI.MaskableGraphic>::Add(!0)
 inline bool HashSet_1_Add_mE70447209B08431BFBF087BC6A0631968137985B (HashSet_1_tF035B0C2C7E1925B6966D73DB277DF70D4C48408 * __this, MaskableGraphic_tDA46A5925C6A2101217C9F52C855B5C1A36A7A0F * ___item0, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_tF035B0C2C7E1925B6966D73DB277DF70D4C48408 *, MaskableGraphic_tDA46A5925C6A2101217C9F52C855B5C1A36A7A0F *, const RuntimeMethod*))HashSet_1_Add_m91C02F120E47946E978515CDAF67DA4867A244C4_gshared)(__this, ___item0, method);
+	return ((  bool (*) (HashSet_1_tF035B0C2C7E1925B6966D73DB277DF70D4C48408 *, MaskableGraphic_tDA46A5925C6A2101217C9F52C855B5C1A36A7A0F *, const RuntimeMethod*))HashSet_1_Add_m7ECB323A0EE88B43F0CCCF402D23CCFE74624F25_gshared)(__this, ___item0, method);
 }
 // System.Boolean System.Collections.Generic.HashSet`1<UnityEngine.UI.IClippable>::Remove(!0)
 inline bool HashSet_1_Remove_mC8424DAAA0E645FEC7B1CE940BD1D5278CDBFC4C (HashSet_1_tAAE962DCA7E1BD56AD7B2C079CD4DBA3D0B231AD * __this, RuntimeObject* ___item0, const RuntimeMethod* method)

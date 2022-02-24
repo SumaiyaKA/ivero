@@ -23595,7 +23595,7 @@ IL_0092:
 			NullCheck(L_25);
 			Type_t * L_26 = DataColumn_get_DataType_m032AB198DE8C01C6A9A75F13065AB42F1109458E_inline(L_25, /*hidden argument*/NULL);
 			NullCheck(L_26);
-			String_t* L_27 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_26);
+			String_t* L_27 = VirtFuncInvoker0< String_t* >::Invoke(29 /* System.String System.Type::get_AssemblyQualifiedName() */, L_26);
 			Exception_t * L_28 = ExceptionBuilder_UDTImplementsIChangeTrackingButnotIRevertible_m82CECF985FBA519B476B33049159AE4C2CC51960(L_27, /*hidden argument*/NULL);
 			IL2CPP_RAISE_MANAGED_EXCEPTION(L_28, DataRow_RejectChanges_m004E6226D867A637ADDB6D8724CC3E1CD2CE0227_RuntimeMethod_var);
 		}

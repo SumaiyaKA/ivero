@@ -24051,7 +24051,7 @@ IL_0007:
 		NullCheck(L_11);
 		Type_t * L_12 = Object_GetType_m2E0B62414ECCAA3094B703790CE88CBB2F83EA60(L_11, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		String_t* L_13 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_12);
+		String_t* L_13 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_12);
 		Constraint_tB494FF3BA099C4AA7830BF9CCA168B1EA3B58DD2 * L_14 = V_1;
 		NullCheck(L_14);
 		String_t* L_15 = VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String System.Data.Constraint::get_ConstraintName() */, L_14);
@@ -24140,7 +24140,7 @@ IL_00ac:
 		NullCheck(L_38);
 		Type_t * L_39 = Object_GetType_m2E0B62414ECCAA3094B703790CE88CBB2F83EA60(L_38, /*hidden argument*/NULL);
 		NullCheck(L_39);
-		String_t* L_40 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_39);
+		String_t* L_40 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_39);
 		Constraint_tB494FF3BA099C4AA7830BF9CCA168B1EA3B58DD2 * L_41 = V_1;
 		NullCheck(L_41);
 		String_t* L_42 = VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String System.Data.Constraint::get_ConstraintName() */, L_41);
@@ -27177,7 +27177,7 @@ IL_00c0:
 		NullCheck(L_42);
 		Type_t * L_43 = Object_GetType_m2E0B62414ECCAA3094B703790CE88CBB2F83EA60(L_42, /*hidden argument*/NULL);
 		NullCheck(L_41);
-		bool L_44 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_41, L_43);
+		bool L_44 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_41, L_43);
 		if (!L_44)
 		{
 			goto IL_0110;
@@ -27365,7 +27365,7 @@ IL_01fb:
 	{
 		Type_t * L_95 = V_5;
 		NullCheck(L_95);
-		String_t* L_96 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_95);
+		String_t* L_96 = VirtFuncInvoker0< String_t* >::Invoke(29 /* System.String System.Type::get_AssemblyQualifiedName() */, L_95);
 		Exception_t * L_97 = ExceptionBuilder_PolymorphismNotSupported_mC63DFB7B11A71FB8F1123AF040BEFDF31BDC3CB0(L_96, /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_97, NewDiffgramGen_GenerateColumn_m0949A316A7933DEC86A0FE702676946125D2116B_RuntimeMethod_var);
 	}
@@ -27442,7 +27442,7 @@ IL_028d:
 		XmlWriter_t4FAF83E5244FC8F339B19D481C348ACA1510E869 * L_122 = __this->get__xmlw_3();
 		Type_t * L_123 = V_5;
 		NullCheck(L_123);
-		String_t* L_124 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_123);
+		String_t* L_124 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_123);
 		NullCheck(L_122);
 		XmlWriter_WriteAttributeString_mF674B85B37CB415C5602A73697B110CFF711D40B(L_122, _stringLiteral34235DD9E00DDA9944651CC3EB05154BFFB2CF15, _stringLiteral70C809C21F1BF74D2EB35E2CF6EDC15E43CDE2F2, _stringLiteralD64DBE8CB13804979F9A24EBA7B9A8FDA7197352, L_124, /*hidden argument*/NULL);
 		goto IL_031e;

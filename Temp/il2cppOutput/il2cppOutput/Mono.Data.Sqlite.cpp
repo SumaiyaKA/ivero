@@ -18344,7 +18344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ResourceManager_t966CE0B6B59F36DD8797BDC20B5E
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_3 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_2, /*hidden argument*/NULL);
 		NullCheck(L_3);
-		Assembly_t * L_4 = VirtFuncInvoker0< Assembly_t * >::Invoke(24 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_3);
+		Assembly_t * L_4 = VirtFuncInvoker0< Assembly_t * >::Invoke(25 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_3);
 		ResourceManager_t966CE0B6B59F36DD8797BDC20B5EEFACE0A883FF * L_5 = (ResourceManager_t966CE0B6B59F36DD8797BDC20B5EEFACE0A883FF *)il2cpp_codegen_object_new(ResourceManager_t966CE0B6B59F36DD8797BDC20B5EEFACE0A883FF_il2cpp_TypeInfo_var);
 		ResourceManager__ctor_m8AD56F37694577CB52FB2EC2C1787B1051DB1EF4(L_5, _stringLiteralCD7216B44CE34AC3591E5FC5B6FE143277D1EFBA, L_4, /*hidden argument*/NULL);
 		V_0 = L_5;

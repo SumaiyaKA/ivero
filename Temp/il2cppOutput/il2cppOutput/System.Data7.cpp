@@ -16916,7 +16916,7 @@ IL_0338:
 			NullCheck(L_138);
 			Type_t * L_139 = Object_GetType_m2E0B62414ECCAA3094B703790CE88CBB2F83EA60(L_138, /*hidden argument*/NULL);
 			NullCheck(L_137);
-			bool L_140 = VirtFuncInvoker1< bool, Type_t * >::Invoke(110 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_137, L_139);
+			bool L_140 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, L_137, L_139);
 			if (!L_140)
 			{
 				goto IL_036d;
@@ -17092,7 +17092,7 @@ IL_0451:
 		{
 			Type_t * L_186 = V_10;
 			NullCheck(L_186);
-			String_t* L_187 = VirtFuncInvoker0< String_t* >::Invoke(28 /* System.String System.Type::get_AssemblyQualifiedName() */, L_186);
+			String_t* L_187 = VirtFuncInvoker0< String_t* >::Invoke(29 /* System.String System.Type::get_AssemblyQualifiedName() */, L_186);
 			Exception_t * L_188 = ExceptionBuilder_PolymorphismNotSupported_mC63DFB7B11A71FB8F1123AF040BEFDF31BDC3CB0(L_187, /*hidden argument*/NULL);
 			IL2CPP_RAISE_MANAGED_EXCEPTION(L_188, XmlDataTreeWriter_XmlDataRowWriter_m53EB75A2211294476F5FA6C2EB2FED67451D4200_RuntimeMethod_var);
 		}
@@ -17175,7 +17175,7 @@ IL_04d1:
 			XmlWriter_t4FAF83E5244FC8F339B19D481C348ACA1510E869 * L_213 = __this->get__xmlw_0();
 			Type_t * L_214 = V_10;
 			NullCheck(L_214);
-			String_t* L_215 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_214);
+			String_t* L_215 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_214);
 			NullCheck(L_213);
 			XmlWriter_WriteAttributeString_mF674B85B37CB415C5602A73697B110CFF711D40B(L_213, _stringLiteral34235DD9E00DDA9944651CC3EB05154BFFB2CF15, _stringLiteral70C809C21F1BF74D2EB35E2CF6EDC15E43CDE2F2, _stringLiteralD64DBE8CB13804979F9A24EBA7B9A8FDA7197352, L_215, /*hidden argument*/NULL);
 			goto IL_0561;
@@ -20808,7 +20808,7 @@ IL_0226:
 		NullCheck(L_100);
 		Type_t * L_101 = DataColumn_get_DataType_m032AB198DE8C01C6A9A75F13065AB42F1109458E_inline(L_100, /*hidden argument*/NULL);
 		NullCheck(L_101);
-		String_t* L_102 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_101);
+		String_t* L_102 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_101);
 		NullCheck(L_99);
 		VirtFuncInvoker3< String_t*, String_t*, String_t*, String_t* >::Invoke(61 /* System.String System.Xml.XmlElement::SetAttribute(System.String,System.String,System.String) */, L_99, _stringLiteral1A6EF663B216F0691196F62DDA764BE8E921ACE2, _stringLiteralD64DBE8CB13804979F9A24EBA7B9A8FDA7197352, L_102);
 		return;
@@ -26922,7 +26922,7 @@ IL_0083:
 		NullCheck(L_30);
 		Type_t * L_31 = DataColumn_get_DataType_m032AB198DE8C01C6A9A75F13065AB42F1109458E_inline(L_30, /*hidden argument*/NULL);
 		NullCheck(L_31);
-		String_t* L_32 = VirtFuncInvoker0< String_t* >::Invoke(26 /* System.String System.Type::get_FullName() */, L_31);
+		String_t* L_32 = VirtFuncInvoker0< String_t* >::Invoke(27 /* System.String System.Type::get_FullName() */, L_31);
 		NullCheck(L_29);
 		VirtFuncInvoker3< String_t*, String_t*, String_t*, String_t* >::Invoke(61 /* System.String System.Xml.XmlElement::SetAttribute(System.String,System.String,System.String) */, L_29, _stringLiteral1A6EF663B216F0691196F62DDA764BE8E921ACE2, _stringLiteralD64DBE8CB13804979F9A24EBA7B9A8FDA7197352, L_32);
 		goto IL_00dd;
