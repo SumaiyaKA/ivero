@@ -44,7 +44,15 @@
      <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" />
      <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" />
      <Compile Include="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" />
+     <None Include="Assets/Plugins/BitmapFontImporter/Examples/Font1/font1.fnt" />
+     <None Include="Assets/Plugins/BitmapFontImporter/Examples/Font2/font2.fnt" />
+     <None Include="Assets/Plugins/BitmapFontImporter/Examples/font3/font3.fnt" />
+     <None Include="Assets/Plugins/BitmapFontImporter/Shaders/BFILogic.cginc" />
+     <None Include="Assets/Plugins/BitmapFontImporter/Shaders/Font5.shader" />
+     <None Include="Assets/Plugins/BitmapFontImporter/Shaders/Font4.shader" />
      <None Include="Assets/Plugins/Demigiant/DOTween/readme.txt" />
+     <None Include="Assets/Plugins/BitmapFontImporter/Shaders/Font3.shader" />
+     <None Include="Assets/Plugins/BitmapFontImporter/Shaders/Font2.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2019.4.35f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -603,8 +611,14 @@
     <Reference Include="Unity.XR.ARKit">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.XR.ARKit.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.CacheServer">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Subsystem.Registration">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -621,6 +635,9 @@
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ResourceManager">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.ARFoundation">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
     </Reference>
@@ -629,6 +646,9 @@
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -647,6 +667,12 @@
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+        <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>/Users/sumaiya.khalifa/Desktop/Unityy/FYP/iVero/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
