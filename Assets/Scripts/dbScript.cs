@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿// Author: Sumaiya Al Amri D17126680
+// Creats a SQLite DB. This DB was used in first stages of this app creation. 
+// This DB isn't supported in the app anylonger. 
+
+// Packages used
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Mono.Data.Sqlite;
@@ -9,8 +14,7 @@ public class dbScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CreateDB();
-        
+        CreateItemsDB();
     }
 
     // Update is called once per frame
@@ -19,7 +23,7 @@ public class dbScript : MonoBehaviour
         
     }
 
-    public void CreateDB()
+    public void CreateItemsDB()
     {
         // connection.open();
         using (var connection = new SqliteConnection(dbName)){

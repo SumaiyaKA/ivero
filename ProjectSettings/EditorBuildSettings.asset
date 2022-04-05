@@ -8,3 +8,9 @@ EditorBuildSettings:
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 7ed00051ad83a4c2d844a1b06b55c802,
       type: 2}
+    com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: 025f3f9e3d8d543a2a0a9a5959109128,
+      type: 2}
+    com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: bfe789623100446c8aaf5ed7b9c91969,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bcbf97f0bb37b42249a4e30c45b6be9f,
+      type: 2}

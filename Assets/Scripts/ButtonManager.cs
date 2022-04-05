@@ -1,14 +1,19 @@
-﻿using System.Collections;
+﻿// Author: Sumaiya Al Amri D17126680
+// ButtonManager responsable of the flow.. 
+// of the scorlling to make it smoother &..
+// set a listener on the choosen item to augment it.  
+
+// Packages used
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
-// testing...
+
 public class ButtonManager : MonoBehaviour
 {
     private Button btn;
     [SerializeField] private RawImage buttonImage;
-    public GameObject furniture;
     private int _itemId;
     private Sprite _buttonTexture;
 
@@ -33,31 +38,27 @@ public class ButtonManager : MonoBehaviour
     void Start()
     {
         btn = GetComponent<Button>();
-        btn.onClick.AddListener(SelectObject);
-        
+        btn.onClick.AddListener(ChooseObject);
     }
 
     // Update is called once per frame
     void Update()
     {
-         if(UIManager.Instance.OnEntered(gameObject))
+        if(UIManager.Instance.OnEntered(gameObject))
         {
-            // transform.DOScale(Vector3.one * 2, 0.3f);
-            transform.localScale = Vector3.one * 2; 
+            transform.DOScale(Vector3.one * 2, 0.3f);
         }
         else 
         {
-            // transform.DOScale(Vector3.one, 0.3f);
-            transform.localScale = Vector3.one; 
+            transform.DOScale(Vector3.one, 0.3f);
         }
-        
         
     }
 
-    void SelectObject()
+    // Pass object id to the datahandler
+    void ChooseObject()
     {
-        // pass object id to the datahandler
-        DataHandler.Instance.SetFurniture(_itemId);
+        DataHandler.Instance.SetObject(_itemId);
 
     }
 }

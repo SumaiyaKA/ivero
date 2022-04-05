@@ -1,4 +1,11 @@
-﻿using System;
+﻿// Author: Sumaiya Al Amri D17126680
+// DataHandler gets the objects from Google Cloud 
+// bucket and feed the scroll menu with the items in button format 
+// The bucket link:
+// https://console.cloud.google.com/storage/browser/ivero_bucket;tab=objects?forceOnBucketsSortingFiltering=false&project=iverodb&prefix=&forceOnObjectsSortingFiltering=false
+
+// Packages used
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -7,7 +14,6 @@ using UnityEngine.AddressableAssets;
 public class DataHandler : MonoBehaviour
 {
     private GameObject furniture;
-
     [SerializeField] private ButtonManager buttonPrefab;
     [SerializeField] private GameObject buttonContainer;
     [SerializeField] private List<Item> _items;
@@ -29,23 +35,22 @@ public class DataHandler : MonoBehaviour
 
     private async void Start()
     {
-        // _items = new List<Item>();
-        // LoadItems();
         await Get(label);
-        CreateButtons();
+        CreateItemsButtons();
     }
 
-    // void LoadItems()
-    // {
-    //     var _items_obj = Resources.LoadAll("Items", typeof(Item));
-    //     foreach (var item in items_obj)
-    //     {
-    //         _items.Add(item as Item);
+    public void SetObject(int id)
+    {
+        furniture = _items[id].itemPrefab;
 
-    //     }
-    // }
+    }
 
-    void CreateButtons()
+    public GameObject GetObject()
+    {
+        return furniture;
+    }
+
+     void CreateItemsButtons()
     {
         foreach (Item i in _items)
         {
@@ -58,17 +63,8 @@ public class DataHandler : MonoBehaviour
 
     }
 
-    public void SetFurniture(int id)
-    {
-        furniture = _items[id].itemPrefab;
-
-    }
-
-    public GameObject GetFurniture()
-    {
-        return furniture;
-    }
-
+    // Uses addressables to get the items from Google Cloud.. 
+    // bucket by the items label "Furniture"
     public async Task Get(String label)
     {
         var locations = await Addressables.LoadResourceLocationsAsync(label).Task;

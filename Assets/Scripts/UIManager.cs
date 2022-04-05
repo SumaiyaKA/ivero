@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿// Author: Sumaiya Al Amri D17126680
+// UIManager manges the scroll menu & ..
+// the feature of making the centre element in the menu bigger
+
+// Packages used
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,7 +16,7 @@ public class UIManager : MonoBehaviour
     private PointerEventData pData;
     private EventSystem eventSystem; 
     public static UIManager instance;
-     public static UIManager Instance
+    public static UIManager Instance
     {
         get
         {
