@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: a015
   m_EditorClassIdentifier: 
   price: 80
-  itemPrefab: {fileID: 919132149155446097, guid: ce9f30ff5024645209c3c9f2e3d00b2d,
+  item_prefab: {fileID: 919132149155446097, guid: d9f300777ca7944ff8c6917e8c2779eb,
     type: 3}
-  itemImage: {fileID: 21300000, guid: 1d8aed1164b0045028577280e570fee4, type: 3}
+  item_image: {fileID: 21300000, guid: 1f8d1b4a9cd9043c6a37876efac6fcb6, type: 3}
